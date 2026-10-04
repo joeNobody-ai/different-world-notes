@@ -38,3 +38,13 @@ These are verbatim snapshots kept so that every citation on the site can be re-v
 re-fetching. Each file is attributed to its source URL above, which is also where the licence and the
 full edit history live. Nothing in `data/` copies Wikipedia prose: the site paraphrases, and the raw
 snapshots stay here as evidence. IMDb is used only for title identifiers.
+
+### `context-2026.json` and `context/`
+
+`context/<topic>.json` is one cached Wikipedia intro per topic; `context-2026.json` is the merge that
+the site's "what's happening now" items cite. The merge is filtered: only topics still listed in
+`TOPICS` inside `scripts/research_context.py` are kept, and only one entry per source article. That
+filter exists because an early search-phrase experiment cached a *wrong* article under the topic
+`hbcu-enrollment` (it resolved to a list of South Carolina colleges) and shipped in the merged file.
+Fixed 2026-10-04; the merge now reports what it dropped. Re-running the script is free — every fetch
+is cached, so it only hits the network for a genuinely new topic.

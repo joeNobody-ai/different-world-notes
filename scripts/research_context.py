@@ -102,15 +102,30 @@ def main() -> int:
         items.append(rec)
         print(f"[{'cached' if cached else 'fetched'}] {topic} <- {rec['article']['title']}")
 
-    # merge: keep every cached topic, not just the ones in this run
-    merged = {}
+    # merge: only caches for topics we still curate, and one entry per source article.
+    # (Without this, an abandoned experiment — e.g. a search-phrase cache that resolved to the
+    #  wrong article — silently ships in the merged file. That happened once; this prevents it.)
+    merged: dict[str, dict] = {}
+    seen_urls: dict[str, str] = {}
+    dropped = []
     for f in sorted(CACHE.glob("*.json")):
         r = json.loads(f.read_text())
-        merged[r["topic"]] = r
+        topic, url = r.get("topic"), r["article"].get("url")
+        if topic not in TOPICS:
+            dropped.append(f"{f.name} (topic '{topic}' is no longer curated)")
+            continue
+        if url in seen_urls:
+            dropped.append(f"{f.name} (duplicate of {seen_urls[url]})")
+            continue
+        seen_urls[url] = topic
+        merged[topic] = r
+    for d in dropped:
+        print(f"  dropped {d}")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"retrieved": datetime.date.today().isoformat(),
-                              "endpoint": API, "items": list(merged.values())}, indent=1))
-    print(f"\nwrote {OUT}  ({len(merged)} topics cached)")
+                              "endpoint": API, "curated_topics": sorted(TOPICS),
+                              "items": [merged[k] for k in sorted(merged)]}, indent=1))
+    print(f"\nwrote {OUT}  ({len(merged)} topics)")
     return 0
 
 

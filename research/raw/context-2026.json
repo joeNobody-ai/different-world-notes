@@ -1,17 +1,20 @@
 {
  "retrieved": "2026-10-04",
  "endpoint": "https://en.wikipedia.org/w/api.php",
+ "curated_topics": [
+  "affirmative-action",
+  "affirmative-action-us",
+  "black-maternal-health",
+  "black-wealth-gap",
+  "cosby-show",
+  "dei",
+  "economic-blackout",
+  "hbcu",
+  "hiv-black-america",
+  "original-series",
+  "police-violence"
+ ],
  "items": [
-  {
-   "topic": "affirmative-action-us",
-   "requested_title": "Affirmative action in the United States",
-   "article": {
-    "title": "Affirmative action in the United States",
-    "url": "https://en.wikipedia.org/wiki/Affirmative_action_in_the_United_States",
-    "intro": "In the United States, affirmative action consists of government-mandated, government-approved, and voluntary private programs granting special consideration to groups considered or classified as historically excluded, specifically racial minorities and women. These programs tend to focus on access to education and employment in order to redress the disadvantages associated with past and present discrimination. Another goal of affirmative action policies is to ensure that public institutions, such as universities, hospitals, and police forces, are more representative of the populations they serve.\nAs of 2024, affirmative action rhetoric has been increasingly replaced by emphasis on diversity, equity, and inclusion. Nine states explicitly ban its use in the employment process and it was banned in college admissions nationwide by the Supreme Court in Students for Fair Admissions v. Harvard in 2023."
-   },
-   "retrieved": "2026-10-04"
-  },
   {
    "topic": "affirmative-action",
    "requested_title": "Students for Fair Admissions v. Harvard",
@@ -19,6 +22,16 @@
     "title": "Students for Fair Admissions v. Harvard",
     "url": "https://en.wikipedia.org/wiki/Students_for_Fair_Admissions_v._Harvard",
     "intro": "Students for Fair Admissions v. Harvard, 600 U.S. 181 (2023), is a landmark decision of the United States Supreme Court ruling that race-based affirmative action programs in most college admissions violate the Equal Protection Clause of the Fourteenth Amendment. With its companion case, Students for Fair Admissions v. University of North Carolina, the Supreme Court effectively overruled Grutter v. Bollinger (2003) and Regents of the University of California v. Bakke (1978), both of which validated some affirmative action in college admissions provided that race had a limited role in decisions.\nIn 2014, Students for Fair Admissions (SFFA) sued Harvard University in U.S. District Court in Boston, alleging that the university's undergraduate admission practices violated Title VI of the Civil Rights Act of 1964 by discriminating against Asian Americans. In 2019, a district court judge upheld Harvard's limited use of race as a factor in admissions, citing lack of evidence of \"discriminatory animus\" or \"conscious prejudice\".\nIn 2020, the U.S. Court of Appeals for the First Circuit affirmed the district court's ruling. In 2021, SFFA petitioned the Supreme Court, which agreed to hear the case. After the appointment of Justice Ketanji Brown Jackson, a member of the Harvard Board of Overseers at the time, the cases were split, with Jackson recusing from the Harvard case while participating in the North Carolina one.\nOn June 29, 2023, the Supreme Court issued a decision in Harvard that, by a vote of 6\u20132, reversed the lower court ruling. In the majority opinion, Chief Justice John Roberts held that affirmative action in college admissions is unconstitutional. Because of the absence of U.S. military academies in the cases, the lack of relevant lower court rulings, and the potentially distinct interests that the military academies may present, the Court, limited by Article III, did not decide the fate of race-based affirmative action in military academies."
+   },
+   "retrieved": "2026-10-04"
+  },
+  {
+   "topic": "affirmative-action-us",
+   "requested_title": "Affirmative action in the United States",
+   "article": {
+    "title": "Affirmative action in the United States",
+    "url": "https://en.wikipedia.org/wiki/Affirmative_action_in_the_United_States",
+    "intro": "In the United States, affirmative action consists of government-mandated, government-approved, and voluntary private programs granting special consideration to groups considered or classified as historically excluded, specifically racial minorities and women. These programs tend to focus on access to education and employment in order to redress the disadvantages associated with past and present discrimination. Another goal of affirmative action policies is to ensure that public institutions, such as universities, hospitals, and police forces, are more representative of the populations they serve.\nAs of 2024, affirmative action rhetoric has been increasingly replaced by emphasis on diversity, equity, and inclusion. Nine states explicitly ban its use in the employment process and it was banned in college admissions nationwide by the Supreme Court in Students for Fair Admissions v. Harvard in 2023."
    },
    "retrieved": "2026-10-04"
   },
@@ -70,36 +83,6 @@
     "url": "https://en.wikipedia.org/wiki/Economic_Blackout",
     "intro": "The Economic Blackout refers to a series of 24-hour consumer spending boycotts that took place on February 28, 2025, in the United States, with planned boycotts for future dates including March 28. Organized by The People's Union USA activist group, the protest encouraged Americans to refrain from making any purchases for an entire day. The initiative aimed to challenge the influence of major corporations and wealthy individuals on working-class Americans, with many boycotters joining to protest the current Trump administration's rollback of diversity, equity, and inclusion (DEI) policies. While the boycott gained significant attention on social media platforms, its measurable economic impact was regarded by economic analysts as inconclusive."
    },
-   "retrieved": "2026-10-04"
-  },
-  {
-   "topic": "hbcu-enrollment",
-   "search_phrase": "Historically black colleges and universities enrollment growth",
-   "article": {
-    "title": "List of colleges and universities in South Carolina",
-    "url": "https://en.wikipedia.org/wiki/List_of_colleges_and_universities_in_South_Carolina",
-    "intro": "There are 56 colleges and universities in the U.S. state of South Carolina. The University of South Carolina in Columbia is the largest university in the state, by enrollment.  Trident Technical College in North Charleston is the largest two-year college.  The oldest institution is the College of Charleston, founded in 1770 and chartered in 1785.\nThe majority of colleges and universities in South Carolina are accredited by the Southern Association of Colleges and Schools (SACS). There are eight historically black colleges and universities.\nThe Medical University of South Carolina in Charleston, the University of South Carolina School of Medicine in Columbia and the University of South Carolina School of Medicine in Greenville are the only medical schools in the state accredited by the Liaison Committee on Medical Education (LCME).\nCharleston School of Law and the University of South Carolina School of Law are American Bar Association (ABA) approved law schools."
-   },
-   "also_found": [
-    "Bluefield State University",
-    "Community colleges in the United States",
-    "Higher education in the United States"
-   ],
-   "retrieved": "2026-10-04"
-  },
-  {
-   "topic": "hbcu-funding",
-   "search_phrase": "Historically black colleges and universities federal funding",
-   "article": {
-    "title": "Historically black colleges and universities",
-    "url": "https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities",
-    "intro": "Historically Black colleges and universities (HBCUs) are institutions of higher education in the United States that were established before the Civil Rights Act of 1964 with the intention of serving African American students. Most are in the Southern United States and were founded during the Reconstruction era (1865\u20131877) following the American Civil War. Their original purpose was to provide education for African Americans in an era when most colleges and universities in the United States did not allow Black students to enroll.\nDuring the Reconstruction era, most historically Black colleges were founded by Protestant religious organizations. This changed in 1890 with the U.S. Congress' passage of the Second Morrill Act, which required segregated Southern states to provide African Americans with public higher education schools in order to receive the Act's benefits. Separately, during the late 20th century, either after expanding their inclusion of Black people and African Americans into their institutions or gaining the status of minority-serving institution, some institutions came to be called predominantly Black institutions (PBIs).\nFor a century after the abolition of American slavery in 1865, almost all colleges and universities in the Southern United States prohibited all African Americans from attending as required by Jim Crow laws in the South, while institutions in other parts of the country regularly employed quotas to limit admission of Black people. HBCUs were established to provide more opportunities to African Americans and are largely responsible for establishing and expanding the African-American middle class.  In the 1950s and 1960s, legally enforced racial segregation in education was generally outlawed throughout the South (and anywhere else in the Un"
-   },
-   "also_found": [
-    "Land-grant university",
-    "List of land-grant universities",
-    "Public university"
-   ],
    "retrieved": "2026-10-04"
   },
   {

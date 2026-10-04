@@ -135,6 +135,15 @@ def main() -> int:
        "every Commons photo has author + licence + page URL")
     ok(all(c["file"].startswith("assets/img/commons/") for c in creds), "credit paths are inside the repo")
     ok("Commons" in idx and "Photo:" in idx, "hub prints the photo credits")
+    # curation guard: a photo may only ship if its term is on fetch_commons' WANTED allowlist.
+    # (The probe explores extra terms whose hits can be junk — e.g. a "1980s Black students" search
+    #  that returned a village store. Those must never reach the site.)
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from fetch_commons import WANTED  # noqa: E402
+    off_list = [c["subject"] for c in creds if c["subject"] not in WANTED]
+    ok(not off_list, "every committed photo is on the curated download allowlist", str(off_list))
+    ok(len(creds) == len(list((ROOT / "assets/img/commons").glob("*.jpg"))),
+       "one credit per downloaded photo")
 
     print("8. generated artwork is valid XML")
     import xml.etree.ElementTree as ET

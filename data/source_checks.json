@@ -1,0 +1,216 @@
+{
+ "checked": 42,
+ "date": "2026-10-04",
+ "urls": {
+  "https://www.asanet.org/": {
+   "status": 200,
+   "note": "",
+   "group": "sociology-discipline"
+  },
+  "https://www.asanet.org/about/publications/contexts/": {
+   "status": 404,
+   "note": "",
+   "group": "sociology-discipline"
+  },
+  "https://www.jstor.org/": {
+   "status": 200,
+   "note": "",
+   "group": "sociology-discipline"
+  },
+  "https://www.annualreviews.org/journal/soc": {
+   "status": 403,
+   "note": "blocked-or-unreachable",
+   "group": "sociology-discipline"
+  },
+  "https://www.pewresearch.org/topic/race-ethnicity/": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://www.census.gov/topics/population/race.html": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://www.census.gov/topics/income-poverty/wealth.html": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://www.federalreserve.gov/": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://www.federalreserve.gov/econres/scfindex.htm": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://www.cdc.gov/nchs/index.html": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://www.kff.org/racial-equity-and-health-policy/": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://www.urban.org/": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://www.epi.org/": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://nces.ed.gov/": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://bjs.ojp.gov/": {
+   "status": 200,
+   "note": "",
+   "group": "data-and-statistics"
+  },
+  "https://nmaahc.si.edu/": {
+   "status": 403,
+   "note": "blocked-or-unreachable",
+   "group": "black-history-and-culture-archives"
+  },
+  "https://www.loc.gov/collections/civil-rights-history-project/": {
+   "status": 403,
+   "note": "blocked-or-unreachable",
+   "group": "black-history-and-culture-archives"
+  },
+  "https://www.archives.gov/research/african-americans": {
+   "status": 200,
+   "note": "",
+   "group": "black-history-and-culture-archives"
+  },
+  "https://www.wdl.org/": {
+   "status": 403,
+   "note": "blocked-or-unreachable",
+   "group": "black-history-and-culture-archives"
+  },
+  "https://uncf.org/": {
+   "status": 200,
+   "note": "",
+   "group": "black-history-and-culture-archives"
+  },
+  "https://www.tmcf.org/": {
+   "status": 200,
+   "note": "",
+   "group": "black-history-and-culture-archives"
+  },
+  "https://sites.ed.gov/whhbcu/": {
+   "status": 403,
+   "note": "blocked-or-unreachable",
+   "group": "hbcus-and-education"
+  },
+  "https://nces.ed.gov/collegenavigator/": {
+   "status": 200,
+   "note": "",
+   "group": "hbcus-and-education"
+  },
+  "https://www.aplu.org/": {
+   "status": 200,
+   "note": "",
+   "group": "hbcus-and-education"
+  },
+  "https://www.neh.gov/": {
+   "status": 200,
+   "note": "",
+   "group": "hbcus-and-education"
+  },
+  "https://www.pbs.org/independentlens/": {
+   "status": 200,
+   "note": "",
+   "group": "media-and-representation"
+  },
+  "https://www.pbs.org/": {
+   "status": 200,
+   "note": "",
+   "group": "media-and-representation"
+  },
+  "https://www.nypl.org/": {
+   "status": 200,
+   "note": "",
+   "group": "media-and-representation"
+  },
+  "https://www.museum.tv/": {
+   "status": 200,
+   "note": "",
+   "group": "media-and-representation"
+  },
+  "https://www.emmys.com/": {
+   "status": 200,
+   "note": "",
+   "group": "media-and-representation"
+  },
+  "https://www.netflix.com/tudum": {
+   "status": 200,
+   "note": "",
+   "group": "the-shows-own-record"
+  },
+  "https://www.imdb.com/title/tt33081352/": {
+   "status": 202,
+   "note": "",
+   "group": "the-shows-own-record"
+  },
+  "https://www.imdb.com/title/tt0092339/": {
+   "status": 202,
+   "note": "",
+   "group": "the-shows-own-record"
+  },
+  "https://en.wikipedia.org/wiki/A_Different_World_(2026_TV_series)": {
+   "status": 200,
+   "note": "",
+   "group": "the-shows-own-record"
+  },
+  "https://en.wikipedia.org/wiki/List_of_A_Different_World_episodes": {
+   "status": 200,
+   "note": "",
+   "group": "the-shows-own-record"
+  },
+  "https://en.wikipedia.org/wiki/A_Different_World": {
+   "status": 200,
+   "note": "",
+   "group": "the-shows-own-record"
+  },
+  "https://www.naacp.org/": {
+   "status": 200,
+   "note": "",
+   "group": "civil-rights-and-policy-context"
+  },
+  "https://www.law.cornell.edu/supct/cert/20-1199": {
+   "status": 200,
+   "note": "",
+   "group": "civil-rights-and-policy-context"
+  },
+  "https://www.law.cornell.edu/supct/cert/21-707": {
+   "status": 200,
+   "note": "",
+   "group": "civil-rights-and-policy-context"
+  },
+  "https://www.oyez.org/": {
+   "status": 200,
+   "note": "",
+   "group": "civil-rights-and-policy-context"
+  },
+  "https://civilrights.justice.gov/": {
+   "status": 200,
+   "note": "",
+   "group": "civil-rights-and-policy-context"
+  },
+  "https://www.dol.gov/agencies/ofccp": {
+   "status": 200,
+   "note": "",
+   "group": "civil-rights-and-policy-context"
+  }
+ }
+}

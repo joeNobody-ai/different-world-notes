@@ -1,0 +1,61 @@
+{
+ "_note": "Candidate sources for the Karens-Class course. Every URL here is checked with scripts/check_sources.py; only HTTP 200 entries get cited in the course. Books and journal articles are cited by author/title/year instead of a link, because stable links to paywalled literature rot fastest.",
+ "groups": {
+  "sociology-discipline": [
+   "https://www.asanet.org/",
+   "https://www.asanet.org/about/publications/contexts/",
+   "https://www.jstor.org/",
+   "https://www.annualreviews.org/journal/soc"
+  ],
+  "data-and-statistics": [
+   "https://www.pewresearch.org/topic/race-ethnicity/",
+   "https://www.census.gov/topics/population/race.html",
+   "https://www.census.gov/topics/income-poverty/wealth.html",
+   "https://www.federalreserve.gov/",
+   "https://www.federalreserve.gov/econres/scfindex.htm",
+   "https://www.cdc.gov/nchs/index.html",
+   "https://www.kff.org/racial-equity-and-health-policy/",
+   "https://www.urban.org/",
+   "https://www.epi.org/",
+   "https://nces.ed.gov/",
+   "https://bjs.ojp.gov/"
+  ],
+  "black-history-and-culture-archives": [
+   "https://nmaahc.si.edu/",
+   "https://www.loc.gov/collections/civil-rights-history-project/",
+   "https://www.archives.gov/research/african-americans",
+   "https://www.wdl.org/",
+   "https://uncf.org/",
+   "https://www.tmcf.org/"
+  ],
+  "hbcus-and-education": [
+   "https://sites.ed.gov/whhbcu/",
+   "https://nces.ed.gov/collegenavigator/",
+   "https://www.aplu.org/",
+   "https://www.neh.gov/"
+  ],
+  "media-and-representation": [
+   "https://www.pbs.org/independentlens/",
+   "https://www.pbs.org/",
+   "https://www.nypl.org/",
+   "https://www.museum.tv/",
+   "https://www.emmys.com/"
+  ],
+  "the-shows-own-record": [
+   "https://www.netflix.com/tudum",
+   "https://www.imdb.com/title/tt33081352/",
+   "https://www.imdb.com/title/tt0092339/",
+   "https://en.wikipedia.org/wiki/A_Different_World_(2026_TV_series)",
+   "https://en.wikipedia.org/wiki/List_of_A_Different_World_episodes",
+   "https://en.wikipedia.org/wiki/A_Different_World"
+  ],
+  "civil-rights-and-policy-context": [
+   "https://www.naacp.org/",
+   "https://www.law.cornell.edu/supct/cert/20-1199",
+   "https://www.law.cornell.edu/supct/cert/21-707",
+   "https://www.oyez.org/",
+   "https://civilrights.justice.gov/",
+   "https://www.dol.gov/agencies/ofccp"
+  ]
+ }
+}

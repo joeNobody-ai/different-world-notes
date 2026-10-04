@@ -25,7 +25,9 @@ assets/app.js            V1 interactions
 assets/v2/netflix.css    V2 skin (dark, cinematic, shelf layout)
 assets/v2/netflix.js     V2 interactions (shelf scrolling, spoiler pill, expand-all, search)
 assets/art/*.svg         35 generated artworks + manifest.json — ours, no licence needed
-assets/img/commons/*     freely-licensed campus photos + CREDITS.json (attribution enforced)
+assets/img/commons/*     45 freely-licensed photos + CREDITS.json (attribution enforced)
+data/photo_map.json      the curation map: ONE pinned Commons file per photo slot, its group
+                         (campus / era / bridge), the episodes it may illustrate, its caption
 data/                    all content as JSON (this is what you edit)
 scripts/                 the pipeline (Python, plus two Node verifiers)
 research/raw/            the raw sources we pulled, with MANIFEST.md recording the exact requests
@@ -63,8 +65,9 @@ To check your work before you say it's done (do this; it is the whole point of t
 make verify         # all four checks
 #   python3 scripts/verify_pages.py   — 175 structural checks (V1)
 #   node    scripts/verify_pages.mjs  —  25 behaviour checks (V1, jsdom)
-#   python3 scripts/verify_v2.py      — 363 structural checks (V2: shelves, ranks, images, credits)
-#   node    scripts/verify_v2.mjs     —  26 behaviour checks (V2, jsdom)
+#   python3 scripts/verify_v2.py      — 495 structural checks (V2: shelves, ranks, images,
+#                                       photo bands, credits, curations, SVG validity)
+#   node    scripts/verify_v2.mjs     —  32 behaviour checks (V2, jsdom)
 bash scripts/check_images.sh          # SVG validity + hotlinked key art still returns 200
 ```
 
@@ -83,10 +86,12 @@ the language an audience already knows how to read:
 | Episodes | 10 cards: generated stills, hover-scale, callback count |
 | **Top callbacks this season** | the 10 strongest, ranked 1–10 in outlined numerals, each deep-linking to its callback row |
 | Who's who | cast tiles; returning originals carry a gold **1987** badge |
+| **The bridge, in photographs** | 7 free-licensed Commons portraits of the returning originals (Debbie Allen, Jasmine Guy, Kadeem Hardison, Cree Summer, Glynn Turman, Jada Pinkett Smith, Darryl M. Bell) — the same people the cast tiles are about, as real credited photographs |
 | The 1987–1993 era | the 12-episode starter path as a shelf |
 | Politics & the moment | 10 cards, one per episode, linking to the collapsed section |
-| The real campuses behind Hillman | 6 Commons photos, each with author + licence + link printed |
-| Episode pages | backdrop hero + synopsis, then each callback as a Netflix-style episode row (thumbnail, title, "S/E — title · first aired" description, tier badges), then the collapsed politics and script panels, then a next-episode card |
+| **The world in the frame, 1908 → 2026** | 24 era photographs, one for each thing the episodes are actually about — a dorm room in 1908, HBCU marching bands, homecoming, the AIDS Memorial Quilt, Balogun Market, Sharpeville, the 1989 anti-apartheid pickets in London, an Atlanta skyline, a 1960 lunch counter |
+| The real campuses behind Hillman | 14 Commons photos of real HBCU campuses, each with author + licence + link printed |
+| Episode pages | backdrop hero + synopsis, then each callback as a Netflix-style episode row (thumbnail, title, "S/E — title · first aired" description, tier badges), then the collapsed politics and script panels, **then the photo band "The world outside Hillman"** — the era photographs that episode is allowed to use (1–4 of them), each with its caption and credit — then a next-episode card |
 
 **Where V2's images come from — three sources, deliberately separated:**
 
@@ -95,10 +100,25 @@ the language an audience already knows how to read:
    tower for student voice, crown for the pageant, storm for the tornado), cast tiles, the 1987 shelf,
    a politics backdrop, the logo. Ours, so no licence question — and `verify_v2.py` checks every one
    parses as XML.
-2. **Commons, credited** (`assets/img/commons/`, committed). `scripts/fetch_commons.py` only accepts
-   files whose licence it can read (Public domain / CC0 / CC BY / CC BY-SA / GFDL), downloads them,
-   and writes `CREDITS.json`; the page prints author + licence + link under each photo. No licence,
-   no photo — the script skips it.
+2. **Commons, credited and PINNED** (`assets/img/commons/`, committed). 45 photographs. The rule is in
+   `data/photo_map.json`: every slot names **one exact Commons file**, its group, the episodes it is
+   allowed to illustrate and the caption printed under it — never "the first search hit". A search hit
+   is not evidence, so `scripts/fetch_commons.py` re-reads each pinned file's own Commons metadata
+   (author, licence, description) before downloading, prints that description into its log, and skips
+   anything whose licence it cannot read. Each downloaded file is named after its slot plus a hash of
+   the source title, so re-pinning a slot to a different photo always fetches the right bytes under the
+   right credit. Nothing unattributed and nothing off-topic can reach the page:
+
+   | group | count | where it prints |
+   |---|---|---|
+   | `campus` | 14 | the campus shelf — real HBCU campuses of the kind Hillman is modelled on |
+   | `era` | 24 | the "world in the frame" shelf **and** the matching episode pages' photo bands |
+   | `bridge` | 7 | the bridge shelf — portraits of the returning original cast |
+
+   `verify_v2.py` enforces all of it: every credit has an author, licence and Commons page URL; every
+   committed photo is on the map's allowlist; one credit per file on disk; every era photo declares its
+   episode(s) and actually appears on those episode pages; every photo card and every band photograph
+   prints a credit line.
 3. **Hotlinked, not redistributed.** The show's key art and the cast headshots come from IMDb's image
    CDN (`m.media-amazon.com`) with `onerror` fallbacks so the generated art shows through if the CDN
    ever refuses. They are never downloaded and never committed. Turn the whole thing off with:
@@ -107,8 +127,8 @@ the language an audience already knows how to read:
    python3 scripts/build_v2.py --no-poster
    ```
 
-That is the honest version of "put images in it": generate what we own, credit what we borrow, and
-never redistribute what we don't.
+That is the honest version of "put images in it": generate what we own, pin and credit what we borrow,
+and never redistribute what we don't.
 
 
 ---
@@ -118,9 +138,9 @@ never redistribute what we don't.
 | Script | What it does |
 |---|---|
 | `scripts/research_context.py` | Re-pulls the cited "what's happening now" items from Wikipedia (cached in `research/raw/context/`). |
-| `scripts/probe_images.py` | Finds which image sources actually work and records them (`research/raw/image_sources.json`). |
+| `scripts/probe_images.py` | Finds which image sources actually work and records them (`research/raw/image_sources.json`). Reads its search terms from `data/photo_map.json`. |
 | `scripts/make_art.py` | Draws every generated SVG (billboard, episode stills, cast tiles, the 1987 shelf, logo). |
-| `scripts/fetch_commons.py` | Downloads only freely-licensed Commons photos, with credits. No licence, no download. |
+| `scripts/fetch_commons.py` | Downloads the 45 curated Commons photographs, **one pinned file per slot** in `data/photo_map.json`, re-reading each file's own metadata for author / licence / description. No readable licence, no download — and it deletes any stray image that is no longer in the map. |
 | `scripts/import_subtitles.py` | Turns any subtitle file into one clean transcript per episode. |
 | `scripts/find_scenes.py` | **The scene finder.** Scans a transcript for the things that matter (characters, Hillman lore, political language, sexual-health language, diaspora language, money) and returns ranked scene candidates with timecodes. |
 | `scripts/build_pages.py` | Renders V1 from `data/`. Also validates the data first (`--check`). |

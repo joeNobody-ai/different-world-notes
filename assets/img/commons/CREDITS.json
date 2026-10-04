@@ -1,19 +1,25 @@
 {
- "about": "Photos from Wikimedia Commons, free licences only. Attribution is printed on the page.",
- "count": 6,
+ "about": "Photos from Wikimedia Commons, free licences only. One pinned file per slot in data/photo_map.json; attribution is printed on the page under every photo.",
+ "count": 45,
  "files": [
   {
-   "file": "assets/img/commons/howard-university-founders-library-founders-library-howard-universi.jpg",
+   "file": "assets/img/commons/howard-university-founders-library-9133a1.jpg",
    "subject": "Howard University Founders Library",
-   "commons_title": "File:Founders Library, Howard University.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Founders_Library,_Howard_University.jpg",
-   "author": "D Monack at English Wikipedia (via Wikimedia Commons)",
-   "license": "Public domain",
-   "license_url": ""
+   "group": "campus",
+   "episodes": [],
+   "caption": "Howard University's Founders Library \u2014 the research university half of the world Hillman is modelled on.",
+   "commons_title": "File:Howard University Washington DC - Founders Library.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Howard_University_Washington_DC_-_Founders_Library.jpg",
+   "author": "Derek E. Morton",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-   "file": "assets/img/commons/spelman-college-campus-spelmancampus-jpg.jpg",
+   "file": "assets/img/commons/spelman-college-campus-c98643.jpg",
    "subject": "Spelman College campus",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Spelman College, Atlanta \u2014 a women's college and the model for Gilbert Hall's all-women dorm life.",
    "commons_title": "File:SpelmanCampus.jpg",
    "page_url": "https://commons.wikimedia.org/wiki/File:SpelmanCampus.jpg",
    "author": "Broadmoor",
@@ -21,17 +27,23 @@
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-   "file": "assets/img/commons/morehouse-college-campus-kilgore-campus-center-morehouse-.jpg",
+   "file": "assets/img/commons/morehouse-college-campus-7a4924.jpg",
    "subject": "Morehouse College campus",
-   "commons_title": "File:Kilgore Campus Center, Morehouse College 2006.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Kilgore_Campus_Center,_Morehouse_College_2006.jpg",
-   "author": "Toricr8zy at English Wikipedia",
-   "license": "Public domain",
-   "license_url": ""
+   "group": "campus",
+   "episodes": [],
+   "caption": "Morehouse College, Atlanta \u2014 the men's college across the street from Spelman and Clark Atlanta.",
+   "commons_title": "File:Kilgore Campus Center, Morehouse College, 2016.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Kilgore_Campus_Center,_Morehouse_College,_2016.jpg",
+   "author": "Thomson200",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   {
-   "file": "assets/img/commons/hampton-university-campus-hampton-university-aerial-view-j.jpg",
+   "file": "assets/img/commons/hampton-university-campus-5a04e7.jpg",
    "subject": "Hampton University campus",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Hampton University, Virginia \u2014 founded 1868, one of the campuses the phrase 'Hillman's finest' is drawn from.",
    "commons_title": "File:Hampton University aerial view.jpg",
    "page_url": "https://commons.wikimedia.org/wiki/File:Hampton_University_aerial_view.jpg",
    "author": "Kevin Coles",
@@ -39,22 +51,552 @@
    "license_url": "https://creativecommons.org/licenses/by/2.0"
   },
   {
-   "file": "assets/img/commons/fisk-university-jubilee-hall-wtn-evula-187-jpg.jpg",
+   "file": "assets/img/commons/fisk-university-jubilee-hall-8f10fc.jpg",
    "subject": "Fisk University Jubilee Hall",
-   "commons_title": "File:WTN EVula 187.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:WTN_EVula_187.jpg",
-   "author": "EVula",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Jubilee Hall, Fisk University, Nashville \u2014 built 1876 from the Fisk Jubilee Singers' tour money.",
+   "commons_title": "File:Jubilee Hall, Fisk University.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Jubilee_Hall,_Fisk_University.jpg",
+   "author": "Unknown, book in which the image is published in was edited by W. N. Hartshorn and George W. Penniman.",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/tuskegee-university-campus-2003ce.jpg",
+   "subject": "Tuskegee University campus",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Tuskegee University, Alabama \u2014 Booker T. Washington's campus, and the other founding model for Hillman.",
+   "commons_title": "File:Campus Scene - Tuskegee University Campus - Tuskegee - Alabama - USA (34416930016).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Campus_Scene_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_(34416930016).jpg",
+   "author": "Adam Jones from Kelowna, BC, Canada",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+   "file": "assets/img/commons/cheyney-university-of-pennsylvania-150de3.jpg",
+   "subject": "Cheyney University of Pennsylvania",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Cheyney University, Pennsylvania \u2014 founded 1837, the oldest historically Black institution in the United States.",
+   "commons_title": "File:Cheyney BiddleHall 20140406 190737.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Cheyney_BiddleHall_20140406_190737.jpg",
+   "author": "Raymgeez",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+   "file": "assets/img/commons/florida-a-m-university-campus-dc2384.jpg",
+   "subject": "Florida A&M University campus",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Florida A&M's Carnegie Library, Tallahassee \u2014 an HBCU library built with Carnegie money in 1907.",
+   "commons_title": "File:Carnegie Library at Florida A&M University Tallahassee, Florida.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Carnegie_Library_at_Florida_A%26M_University_Tallahassee,_Florida.jpg",
+   "author": "Florida Memory",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/north-carolina-a-t-state-university-campus-a77d45.jpg",
+   "subject": "North Carolina A&T State University campus",
+   "group": "campus",
+   "episodes": [],
+   "caption": "North Carolina A&T students in the library, 1915 \u2014 the same institution whose students, with Bennett College, sat in at Greensboro in 1960.",
+   "commons_title": "File:NC A&T Students In library in 1915.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:NC_A%26T_Students_In_library_in_1915.jpg",
+   "author": "unknown author",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/bethune-cookman-university-campus-4106de.jpg",
+   "subject": "Bethune-Cookman University campus",
+   "group": "campus",
+   "episodes": [],
+   "caption": "White Hall, Bethune-Cookman University, Daytona Beach \u2014 founded by Mary McLeod Bethune in 1904.",
+   "commons_title": "File:Daytona Beach White Hall01.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Daytona_Beach_White_Hall01.jpg",
+   "author": "Ebyabe",
+   "license": "CC BY 2.5",
+   "license_url": "https://creativecommons.org/licenses/by/2.5"
+  },
+  {
+   "file": "assets/img/commons/prairie-view-a-m-university-campus-8306c8.jpg",
+   "subject": "Prairie View A&M University campus",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Prairie View A&M, Texas \u2014 the oldest state-supported HBCU in Texas.",
+   "commons_title": "File:PVSO Dome.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:PVSO_Dome.jpg",
+   "author": "William Cade",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+   "file": "assets/img/commons/bennett-college-greensboro-762c33.jpg",
+   "subject": "Bennett College Greensboro",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Bennett College, Greensboro \u2014 a women's college whose students joined the 1960 sit-ins.",
+   "commons_title": "File:Greensboro, NC Bennett College 3.13.07 (423727549).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Greensboro,_NC_Bennett_College_3.13.07_(423727549).jpg",
+   "author": "John Edwards",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+   "file": "assets/img/commons/alcorn-state-university-campus-972441.jpg",
+   "subject": "Alcorn State University campus",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Alcorn State University, Mississippi \u2014 founded 1871, the oldest public HBCU land-grant campus.",
+   "commons_title": "File:Literary Society Building, Alcorn State University.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Literary_Society_Building,_Alcorn_State_University.jpg",
+   "author": "Jack E. Boucher",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/xavier-university-of-louisiana-campus-2ddcc1.jpg",
+   "subject": "Xavier University of Louisiana campus",
+   "group": "campus",
+   "episodes": [],
+   "caption": "Xavier University of Louisiana, New Orleans \u2014 the country's only historically Black Catholic university.",
+   "commons_title": "File:Xavier University Gateway Arch and Campus, New Orleans.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Xavier_University_Gateway_Arch_and_Campus,_New_Orleans.jpg",
+   "author": "Spatms",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+   "file": "assets/img/commons/university-dormitory-room-345ef2.jpg",
+   "subject": "University dormitory room",
+   "group": "era",
+   "episodes": [
+    1
+   ],
+   "caption": "A student reading in her dormitory room, 1908. Gilbert Hall is this room with the door open.",
+   "commons_title": "File:Corrine Barrett reading in her dormitory room 1908 (3192653106).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Corrine_Barrett_reading_in_her_dormitory_room_1908_(3192653106).jpg",
+   "author": "Snyder, Frank R. Flickr: Miami U. Libraries - Digital Collections",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/videocassette-recorder-424f7e.jpg",
+   "subject": "Videocassette recorder",
+   "group": "era",
+   "episodes": [
+    1
+   ],
+   "caption": "A VCR. In 1987 this is how a dorm watched a film together, and how Dwayne taped everything.",
+   "commons_title": "File:Panasonic VCR (Front).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Panasonic_VCR_(Front).jpg",
+   "author": "DiscoA340",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+   "file": "assets/img/commons/cathode-ray-tube-television-2a8b8a.jpg",
+   "subject": "Cathode ray tube television",
+   "group": "era",
+   "episodes": [
+    1
+   ],
+   "caption": "Snow on a CRT set \u2014 the 1987 dorm television: four channels, no remote, one power struggle.",
+   "commons_title": "File:Static viewed on a cathode ray tube television from close up.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Static_viewed_on_a_cathode_ray_tube_television_from_close_up.jpg",
+   "author": "Boreal11",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+   "file": "assets/img/commons/florida-a-m-marching-100-502614.jpg",
+   "subject": "Florida A&M Marching 100",
+   "group": "era",
+   "episodes": [
+    2,
+    3
+   ],
+   "caption": "Florida A&M's Marching 100 \u2014 the marching band as the loudest institution on a Black campus.",
+   "commons_title": "File:Marching 100, Florida A&M University.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Marching_100,_Florida_A%26M_University.jpg",
+   "author": "Dre4lyfe200509",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/grambling-state-university-marching-band-148433.jpg",
+   "subject": "Grambling State University marching band",
+   "group": "era",
+   "episodes": [
+    2,
+    3
+   ],
+   "caption": "Grambling's Tiger Marching Band at the State Fair Classic in Dallas \u2014 a Black-college classic game.",
+   "commons_title": "File:2019 State Fair Classic 23 (GSU Tiger Marching Band).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2019_State_Fair_Classic_23_(GSU_Tiger_Marching_Band).jpg",
+   "author": "Michael Barera",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+   "file": "assets/img/commons/historically-black-college-football-151ece.jpg",
+   "subject": "Historically black college football",
+   "group": "era",
+   "episodes": [
+    2,
+    3
+   ],
+   "caption": "Southern vs Texas Southern at the 2023 Bayou Classic \u2014 the football game that is also a family reunion.",
+   "commons_title": "File:SouthernvsTexasSouthern102823-2.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:SouthernvsTexasSouthern102823-2.jpg",
+   "author": "2C2KPhotography",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+   "file": "assets/img/commons/hbcu-homecoming-c9bd79.jpg",
+   "subject": "HBCU homecoming",
+   "group": "era",
+   "episodes": [
+    3
+   ],
+   "caption": "Prairie View A&M homecoming \u2014 the ritual the revival's episode 3 turns on.",
+   "commons_title": "File:PVAMUHomecoming11423^152 - Flickr - 2C2KPhotography.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:PVAMUHomecoming11423%5E152_-_Flickr_-_2C2KPhotography.jpg",
+   "author": "2C2K Photography from Houston, TX, USA",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+   "file": "assets/img/commons/hampton-university-cheerleading-e853cc.jpg",
+   "subject": "Hampton University cheerleading",
+   "group": "era",
+   "episodes": [
+    3
+   ],
+   "caption": "Hampton University cheerleaders \u2014 the sideline work that homecoming choreography depends on.",
+   "commons_title": "File:Hampton University Cheerleading Team.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Hampton_University_Cheerleading_Team.jpg",
+   "author": "U.S. Army Corps of Engineers Norfolk District from United States",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/university-library-reading-room-66a45e.jpg",
+   "subject": "University library reading room",
+   "group": "era",
+   "episodes": [
+    4,
+    5
+   ],
+   "caption": "The library reading room at Grubbs Vocational College, a Black school in Arkansas, 1920s \u2014 finals week, both eras.",
+   "commons_title": "File:Grubbs Vocational College Library Reading Room (10003712).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Grubbs_Vocational_College_Library_Reading_Room_(10003712).jpg",
+   "author": "University of Texas at Arlington Photograph Collection",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+   "file": "assets/img/commons/emergency-department-hospital-9ada14.jpg",
+   "subject": "Emergency department hospital",
+   "group": "era",
+   "episodes": [
+    5
+   ],
+   "caption": "An emergency entrance. The 1991 HIV episode put a Black hospital ward on prime time; the revival's crisis lands in the same room.",
+   "commons_title": "File:St. John Hospital adult emergency entrance in Detroit 2026.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:St._John_Hospital_adult_emergency_entrance_in_Detroit_2026.jpg",
+   "author": "DUBYA18",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+   "file": "assets/img/commons/aids-memorial-quilt-f54d3a.jpg",
+   "subject": "AIDS Memorial Quilt",
+   "group": "era",
+   "episodes": [
+    5
+   ],
+   "caption": "The NAMES Project AIDS Memorial Quilt \u2014 the physical record of the epidemic the original series was the first sitcom to name.",
+   "commons_title": "File:AIDS Quilt at 2012 International AIDS Conference.JPG",
+   "page_url": "https://commons.wikimedia.org/wiki/File:AIDS_Quilt_at_2012_International_AIDS_Conference.JPG",
+   "author": "Bluerasberry",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+   "file": "assets/img/commons/african-american-church-congregation-418510.jpg",
+   "subject": "African American church congregation",
+   "group": "era",
+   "episodes": [
+    6
+   ],
+   "caption": "A congregation of the Church of God in Christ, Washington, D.C. \u2014 the institution the aunties hold together.",
+   "commons_title": "File:Washington, D.C. Members of the congregation of the Church of God in Christ (LOC).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Washington,_D.C._Members_of_the_congregation_of_the_Church_of_God_in_Christ_(LOC).jpg",
+   "author": "Gordon Parks",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/payphone-e40f35.jpg",
+   "subject": "Payphone",
+   "group": "era",
+   "episodes": [
+    6
+   ],
+   "caption": "A payphone. In 1987 the dorm's wall phone was the group's only group chat.",
+   "commons_title": "File:Payphone near Richmond, Virginia, 2024.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Payphone_near_Richmond,_Virginia,_2024.jpg",
+   "author": "Packer1028",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+   "file": "assets/img/commons/miss-black-america-pageant-5ee452.jpg",
+   "subject": "Miss Black America pageant",
+   "group": "era",
+   "episodes": [
+    7
+   ],
+   "caption": "Miss Black America 1977, Claire Ford \u2014 the real pageant circuit the Miss Hillman / Miss Gilbert Hall storyline sits inside.",
+   "commons_title": "File:Miss Black America 1977, Claire Ford, at USO show c1978.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Miss_Black_America_1977,_Claire_Ford,_at_USO_show_c1978.jpg",
+   "author": "PH1 Terry Mitchell, U.S. Navy",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/balogun-market-lagos-061216.jpg",
+   "subject": "Balogun Market Lagos",
+   "group": "era",
+   "episodes": [
+    7
+   ],
+   "caption": "Balogun Market, Lagos Island \u2014 Kojo's diaspora argument is about a real place where identity gets negotiated in trade.",
+   "commons_title": "File:Balogun Market, Lagos Island.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Balogun_Market,_Lagos_Island.jpg",
+   "author": "Yellowcrunchy",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+   "file": "assets/img/commons/anti-apartheid-movement-protest-709410.jpg",
+   "subject": "Anti-apartheid movement protest",
+   "group": "era",
+   "episodes": [
+    7
+   ],
+   "caption": "Anti-apartheid pickets outside South Africa House, London, 1989 \u2014 the same year the original series ran its divestment story.",
+   "commons_title": "File:South Africa House anti apartheid London 1989.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:South_Africa_House_anti_apartheid_London_1989.jpg",
+   "author": "rahuldlucca",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+   "file": "assets/img/commons/sharpeville-massacre-d7de67.jpg",
+   "subject": "Sharpeville massacre",
+   "group": "era",
+   "episodes": [
+    7
+   ],
+   "caption": "Sharpeville, 21 March 1960 \u2014 the massacre that made divestment a campus issue for a generation.",
+   "commons_title": "File:Sharpeville massacre.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Sharpeville_massacre.jpg",
+   "author": "Unknown author Unknown author",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/tornado-damage-b11e4c.jpg",
+   "subject": "Tornado damage",
+   "group": "era",
+   "episodes": [
+    8
+   ],
+   "caption": "Tornado damage to the Westin Peachtree Plaza, downtown Atlanta, 2008 \u2014 the city the revival shoots in.",
+   "commons_title": "File:2008 Tornado Damage to Westin Peachtree Plaza Hotel.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2008_Tornado_Damage_to_Westin_Peachtree_Plaza_Hotel.jpg",
+   "author": "Brianga ( talk )",
+   "license": "CC BY-SA 3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+   "file": "assets/img/commons/emergency-warning-siren-0ef445.jpg",
+   "subject": "Emergency warning siren",
+   "group": "era",
+   "episodes": [
+    8
+   ],
+   "caption": "A storm warning siren. The revival traps its whole cast indoors for one episode; the original used a snowstorm.",
+   "commons_title": "File:FEMA - 31188 - A storm warning siren in Kansas.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_31188_-_A_storm_warning_siren_in_Kansas.jpg",
+   "author": "Leif Skoogfors",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/woolworth-lunch-counter-sit-in-1748ca.jpg",
+   "subject": "Woolworth lunch counter sit-in",
+   "group": "era",
+   "episodes": [
+    9,
+    10
+   ],
+   "caption": "The sit-in at Woolworth's lunch counter, Tallahassee \u2014 Florida A&M and FAMU High students, 1960.",
+   "commons_title": "File:Sit-in at Woolworth's lunch counter- Tallahassee, Florida (6941222253).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Sit-in_at_Woolworth%27s_lunch_counter-_Tallahassee,_Florida_(6941222253).jpg",
+   "author": "Florida Memory",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/greensboro-sit-in-90d1d8.jpg",
+   "subject": "Greensboro sit-in",
+   "group": "era",
+   "episodes": [
+    9,
+    10
+   ],
+   "caption": "The Greensboro lunch counter where NC A&T and Bennett College students sat in, 1960 \u2014 the local precedent for student-versus-institution.",
+   "commons_title": "File:Greensboro sit-in lunch counter.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Greensboro_sit-in_lunch_counter.jpg",
+   "author": "RadioFan ( talk )",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+   "file": "assets/img/commons/campus-radio-station-777173.jpg",
+   "subject": "Campus radio station",
+   "group": "era",
+   "episodes": [
+    2,
+    9
+   ],
+   "caption": "A college radio booth. Dwayne ran Radio Free Hillman in 1989; the revival's students use the same microphone.",
+   "commons_title": "File:KSPC Primary Recording Booth.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:KSPC_Primary_Recording_Booth.jpg",
+   "author": "Marcello Ursic",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+   "file": "assets/img/commons/atlanta-skyline-f1fa62.jpg",
+   "subject": "Atlanta skyline",
+   "group": "era",
+   "episodes": [
+    3,
+    10
+   ],
+   "caption": "Atlanta from the Jackson Street Bridge \u2014 the city that became the centre of Black institutional life after the original went off air.",
+   "commons_title": "File:Jackson Street Bridge and Atlanta Night Skyline (Unsplash).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Jackson_Street_Bridge_and_Atlanta_Night_Skyline_(Unsplash).jpg",
+   "author": "Joey Kyber jtkyber1",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+   "file": "assets/img/commons/kennedy-center-honors-gala-befb02.jpg",
+   "subject": "Kennedy Center Honors gala",
+   "group": "era",
+   "episodes": [
+    10
+   ],
+   "caption": "A benefit gala dinner. The revival's season ends at one: who pays for the institution, and who says what it is for.",
+   "commons_title": "File:Secretary Blinken Attends Kennedy Center Honors Dinner - 53374121987.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Secretary_Blinken_Attends_Kennedy_Center_Honors_Dinner_-_53374121987.jpg",
+   "author": "U.S. Department of State",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/debbie-allen-9a956b.jpg",
+   "subject": "Debbie Allen",
+   "group": "bridge",
+   "episodes": [],
+   "caption": "Debbie Allen directed the 2026 pilot. She directed and choreographed the original, and played Dr. Langhorne.",
+   "commons_title": "File:Debbie Allen 2021 Kennedy Center Honors (cropped).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Debbie_Allen_2021_Kennedy_Center_Honors_(cropped).jpg",
+   "author": "Library of Congress Life",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+   "file": "assets/img/commons/jasmine-guy-963587.jpg",
+   "subject": "Jasmine Guy",
+   "group": "bridge",
+   "episodes": [],
+   "caption": "Jasmine Guy: Whitley Gilbert, 1987\u20131993 \u2014 and a special guest star as Whitley Wayne in 2026.",
+   "commons_title": "File:Jasmine Guy (cropped).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Jasmine_Guy_(cropped).jpg",
+   "author": "Igitcha",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+   "file": "assets/img/commons/kadeem-hardison-55b444.jpg",
+   "subject": "Kadeem Hardison",
+   "group": "bridge",
+   "episodes": [],
+   "caption": "Kadeem Hardison: Dwayne Wayne, 1987\u20131993 \u2014 and a special guest star as Dwayne Wayne in 2026.",
+   "commons_title": "File:Kadeem Hardison 2013.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Kadeem_Hardison_2013.jpg",
+   "author": "Elen Nivrae",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+   "file": "assets/img/commons/cree-summer-ca1e47.png",
+   "subject": "Cree Summer",
+   "group": "bridge",
+   "episodes": [],
+   "caption": "Cree Summer: Freddie Brooks, 1987\u20131993 \u2014 back as a special guest star in 2026.",
+   "commons_title": "File:Cree Summer 2018.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Cree_Summer_2018.png",
+   "author": "VO Buzz Weekly",
    "license": "CC BY 3.0",
    "license_url": "https://creativecommons.org/licenses/by/3.0"
   },
   {
-   "file": "assets/img/commons/tuskegee-university-campus-tuskegee-university-campus-sidew.jpg",
-   "subject": "Tuskegee University campus",
-   "commons_title": "File:Tuskegee University -campus sidewalk.JPG",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Tuskegee_University_-campus_sidewalk.JPG",
-   "author": "Skegeepedia",
-   "license": "CC BY-SA 3.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+   "file": "assets/img/commons/glynn-turman-537e88.jpg",
+   "subject": "Glynn Turman",
+   "group": "bridge",
+   "episodes": [],
+   "caption": "Glynn Turman: Col. Bradford Taylor, 1987\u20131993 \u2014 back as a recurring cast member in 2026.",
+   "commons_title": "File:Glynn Turman.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Glynn_Turman.jpg",
+   "author": "eternalconceptspr",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+   "file": "assets/img/commons/jada-pinkett-smith-566cde.jpg",
+   "subject": "Jada Pinkett Smith",
+   "group": "bridge",
+   "episodes": [],
+   "caption": "Jada Pinkett Smith: Lena James, 1992\u20131993 \u2014 the revival's Congresswoman Lena James is a callback to her.",
+   "commons_title": "File:Jada Pinkett Smith at NY PaleyFest 2014 for Gotham.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Jada_Pinkett_Smith_at_NY_PaleyFest_2014_for_Gotham.jpg",
+   "author": "Dominick D",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+   "file": "assets/img/commons/darryl-m-bell-6b5adc.jpg",
+   "subject": "Darryl M. Bell",
+   "group": "bridge",
+   "episodes": [],
+   "caption": "Darryl M. Bell: Ron Johnson, 1987\u20131993 \u2014 back as a special guest star in 2026.",
+   "commons_title": "File:Darryl M. Bell.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Darryl_M._Bell.jpg",
+   "author": "Department of Housing and Urban Development. Office of the Chief Human Capital Office. Office of Broadcasting Operations",
+   "license": "Public domain",
+   "license_url": ""
   }
  ]
 }

@@ -45,23 +45,39 @@ function page(file, withJs = true) {
 }
 
 const episodes = JSON.parse(fs.readFileSync(path.join(ROOT, "data/episodes.json"), "utf8"));
+const creditsFile = path.join(ROOT, "assets/img/commons/CREDITS.json");
+const credits = fs.existsSync(creditsFile) ? JSON.parse(fs.readFileSync(creditsFile, "utf8")).files : [];
+const countBy = g => credits.filter(c => c.group === g).length;
 
 console.log("1. static content");
 {
   const dom = page("index.html", false);
   const d = dom.window.document;
-  ok(d.querySelectorAll(".shelf").length === 6, "hub has 6 shelves", `got ${d.querySelectorAll(".shelf").length}`);
+  ok(d.querySelectorAll(".shelf").length === 8, "hub has 8 shelves", `got ${d.querySelectorAll(".shelf").length}`);
   ok(d.querySelectorAll("#episodes .card").length === 10, "episodes shelf: 10 cards");
   ok(d.querySelectorAll("#callbacks .card.rank").length === 10, "top-callbacks shelf: 10 ranked cards");
   ok(d.querySelectorAll("#original .card").length === 12, "1987 shelf: 12 cards");
-  ok(d.querySelectorAll("#campuses .card").length === 6, "campus shelf: 6 credited photos");
-  ok(d.querySelectorAll("img").length > 30, `hub loads images (${d.querySelectorAll("img").length} img tags)`);
+  ok(d.querySelectorAll("#campuses .card").length === countBy("campus"),
+     `campus shelf: ${countBy("campus")} credited photos`);
+  ok(d.querySelectorAll("#bridge .card").length === countBy("bridge"),
+     `bridge shelf: ${countBy("bridge")} portraits of the returning originals`);
+  ok(d.querySelectorAll("#frame .card").length === countBy("era"),
+     `world-in-the-frame shelf: ${countBy("era")} era photos`);
+  const cards = [...d.querySelectorAll(".card.photo")];
+  ok(cards.length === credits.length, "every credited photo is on the hub", `${cards.length} vs ${credits.length}`);
+  ok(cards.every(c => /Photo:/.test(c.textContent) && /Commons/.test(c.textContent)),
+     "every photo card prints its credit line");
+  ok(d.querySelectorAll("img").length > 90, `hub loads images (${d.querySelectorAll("img").length} img tags)`);
   const ep = page("ep07.html", false);
   const e7 = ep.window.document;
   ok(e7.querySelectorAll(".ep-row").length === 6, "ep07: 6 callback rows without JS");
   ok(e7.querySelectorAll("details.nf").length === 2, "ep07: two collapsible panels");
   ok(!e7.querySelector("#politics").hasAttribute("open"), "ep07: politics panel closed by default");
   ok(!e7.querySelector("#script").hasAttribute("open"), "ep07: script panel closed by default");
+  const figs = [...e7.querySelectorAll("figure.band-photo")];
+  ok(figs.length > 0, `ep07: ${figs.length} photograph(s) in the band`);
+  ok(figs.every(f => /Photo:/.test(f.textContent) && /Commons/.test(f.textContent)),
+     "ep07: every band photograph is credited");
 }
 
 console.log("2. shelves scroll sideways");

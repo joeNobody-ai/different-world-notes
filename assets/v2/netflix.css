@@ -127,8 +127,23 @@ img { display: block; max-width: 100%; }
 .card.cast { width: 13rem; }
 .card.cast img { aspect-ratio: 1 / 1; object-fit: cover; }
 .card.photo { width: 20rem; }
+.card.photo img { aspect-ratio: 4 / 3; width: 100%; object-fit: cover; }
 .card.photo .credit { color: var(--fg-mute); font-size: .68rem; line-height: 1.35; padding: .55rem .9rem 0; }
 .card.photo .credit a { text-decoration: underline; }
+
+/* ---------------- per-episode photo band (credited Commons photographs) ---------------- */
+.photo-band { padding: 1.6rem 3.5vw 2.4rem; }
+.photo-band .band { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: 1rem; }
+.band-photo {
+  margin: 0; display: flex; flex-direction: column;
+  background: var(--bg-2); border-radius: var(--radius); overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,.4);
+}
+.band-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.band-photo figcaption { padding: .75rem .9rem .9rem; display: flex; flex-direction: column; gap: .5rem; }
+.band-photo .cap { color: var(--fg); font-size: .88rem; line-height: 1.45; }
+.band-photo .src { color: var(--fg-mute); font-size: .68rem; line-height: 1.35; }
+.band-photo .src a { text-decoration: underline; }
 .card.small { width: 15rem; }
 .card.no-img .body { padding-top: 1.1rem; }
 .badge {

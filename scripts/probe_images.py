@@ -78,16 +78,40 @@ def imdb_suggestion(term: str) -> list[dict]:
     return out
 
 
-COMMONS_TERMS = [
+MAP_FILE = ROOT / "data/photo_map.json"
+
+# Only used if data/photo_map.json is missing. The map is the real allowlist.
+FALLBACK_TERMS = [
     "Howard University Founders Library",
     "Spelman College campus",
     "Morehouse College campus",
     "Hampton University campus",
-    "Historically black college students 1980s",
     "Tuskegee University campus",
     "Fisk University Jubilee Hall",
-    "Black college homecoming marching band",
 ]
+
+
+def photo_map() -> dict:
+    """data/photo_map.json is the curation allowlist: terms AND where each photo is allowed to print."""
+    if MAP_FILE.exists():
+        return json.loads(MAP_FILE.read_text())
+    return {}
+
+
+def commons_terms() -> list[str]:
+    m = photo_map()
+    terms = [t["term"] if isinstance(t, dict) else t for t in m.get("campus", [])]
+    terms += [t["term"] for t in m.get("era", [])]
+    terms += [t["term"] for t in m.get("bridge", [])]
+    seen, out = set(), []
+    for t in terms:
+        if t not in seen:
+            seen.add(t)
+            out.append(t)
+    return out or FALLBACK_TERMS
+
+
+COMMONS_TERMS = commons_terms()
 
 IMDB_TERMS = ["tt33081352", "tt0092339", "Maleah Joi Moon", "Jasmine Guy", "Kadeem Hardison",
               "Cree Summer", "Glynn Turman", "Jada Pinkett Smith"]

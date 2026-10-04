@@ -39,6 +39,9 @@ def main() -> int:
     global checks
     episodes = json.loads((DATA / "episodes.json").read_text())
     pages = [e["page"] for e in episodes["episodes"]]
+    creds_file = ROOT / "assets/img/commons/CREDITS.json"
+    creds = json.loads(creds_file.read_text())["files"] if creds_file.exists() else []
+    per_group = {g: sum(1 for c in creds if c.get("group") == g) for g in ("campus", "era", "bridge")}
 
     print("1. files")
     ok((V2 / "index.html").exists(), "v2/index.html exists")
@@ -71,7 +74,8 @@ def main() -> int:
     idx = read(V2 / "index.html")
     for shelf_id, expect, label in (("episodes", 10, "episodes"), ("callbacks", 10, "top callbacks"),
                                     ("cast", 10, "cast"), ("original", 12, "1987 era"),
-                                    ("politics", 10, "politics"), ("campuses", 6, "campuses")):
+                                    ("politics", 10, "politics"), ("campuses", per_group["campus"], "campus photos"),
+                                    ("frame", per_group["era"], "era photos"), ("bridge", per_group["bridge"], "cast portraits")):
         block = re.search(r'<section class="shelf" id="%s">(.*?)</section>' % shelf_id, idx, re.S)
         if not block:
             ok(False, f"shelf '{shelf_id}' present")
@@ -129,23 +133,43 @@ def main() -> int:
     print(("  ✓ " if not broken else "  ✗ ") + f"internal links resolve ({broken} broken)")
 
     print("7. credits are real")
-    creds_file = ROOT / "assets/img/commons/CREDITS.json"
-    creds = json.loads(creds_file.read_text())["files"]
     ok(all(c.get("license") and c.get("page_url") and c.get("author") for c in creds),
        "every Commons photo has author + licence + page URL")
     ok(all(c["file"].startswith("assets/img/commons/") for c in creds), "credit paths are inside the repo")
     ok("Commons" in idx and "Photo:" in idx, "hub prints the photo credits")
-    # curation guard: a photo may only ship if its term is on fetch_commons' WANTED allowlist.
-    # (The probe explores extra terms whose hits can be junk — e.g. a "1980s Black students" search
-    #  that returned a village store. Those must never reach the site.)
+    # curation guard: a photo may only ship if its term is on the curated map's allowlist.
+    # (A search hit is not evidence — the map pins one exact Commons file per slot.)
     sys.path.insert(0, str(ROOT / "scripts"))
     from fetch_commons import WANTED  # noqa: E402
     off_list = [c["subject"] for c in creds if c["subject"] not in WANTED]
-    ok(not off_list, "every committed photo is on the curated download allowlist", str(off_list))
-    ok(len(creds) == len(list((ROOT / "assets/img/commons").glob("*.jpg"))),
-       "one credit per downloaded photo")
+    ok(not off_list, "every committed photo is on the curated map allowlist", str(off_list))
+    on_disk = [p for p in (ROOT / "assets/img/commons").glob("*")
+               if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".gif", ".webp"}]
+    ok(len(creds) == len(on_disk), f"one credit per downloaded photo ({len(on_disk)} files)",
+       f"{len(creds)} credits")
+    ok(all((ROOT / c["file"]).exists() for c in creds), "every credited file exists on disk")
 
-    print("8. generated artwork is valid XML")
+    print("8. photo placement")
+    ok(all(c.get("caption") for c in creds), "every credited photo carries a caption")
+    ok(all(c.get("episodes") for c in creds if c.get("group") == "era"),
+       "every era photo declares the episode(s) it illustrates")
+    for c in creds:
+        for n in (c.get("episodes") or []):
+            html = read(V2 / f"ep{n:02d}.html")
+            ok(c["file"].replace("assets/", "../assets/", 1) in html,
+               f"v2/ep{n:02d}.html shows “{c['subject']}”")
+    hub_cards = len(re.findall(r'class="card photo"', idx))
+    ok(hub_cards == len(creds), f"hub renders one photo card per credit (got {hub_cards})")
+    ok(idx.count("Photo:") >= hub_cards, "every hub photo card prints its credit line")
+    for n in range(1, 11):
+        html = read(V2 / f"ep{n:02d}.html")
+        expect = sum(1 for c in creds if c.get("group") == "era" and n in (c.get("episodes") or []))
+        got = len(re.findall(r'<figure class="band-photo"', html))
+        ok(got == expect, f"v2/ep{n:02d}.html photo band: {expect} photo(s)", f"got {got}")
+        ok(expect == 0 or html.count("Photo:") >= expect,
+           f"v2/ep{n:02d}.html band prints {expect} credit line(s)")
+
+    print("9. generated artwork is valid XML")
     import xml.etree.ElementTree as ET
     bad = []
     for f in sorted((ROOT / "assets/art").glob("*.svg")):

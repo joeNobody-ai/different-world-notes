@@ -220,3 +220,14 @@ already how the rest of the page is written.
 Fan project, unaffiliated with Netflix, NBC or the rights holders. Factual content verified against
 Wikipedia and IMDb on **2026-10-04**; every source URL is listed on the site's "Sources & method"
 section and in `research/raw/MANIFEST.md`.
+
+## Related: the course built on this site
+
+**[Karens-Class](https://github.com/joeNobody-ai/Karens-Class)** — a 15-session upper-division sociology
+seminar, *A Different World*: Black Experience and American Society, taught from this site's documented
+callback pairs. Each session pairs a 2026 episode with its 1987–1993 counterpart; the homework assigns
+this site's callback cards as evidence to be checked. Syllabus, 15 assignments, midterm, final, rubrics
+and instructor keys all included.
+
+- Repository: https://github.com/joeNobody-ai/Karens-Class
+- Course site: https://joenobody-ai.github.io/Karens-Class/

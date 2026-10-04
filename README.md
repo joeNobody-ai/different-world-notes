@@ -12,13 +12,22 @@ where a 2026 episode's politics could not be matched to a citable fact — the p
 
 ## What's here
 
+Two front ends over one dataset:
+
 ```
-index.html               the hub: episode grid, callback index, who's who, timeline, glossary, method
-ep01.html … ep10.html    one page per episode
-assets/styles.css        the design (light + dark)
-assets/app.js            interactions only — the pages read fine with JavaScript off
+index.html               V1 — the text version: hub with episode grid, callback index, who's who,
+                         timeline, glossary, method
+ep01.html … ep10.html    V1 episode pages
+v2/index.html            V2 — the Netflix-style browse: billboard + horizontal shelves
+v2/ep01.html … ep10.html V2 episode pages: backdrop, callbacks as episode rows, panels
+assets/styles.css        V1 skin (light + dark)
+assets/app.js            V1 interactions
+assets/v2/netflix.css    V2 skin (dark, cinematic, shelf layout)
+assets/v2/netflix.js     V2 interactions (shelf scrolling, spoiler pill, expand-all, search)
+assets/art/*.svg         35 generated artworks + manifest.json — ours, no licence needed
+assets/img/commons/*     freely-licensed campus photos + CREDITS.json (attribution enforced)
 data/                    all content as JSON (this is what you edit)
-scripts/                 the pipeline (Python, plus one Node verifier)
+scripts/                 the pipeline (Python, plus two Node verifiers)
 research/raw/            the raw sources we pulled, with MANIFEST.md recording the exact requests
 vendor/                  the subtitle tool, cloned — not committed (see "The subtitle tool")
 subtitles/               drop subtitle files here to get a full script panel (not committed)
@@ -40,24 +49,67 @@ subtitles/               drop subtitle files here to get a full script panel (no
 
 ## Quick start
 
-Nothing to install to read the site — open `index.html` in a browser.
+Nothing to install to read either version — open `index.html` (text) or `v2/index.html` (browse).
 
-To rebuild the pages after editing anything in `data/`:
+To rebuild after editing anything in `data/`:
 
 ```bash
-python3 scripts/build_pages.py      # regenerates index.html + ep01..ep10.html
+make build          # = python3 scripts/build_pages.py && python3 scripts/build_v2.py
 ```
 
 To check your work before you say it's done (do this; it is the whole point of the project):
 
 ```bash
-python3 scripts/verify_pages.py     # 175 structural checks — citations, links, panels, tag balance
-node scripts/verify_pages.mjs       # 25 behaviour checks in jsdom — filters, switches, collapse
+make verify         # all four checks
+#   python3 scripts/verify_pages.py   — 175 structural checks (V1)
+#   node    scripts/verify_pages.mjs  —  25 behaviour checks (V1, jsdom)
+#   python3 scripts/verify_v2.py      — 363 structural checks (V2: shelves, ranks, images, credits)
+#   node    scripts/verify_v2.mjs     —  26 behaviour checks (V2, jsdom)
+bash scripts/check_images.sh          # SVG validity + hotlinked key art still returns 200
 ```
 
-Both must pass. `verify_pages.py` is also where the citations are enforced: it refuses to build if a
-callback names an original episode whose **title or air date** does not match the original-series
-episode list. That check is why this page can be trusted.
+`verify_pages.py` is also where the citations are enforced: it refuses to build if a callback names an
+original episode whose **title or air date** does not match the original-series episode list. That check
+is why this page can be trusted.
+
+## V2 — the Netflix-style view
+
+V1 is words. V2 is the same content arranged the way a streaming service arranges it, because that is
+the language an audience already knows how to read:
+
+| Shelf | What's on it |
+|---|---|
+| Billboard | hero backdrop, the 39-years-to-the-day line, ▶ Start with episode 1 |
+| Episodes | 10 cards: generated stills, hover-scale, callback count |
+| **Top callbacks this season** | the 10 strongest, ranked 1–10 in outlined numerals, each deep-linking to its callback row |
+| Who's who | cast tiles; returning originals carry a gold **1987** badge |
+| The 1987–1993 era | the 12-episode starter path as a shelf |
+| Politics & the moment | 10 cards, one per episode, linking to the collapsed section |
+| The real campuses behind Hillman | 6 Commons photos, each with author + licence + link printed |
+| Episode pages | backdrop hero + synopsis, then each callback as a Netflix-style episode row (thumbnail, title, "S/E — title · first aired" description, tier badges), then the collapsed politics and script panels, then a next-episode card |
+
+**Where V2's images come from — three sources, deliberately separated:**
+
+1. **Generated** (`assets/art/`, committed). `scripts/make_art.py` draws 35 SVGs: billboard backdrop, a
+   still per episode with a motif drawn from what the episode is about (columns for the dorm, radio
+   tower for student voice, crown for the pageant, storm for the tornado), cast tiles, the 1987 shelf,
+   a politics backdrop, the logo. Ours, so no licence question — and `verify_v2.py` checks every one
+   parses as XML.
+2. **Commons, credited** (`assets/img/commons/`, committed). `scripts/fetch_commons.py` only accepts
+   files whose licence it can read (Public domain / CC0 / CC BY / CC BY-SA / GFDL), downloads them,
+   and writes `CREDITS.json`; the page prints author + licence + link under each photo. No licence,
+   no photo — the script skips it.
+3. **Hotlinked, not redistributed.** The show's key art and the cast headshots come from IMDb's image
+   CDN (`m.media-amazon.com`) with `onerror` fallbacks so the generated art shows through if the CDN
+   ever refuses. They are never downloaded and never committed. Turn the whole thing off with:
+
+   ```bash
+   python3 scripts/build_v2.py --no-poster
+   ```
+
+That is the honest version of "put images in it": generate what we own, credit what we borrow, and
+never redistribute what we don't.
+
 
 ---
 
@@ -66,11 +118,19 @@ episode list. That check is why this page can be trusted.
 | Script | What it does |
 |---|---|
 | `scripts/research_context.py` | Re-pulls the cited "what's happening now" items from Wikipedia (cached in `research/raw/context/`). |
+| `scripts/probe_images.py` | Finds which image sources actually work and records them (`research/raw/image_sources.json`). |
+| `scripts/make_art.py` | Draws every generated SVG (billboard, episode stills, cast tiles, the 1987 shelf, logo). |
+| `scripts/fetch_commons.py` | Downloads only freely-licensed Commons photos, with credits. No licence, no download. |
 | `scripts/import_subtitles.py` | Turns any subtitle file into one clean transcript per episode. |
 | `scripts/find_scenes.py` | **The scene finder.** Scans a transcript for the things that matter (characters, Hillman lore, political language, sexual-health language, diaspora language, money) and returns ranked scene candidates with timecodes. |
-| `scripts/build_pages.py` | Renders every page from `data/`. Also validates the data first (`--check`). |
-| `scripts/verify_pages.py` | Structural verification; exits non-zero on any failure. |
-| `scripts/verify_pages.mjs` | Behaviour verification in jsdom. |
+| `scripts/build_pages.py` | Renders V1 from `data/`. Also validates the data first (`--check`). |
+| `scripts/build_v2.py` | Renders V2 (the Netflix-style browse) from the same data. `--no-poster` drops the hotlinked key art. |
+| `scripts/verify_pages.py` | V1 structural verification; exits non-zero on any failure. |
+| `scripts/verify_pages.mjs` | V1 behaviour verification in jsdom. |
+| `scripts/verify_v2.py` | V2 structural verification: shelves, ranked numbering, every image resolves or is a declared hotlink, credits are real, SVG validity. |
+| `scripts/verify_v2.mjs` | V2 behaviour verification in jsdom. |
+| `scripts/check_images.sh` | SVG XML validity + HTTP 200 on every hotlinked image + committed image weight. |
+| `scripts/check_live.sh` | Checks the deployed GitHub Pages site (all pages 200, expected counts). |
 
 ### The scene finder, concretely
 

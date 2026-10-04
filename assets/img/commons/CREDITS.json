@@ -1,0 +1,60 @@
+{
+ "about": "Photos from Wikimedia Commons, free licences only. Attribution is printed on the page.",
+ "count": 6,
+ "files": [
+  {
+   "file": "assets/img/commons/howard-university-founders-library-founders-library-howard-universi.jpg",
+   "subject": "Howard University Founders Library",
+   "commons_title": "File:Founders Library, Howard University.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Founders_Library,_Howard_University.jpg",
+   "author": "D Monack at English Wikipedia (via Wikimedia Commons)",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/spelman-college-campus-spelmancampus-jpg.jpg",
+   "subject": "Spelman College campus",
+   "commons_title": "File:SpelmanCampus.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:SpelmanCampus.jpg",
+   "author": "Broadmoor",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+   "file": "assets/img/commons/morehouse-college-campus-kilgore-campus-center-morehouse-.jpg",
+   "subject": "Morehouse College campus",
+   "commons_title": "File:Kilgore Campus Center, Morehouse College 2006.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Kilgore_Campus_Center,_Morehouse_College_2006.jpg",
+   "author": "Toricr8zy at English Wikipedia",
+   "license": "Public domain",
+   "license_url": ""
+  },
+  {
+   "file": "assets/img/commons/hampton-university-campus-hampton-university-aerial-view-j.jpg",
+   "subject": "Hampton University campus",
+   "commons_title": "File:Hampton University aerial view.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Hampton_University_aerial_view.jpg",
+   "author": "Kevin Coles",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+   "file": "assets/img/commons/fisk-university-jubilee-hall-wtn-evula-187-jpg.jpg",
+   "subject": "Fisk University Jubilee Hall",
+   "commons_title": "File:WTN EVula 187.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:WTN_EVula_187.jpg",
+   "author": "EVula",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0"
+  },
+  {
+   "file": "assets/img/commons/tuskegee-university-campus-tuskegee-university-campus-sidew.jpg",
+   "subject": "Tuskegee University campus",
+   "commons_title": "File:Tuskegee University -campus sidewalk.JPG",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Tuskegee_University_-campus_sidewalk.JPG",
+   "author": "Skegeepedia",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ ]
+}

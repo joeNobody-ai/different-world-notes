@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0.35" y2="1">
+    <stop offset="0%" stop-color="#1d1d23"/><stop offset="55%" stop-color="#141418"/><stop offset="100%" stop-color="#0b0b0d"/>
+  </linearGradient>
+  <linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#0b0b0d" stop-opacity="0.96"/><stop offset="62%" stop-color="#0b0b0d" stop-opacity="0.45"/><stop offset="100%" stop-color="#0b0b0d" stop-opacity="0.05"/>
+  </linearGradient>
+  <linearGradient id="foot" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0b0b0d" stop-opacity="0"/><stop offset="100%" stop-color="#0b0b0d" stop-opacity="0.92"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.72" cy="0.28" r="0.75">
+    <stop offset="0%" stop-color="#c9a227" stop-opacity="0.30"/><stop offset="60%" stop-color="#e50914" stop-opacity="0.06"/><stop offset="100%" stop-color="#0b0b0d" stop-opacity="0"/>
+  </radialGradient>
+  
+</defs>
+<rect width="1280" height="720" fill="url(#sky)"/>
+<rect width="1280" height="720" fill="url(#glow)"/><path d="M690.4000000000001 427.2 L 670.4000000000001 235.2 L 796.4000000000001 325.2 L 870.4000000000001 191.2 L 944.4000000000001 325.2 L 1070.4 235.2 L 1050.4 427.2 Z" fill="#26262e"/><rect x="684.4000000000001" y="435.2" width="372" height="30" rx="8" fill="#c9a227" opacity="0.55"/><rect width="1280" height="720" fill="url(#scrim)"/><rect x="0" y="440" width="1280" height="280" fill="url(#foot)"/><text x="72" y="452" fill="#c9a227" font-family="Helvetica,Arial,sans-serif" font-size="24" letter-spacing="6" font-weight="700">ORIGINAL · S2E23 · 1988-10-06</text><text x="68" y="516" fill="#f5f2ea" font-family="Georgia,serif" font-size="50" font-weight="700">Dr. War Is Hell</text></svg>

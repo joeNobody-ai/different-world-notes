@@ -1,0 +1,695 @@
+{
+ "commons": {
+  "Howard University Founders Library": [
+   {
+    "title": "File:Founders Library, Howard University.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Founders_Library%2C_Howard_University.jpg/1280px-Founders_Library%2C_Howard_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Founders_Library,_Howard_University.jpg",
+    "width": 1280,
+    "height": 890,
+    "author": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/User:D_Monack\" class=\"extiw\" title=\"wikipedia:User:D Monack\">D Monack</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>.",
+    "license": "Public domain",
+    "credit": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons.</bdi>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Howard University Founders Library through main gate.JPG",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Howard_University_Founders_Library_through_main_gate.JPG/1280px-Howard_University_Founders_Library_through_main_gate.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Howard_University_Founders_Library_through_main_gate.JPG",
+    "width": 1280,
+    "height": 853,
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fourandsixty&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fourandsixty (page does not exist)\">Fourandsixty</a>",
+    "license": "CC BY-SA 4.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "title": "File:Howard University Washington DC - Founders Library.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Howard_University_Washington_DC_-_Founders_Library.jpg/1280px-Howard_University_Washington_DC_-_Founders_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Howard_University_Washington_DC_-_Founders_Library.jpg",
+    "width": 1280,
+    "height": 957,
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mortmandc&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mortmandc (page does not exist)\">Derek E. Morton</a>",
+    "license": "CC BY-SA 4.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "title": "File:Founders Library (Howard University 1).jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Founders_Library_%28Howard_University_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Founders_Library_(Howard_University_1).jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Dr._Blazer\" title=\"User:Dr. Blazer\">Dr. Blazer</a>",
+    "license": "CC BY-SA 4.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "title": "File:Founders Library (Howard University 2).jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Founders_Library_%28Howard_University_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Founders_Library_(Howard_University_2).jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Dr._Blazer\" title=\"User:Dr. Blazer\">Dr. Blazer</a>",
+    "license": "CC BY-SA 4.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "title": "File:Founders Library (Howard University 3).jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Founders_Library_%28Howard_University_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Founders_Library_(Howard_University_3).jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Dr._Blazer\" title=\"User:Dr. Blazer\">Dr. Blazer</a>",
+    "license": "CC BY-SA 4.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  ],
+  "Spelman College campus": [
+   {
+    "title": "File:SpelmanCampus.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/SpelmanCampus.jpg/1280px-SpelmanCampus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:SpelmanCampus.jpg",
+    "width": 1280,
+    "height": 1280,
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Broadmoor&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Broadmoor (page does not exist)\">Broadmoor</a>",
+    "license": "CC BY-SA 4.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "title": "File:A Glimpse of Spelman Seminary Campus and Buildings, 1908.jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/A_Glimpse_of_Spelman_Seminary_Campus_and_Buildings%2C_1908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:A_Glimpse_of_Spelman_Seminary_Campus_and_Buildings,_1908.jpg",
+    "width": 1280,
+    "height": 346,
+    "author": "Unknown, book in which the image is published in was edited by W. N. Hartshorn and George W. Penniman.",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/details/eraofprogresspro00hart_0/\">https://archive.org/details/eraofprogresspro00hart_0/</a>  An Era of Progress and Promise, 1863\u20131910: The Religious, Moral, and Educational Development of the American Negro Since His Emancipation, p. 79",
+    "license_url": ""
+   },
+   {
+    "title": "File:Morgan Hall, Spelman.jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Morgan_Hall%2C_Spelman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Morgan_Hall,_Spelman.jpg",
+    "width": 1280,
+    "height": 900,
+    "author": "Unknown, book in which the image is published in was edited by W. N. Hartshorn and George W. Penniman.",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/details/eraofprogresspro00hart_0/\">https://archive.org/details/eraofprogresspro00hart_0/</a>  An Era of Progress and Promise, 1863\u20131910: The Religious, Moral, and Educational Development of the American Negro Since His Emancipation, p. 80",
+    "license_url": ""
+   },
+   {
+    "title": "File:Morehouse Hall, Spelman.jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Morehouse_Hall%2C_Spelman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Morehouse_Hall,_Spelman.jpg",
+    "width": 1280,
+    "height": 876,
+    "author": "Unknown, book in which the image is published in was edited by W. N. Hartshorn and George W. Penniman.",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/details/eraofprogresspro00hart_0/\">https://archive.org/details/eraofprogresspro00hart_0/</a>  An Era of Progress and Promise, 1863\u20131910: The Religious, Moral, and Educational Development of the American Negro Since His Emancipation, p. 80",
+    "license_url": ""
+   },
+   {
+    "title": "File:Laundry and Printing Office, Spelman.jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Laundry_and_Printing_Office%2C_Spelman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Laundry_and_Printing_Office,_Spelman.jpg",
+    "width": 1280,
+    "height": 898,
+    "author": "Unknown, book in which the image is published in was edited by W. N. Hartshorn and George W. Penniman.",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/details/eraofprogresspro00hart_0/\">https://archive.org/details/eraofprogresspro00hart_0/</a>  An Era of Progress and Promise, 1863\u20131910: The Religious, Moral, and Educational Development of the American Negro Since His Emancipation, p. 80",
+    "license_url": ""
+   },
+   {
+    "title": "File:Packard Hall, Spelman.jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Packard_Hall%2C_Spelman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Packard_Hall,_Spelman.jpg",
+    "width": 1280,
+    "height": 896,
+    "author": "Unknown, book in which the image is published in was edited by W. N. Hartshorn and George W. Penniman.",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/details/eraofprogresspro00hart_0/\">https://archive.org/details/eraofprogresspro00hart_0/</a> An Era of Progress and Promise, 1863\u20131910: The Religious, Moral, and Educational Development of the American Negro Since His Emancipation, p. 85",
+    "license_url": ""
+   }
+  ],
+  "Morehouse College campus": [
+   {
+    "title": "File:Kilgore Campus Center, Morehouse College 2006.jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kilgore_Campus_Center%2C_Morehouse_College_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Kilgore_Campus_Center,_Morehouse_College_2006.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "<a href=\"https://en.wikipedia.org/wiki/User:Toricr8zy\" class=\"extiw\" title=\"wikipedia:User:Toricr8zy\">Toricr8zy</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+    "license": "Public domain",
+    "credit": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons.</bdi>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Kilgore Campus Center, Morehouse College, 2016.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Kilgore_Campus_Center%2C_Morehouse_College%2C_2016.jpg/1280px-Kilgore_Campus_Center%2C_Morehouse_College%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Kilgore_Campus_Center,_Morehouse_College,_2016.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:Thomson200\" title=\"User:Thomson200\">Thomson200</a>",
+    "license": "CC0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   },
+   {
+    "title": "File:Secretary Blinken Tours the Campus of Morehouse College and Clark Atlanta University and Participates in a Roundtable discussion on HCBUs - 52885168100.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Secretary_Blinken_Tours_the_Campus_of_Morehouse_College_and_Clark_Atlanta_University_and_Participates_in_a_Roundtable_discussion_on_HCBUs_-_52885168100.jpg/1280px-Secretary_Blinken_Tours_the_Campus_of_Morehouse_College_and_Clark_Atlanta_University_and_Participates_in_a_Roundtable_discussion_on_HCBUs_-_52885168100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Secretary_Blinken_Tours_the_Campus_of_Morehouse_College_and_Clark_Atlanta_University_and_Participates_in_a_Roundtable_discussion_on_HCBUs_-_52885168100.jpg",
+    "width": 1280,
+    "height": 1919,
+    "author": "U.S. Department of State",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/9364837@N06/52885168100/\">https://www.flickr.com/photos/9364837@N06/52885168100/</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Visiting Morehouse College (24044070204).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Visiting_Morehouse_College_%2824044070204%29.jpg/1280px-Visiting_Morehouse_College_%2824044070204%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Visiting_Morehouse_College_(24044070204).jpg",
+    "width": 1280,
+    "height": 854,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/dhsgov/\">DHSgov</a>",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dhsgov/24044070204\">Visiting Morehouse College</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Visiting Morehouse College (24646023776).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Visiting_Morehouse_College_%2824646023776%29.jpg/1280px-Visiting_Morehouse_College_%2824646023776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Visiting_Morehouse_College_(24646023776).jpg",
+    "width": 1280,
+    "height": 914,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/dhsgov/\">DHSgov</a>",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dhsgov/24646023776\">Visiting Morehouse College</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Visiting Morehouse College (24554457112).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Visiting_Morehouse_College_%2824554457112%29.jpg/1280px-Visiting_Morehouse_College_%2824554457112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Visiting_Morehouse_College_(24554457112).jpg",
+    "width": 1280,
+    "height": 1918,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/dhsgov/\">DHSgov</a>",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dhsgov/24554457112\">Visiting Morehouse College</a>",
+    "license_url": ""
+   }
+  ],
+  "Hampton University campus": [
+   {
+    "title": "File:Hampton University aerial view.jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Hampton_University_aerial_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Hampton_University_aerial_view.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/74376805@N00\">Kevin Coles</a>",
+    "license": "CC BY 2.0",
+    "credit": "<a href=\"//commons.wikimedia.org/wiki/Flickr\" class=\"mw-redirect\" title=\"Flickr\">Flickr</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/74376805@N00/436522432\">Hampton University Campus</a>",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+   },
+   {
+    "title": "File:Third Floor Plan - Hampton University, Clarke Hall, Intersection of Huntington Road and Marshall Avenue, Hampton, Hampton, VA HABS VA-1432-A (sheet 7 of 14).tif",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Third_Floor_Plan_-_Hampton_University%2C_Clarke_Hall%2C_Intersection_of_Huntington_Road_and_Marshall_Avenue%2C_Hampton%2C_Hampton%2C_VA_HABS_VA-1432-A_%28sheet_7_of_14%29.tif/lossy-page1-1280px-Third_Floor_Plan_-_Hampton_University%2C_Clarke_Hall%2C_Intersection_of_Huntington_Road_and_Marshall_Avenue%2C_Hampton%2C_Hampton%2C_VA_HABS_VA-1432-A_%28sheet_7_of_14%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Third_Floor_Plan_-_Hampton_University,_Clarke_Hall,_Intersection_of_Huntington_Road_and_Marshall_Avenue,_Hampton,_Hampton,_VA_HABS_VA-1432-A_(sheet_7_of_14).tif",
+    "width": 1280,
+    "height": 989,
+    "author": "",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/va2097.sheet.00007a\">https://www.loc.gov/pictures/item/va2097.sheet.00007a</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Section - Hampton University, Clarke Hall, Intersection of Huntington Road and Marshall Avenue, Hampton, Hampton, VA HABS VA-1432-A (sheet 9 of 14).tif",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Section_-_Hampton_University%2C_Clarke_Hall%2C_Intersection_of_Huntington_Road_and_Marshall_Avenue%2C_Hampton%2C_Hampton%2C_VA_HABS_VA-1432-A_%28sheet_9_of_14%29.tif/lossy-page1-1280px-Section_-_Hampton_University%2C_Clarke_Hall%2C_Intersection_of_Huntington_Road_and_Marshall_Avenue%2C_Hampton%2C_Hampton%2C_VA_HABS_VA-1432-A_%28sheet_9_of_14%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Section_-_Hampton_University,_Clarke_Hall,_Intersection_of_Huntington_Road_and_Marshall_Avenue,_Hampton,_Hampton,_VA_HABS_VA-1432-A_(sheet_9_of_14).tif",
+    "width": 1280,
+    "height": 989,
+    "author": "",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/va2097.sheet.00009a\">https://www.loc.gov/pictures/item/va2097.sheet.00009a</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Section - Hampton University, Clarke Hall, Intersection of Huntington Road and Marshall Avenue, Hampton, Hampton, VA HABS VA-1432-A (sheet 8 of 14).tif",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Section_-_Hampton_University%2C_Clarke_Hall%2C_Intersection_of_Huntington_Road_and_Marshall_Avenue%2C_Hampton%2C_Hampton%2C_VA_HABS_VA-1432-A_%28sheet_8_of_14%29.tif/lossy-page1-1280px-Section_-_Hampton_University%2C_Clarke_Hall%2C_Intersection_of_Huntington_Road_and_Marshall_Avenue%2C_Hampton%2C_Hampton%2C_VA_HABS_VA-1432-A_%28sheet_8_of_14%29.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Section_-_Hampton_University,_Clarke_Hall,_Intersection_of_Huntington_Road_and_Marshall_Avenue,_Hampton,_Hampton,_VA_HABS_VA-1432-A_(sheet_8_of_14).tif",
+    "width": 1280,
+    "height": 989,
+    "author": "",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/va2097.sheet.00008a\">https://www.loc.gov/pictures/item/va2097.sheet.00008a</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Southeast Elevation - Hampton University, Clarke Hall, Intersection of Huntington Road and Marshall Avenue, Hampton, Hampton, VA HABS VA-1432-A (sheet 4 of 14).tif",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Southeast_Elevation_-_Hampton_University%2C_Clarke_Hall%2C_Intersection_of_Huntington_Road_and_Marshall_Avenue%2C_Hampton%2C_Hampton%2C_VA_HABS_VA-1432-A_%28sheet_4_of_14%29.tif/lossy-page1-1280px-thumbnail.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Southeast_Elevation_-_Hampton_University,_Clarke_Hall,_Intersection_of_Huntington_Road_and_Marshall_Avenue,_Hampton,_Hampton,_VA_HABS_VA-1432-A_(sheet_4_of_14).tif",
+    "width": 1280,
+    "height": 989,
+    "author": "",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/va2097.sheet.00004a\">https://www.loc.gov/pictures/item/va2097.sheet.00004a</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Hampton University Cheerleading Team.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Hampton_University_Cheerleading_Team.jpg/1280px-Hampton_University_Cheerleading_Team.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Hampton_University_Cheerleading_Team.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/29327036@N03\">U.S. Army Corps of Engineers Norfolk District</a> from United States",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/armyengineersnorfolk/8074520821/\">121010-A-HS496-011</a>",
+    "license_url": ""
+   }
+  ],
+  "Historically black college students 1980s": [
+   {
+    "title": "File:The Village Store, Cullowhee, NC (46588091422).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/The_Village_Store%2C_Cullowhee%2C_NC_%2846588091422%29.jpg/1280px-The_Village_Store%2C_Cullowhee%2C_NC_%2846588091422%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:The_Village_Store,_Cullowhee,_NC_(46588091422).jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59081381@N03\">Warren LeMay</a> from Cincinnati, OH, United States",
+    "license": "CC0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/warrenlemay/46588091422/\">The Village Store, Cullowhee, NC</a>",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   },
+   {
+    "title": "File:The Village Store, Cullowhee, NC (46588085872).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/The_Village_Store%2C_Cullowhee%2C_NC_%2846588085872%29.jpg/1280px-The_Village_Store%2C_Cullowhee%2C_NC_%2846588085872%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:The_Village_Store,_Cullowhee,_NC_(46588085872).jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59081381@N03\">Warren LeMay</a> from Cincinnati, OH, United States",
+    "license": "CC0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/warrenlemay/46588085872/\">The Village Store, Cullowhee, NC</a>",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   },
+   {
+    "title": "File:The Village Store, Cullowhee, NC (32765792038).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Village_Store%2C_Cullowhee%2C_NC_%2832765792038%29.jpg/1280px-The_Village_Store%2C_Cullowhee%2C_NC_%2832765792038%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:The_Village_Store,_Cullowhee,_NC_(32765792038).jpg",
+    "width": 1280,
+    "height": 1707,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59081381@N03\">Warren LeMay</a> from Cincinnati, OH, United States",
+    "license": "CC0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/warrenlemay/32765792038/\">The Village Store, Cullowhee, NC</a>",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   },
+   {
+    "title": "File:The Village Store, Cullowhee, NC (31699064167).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/The_Village_Store%2C_Cullowhee%2C_NC_%2831699064167%29.jpg/1280px-The_Village_Store%2C_Cullowhee%2C_NC_%2831699064167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:The_Village_Store,_Cullowhee,_NC_(31699064167).jpg",
+    "width": 1280,
+    "height": 1707,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59081381@N03\">Warren LeMay</a> from Cincinnati, OH, United States",
+    "license": "CC0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/warrenlemay/31699064167/\">The Village Store, Cullowhee, NC</a>",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   },
+   {
+    "title": "File:The Village Store, Cullowhee, NC (39675426123).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/The_Village_Store%2C_Cullowhee%2C_NC_%2839675426123%29.jpg/1280px-The_Village_Store%2C_Cullowhee%2C_NC_%2839675426123%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:The_Village_Store,_Cullowhee,_NC_(39675426123).jpg",
+    "width": 1280,
+    "height": 1707,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59081381@N03\">Warren LeMay</a> from Cincinnati, OH, United States",
+    "license": "CC0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/warrenlemay/39675426123/\">The Village Store, Cullowhee, NC</a>",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   },
+   {
+    "title": "File:The Village Store, Cullowhee, NC (31699052487).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/The_Village_Store%2C_Cullowhee%2C_NC_%2831699052487%29.jpg/1280px-The_Village_Store%2C_Cullowhee%2C_NC_%2831699052487%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:The_Village_Store,_Cullowhee,_NC_(31699052487).jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59081381@N03\">Warren LeMay</a> from Cincinnati, OH, United States",
+    "license": "CC0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/warrenlemay/31699052487/\">The Village Store, Cullowhee, NC</a>",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  ],
+  "Tuskegee University campus": [
+   {
+    "title": "File:Tuskegee University -campus sidewalk.JPG",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Tuskegee_University_-campus_sidewalk.JPG/1280px-Tuskegee_University_-campus_sidewalk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Tuskegee_University_-campus_sidewalk.JPG",
+    "width": 1280,
+    "height": 960,
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Skegeepedia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Skegeepedia (page does not exist)\">Skegeepedia</a>",
+    "license": "CC BY-SA 3.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+   },
+   {
+    "title": "File:Tuskegee University campus banners.jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Tuskegee_University_campus_banners.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Tuskegee_University_campus_banners.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Skegeepedia&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Skegeepedia (page does not exist)\">Skegeepedia</a>",
+    "license": "CC BY-SA 4.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   },
+   {
+    "title": "File:Architectural Detail - Tuskegee University Campus - Tuskegee - Alabama - USA - 01 (34327851811).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Architectural_Detail_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_-_01_%2834327851811%29.jpg/1280px-Architectural_Detail_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_-_01_%2834327851811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Architectural_Detail_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_-_01_(34327851811).jpg",
+    "width": 1280,
+    "height": 952,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41000732@N04\">Adam Jones</a> from Kelowna, BC, Canada",
+    "license": "CC BY-SA 2.0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/adam_jones/34327851811/\">Architectural Detail - Tuskegee University Campus - Tuskegee - Alabama - USA - 01</a>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "title": "File:Campus Scene - Tuskegee University Campus - Tuskegee - Alabama - USA (34416930016).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Campus_Scene_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_%2834416930016%29.jpg/1280px-Campus_Scene_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_%2834416930016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Campus_Scene_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_(34416930016).jpg",
+    "width": 1280,
+    "height": 1707,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41000732@N04\">Adam Jones</a> from Kelowna, BC, Canada",
+    "license": "CC BY-SA 2.0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/adam_jones/34416930016/\">Campus Scene - Tuskegee University Campus - Tuskegee - Alabama - USA</a>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "title": "File:Architectural Detail - Tuskegee University Campus - Tuskegee - Alabama - USA - 02 (34327858511).jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Architectural_Detail_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_-_02_%2834327858511%29.jpg/1280px-Architectural_Detail_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_-_02_%2834327858511%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Architectural_Detail_-_Tuskegee_University_Campus_-_Tuskegee_-_Alabama_-_USA_-_02_(34327858511).jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41000732@N04\">Adam Jones</a> from Kelowna, BC, Canada",
+    "license": "CC BY-SA 2.0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/adam_jones/34327858511/\">Architectural Detail - Tuskegee University Campus - Tuskegee - Alabama - USA - 02</a>",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+   },
+   {
+    "title": "File:White Hall historic building, Tuskegee University, Tuskegee, Alabama LCCN2010637791.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/White_Hall_historic_building%2C_Tuskegee_University%2C_Tuskegee%2C_Alabama_LCCN2010637791.jpg/1280px-White_Hall_historic_building%2C_Tuskegee_University%2C_Tuskegee%2C_Alabama_LCCN2010637791.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:White_Hall_historic_building,_Tuskegee_University,_Tuskegee,_Alabama_LCCN2010637791.jpg",
+    "width": 1280,
+    "height": 708,
+    "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Carol_M._Highsmith\" class=\"extiw\" title=\"w:en:Carol M. Highsmith\"><span title=\"American photographer (born 1946)\">Carol M. Highsmith</span></a></bdi>",
+    "license": "Public domain",
+    "credit": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/highsm.05959\">highsm.05959</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+    "license_url": ""
+   }
+  ],
+  "Fisk University Jubilee Hall": [
+   {
+    "title": "File:WTN EVula 187.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/WTN_EVula_187.jpg/1280px-WTN_EVula_187.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:WTN_EVula_187.jpg",
+    "width": 1280,
+    "height": 1707,
+    "author": "<a href=\"//commons.wikimedia.org/wiki/User:EVula\" title=\"User:EVula\">EVula</a>",
+    "license": "CC BY 3.0",
+    "credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "license_url": "https://creativecommons.org/licenses/by/3.0"
+   },
+   {
+    "title": "File:South front - Fisk University, Jubilee Hall, Seventeenth Avenue, North, Nashville, Davidson County, TN HABS TENN,19-NASH,7A-1.tif",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/South_front_-_Fisk_University%2C_Jubilee_Hall%2C_Seventeenth_Avenue%2C_North%2C_Nashville%2C_Davidson_County%2C_TN_HABS_TENN%2C19-NASH%2C7A-1.tif/lossy-page1-1280px-South_front_-_Fisk_University%2C_Jubilee_Hall%2C_Seventeenth_Avenue%2C_North%2C_Nashville%2C_Davidson_County%2C_TN_HABS_TENN%2C19-NASH%2C7A-1.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:South_front_-_Fisk_University,_Jubilee_Hall,_Seventeenth_Avenue,_North,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,7A-1.tif",
+    "width": 1280,
+    "height": 918,
+    "author": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jack_Boucher\" class=\"extiw\" title=\"w:en:Jack Boucher\"><span title=\"American photographer\">Jack Boucher</span></a></bdi>",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/tn0017.photos.152882p\">https://www.loc.gov/pictures/item/tn0017.photos.152882p</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:WEST SIDE ELEVATION - Fisk University, Jubilee Hall, Seventeenth Avenue, North, Nashville, Davidson County, TN HABS TENN,19-NASH,7A-11.tif",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/WEST_SIDE_ELEVATION_-_Fisk_University%2C_Jubilee_Hall%2C_Seventeenth_Avenue%2C_North%2C_Nashville%2C_Davidson_County%2C_TN_HABS_TENN%2C19-NASH%2C7A-11.tif/lossy-page1-1280px-WEST_SIDE_ELEVATION_-_Fisk_University%2C_Jubilee_Hall%2C_Seventeenth_Avenue%2C_North%2C_Nashville%2C_Davidson_County%2C_TN_HABS_TENN%2C19-NASH%2C7A-11.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:WEST_SIDE_ELEVATION_-_Fisk_University,_Jubilee_Hall,_Seventeenth_Avenue,_North,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,7A-11.tif",
+    "width": 1280,
+    "height": 1029,
+    "author": "<div class=\"fn value\">\nGilford Photography, creator</div>",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/tn0017.photos.152892p\">https://www.loc.gov/pictures/item/tn0017.photos.152892p</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:EAST SIDE ELEVATION - Fisk University, Jubilee Hall, Seventeenth Avenue, North, Nashville, Davidson County, TN HABS TENN,19-NASH,7A-12.tif",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/EAST_SIDE_ELEVATION_-_Fisk_University%2C_Jubilee_Hall%2C_Seventeenth_Avenue%2C_North%2C_Nashville%2C_Davidson_County%2C_TN_HABS_TENN%2C19-NASH%2C7A-12.tif/lossy-page1-1280px-EAST_SIDE_ELEVATION_-_Fisk_University%2C_Jubilee_Hall%2C_Seventeenth_Avenue%2C_North%2C_Nashville%2C_Davidson_County%2C_TN_HABS_TENN%2C19-NASH%2C7A-12.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:EAST_SIDE_ELEVATION_-_Fisk_University,_Jubilee_Hall,_Seventeenth_Avenue,_North,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,7A-12.tif",
+    "width": 1280,
+    "height": 1024,
+    "author": "<div class=\"fn value\">\nGilford Photography</div>",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/tn0017.photos.152893p\">https://www.loc.gov/pictures/item/tn0017.photos.152893p</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:SOUTH (FRONT) ENTRANCE - Fisk University, Jubilee Hall, Seventeenth Avenue, North, Nashville, Davidson County, TN HABS TENN,19-NASH,7A-14.tif",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/SOUTH_%28FRONT%29_ENTRANCE_-_Fisk_University%2C_Jubilee_Hall%2C_Seventeenth_Avenue%2C_North%2C_Nashville%2C_Davidson_County%2C_TN_HABS_TENN%2C19-NASH%2C7A-14.tif/lossy-page1-1280px-SOUTH_%28FRONT%29_ENTRANCE_-_Fisk_University%2C_Jubilee_Hall%2C_Seventeenth_Avenue%2C_North%2C_Nashville%2C_Davidson_County%2C_TN_HABS_TENN%2C19-NASH%2C7A-14.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:SOUTH_(FRONT)_ENTRANCE_-_Fisk_University,_Jubilee_Hall,_Seventeenth_Avenue,_North,_Nashville,_Davidson_County,_TN_HABS_TENN,19-NASH,7A-14.tif",
+    "width": 1280,
+    "height": 1607,
+    "author": "<div class=\"fn value\">\nGilford Photography, creator</div>",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/tn0017.photos.152895p\">https://www.loc.gov/pictures/item/tn0017.photos.152895p</a>",
+    "license_url": ""
+   },
+   {
+    "title": "File:Jubilee Hall, Fisk University.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Jubilee_Hall%2C_Fisk_University.jpg/1280px-Jubilee_Hall%2C_Fisk_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Jubilee_Hall,_Fisk_University.jpg",
+    "width": 1280,
+    "height": 899,
+    "author": "Unknown, book in which the image is published in was edited by W. N. Hartshorn and George W. Penniman.",
+    "license": "Public domain",
+    "credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/details/eraofprogresspro00hart_0/\">https://archive.org/details/eraofprogresspro00hart_0/</a> An Era of Progress and Promise, 1863\u20131910: The Religious, Moral, and Educational Development of the American Negro Since His Emancipation, p. 136",
+    "license_url": ""
+   }
+  ],
+  "Black college homecoming marching band": [
+   {
+    "title": "File:Coast watch (1979) (20471258480).jpg",
+    "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Coast_watch_%281979%29_%2820471258480%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Coast_watch_(1979)_(20471258480).jpg",
+    "width": 1280,
+    "height": 1963,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/126377022@N07\">Internet Archive Book Images</a>",
+    "license": "No restrictions",
+    "credit": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/internetarchivebookimages/20471258480/\">https://www.flickr.com/photos/internetarchivebookimages/20471258480/</a>\n</p>\n<ul><li>Source book page: <a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/stream/coastwatch00uncs_5/#page/n154/mode/1up\">https://archive.org/stream/coastwatch00uncs_5/#page/n154/mode/1up</a></li></ul>",
+    "license_url": "https://www.flickr.com/commons/usage/"
+   },
+   {
+    "title": "File:PVAMUHomecoming11423^152 - Flickr - 2C2KPhotography.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/PVAMUHomecoming11423%5E152_-_Flickr_-_2C2KPhotography.jpg/1280px-PVAMUHomecoming11423%5E152_-_Flickr_-_2C2KPhotography.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:PVAMUHomecoming11423%5E152_-_Flickr_-_2C2KPhotography.jpg",
+    "width": 1280,
+    "height": 1734,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27903549@N02\">2C2K Photography</a> from Houston, TX, USA",
+    "license": "CC BY 2.0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/2cheap2keep/53325348906/\">PVAMUHomecoming11423#152</a>",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+   },
+   {
+    "title": "File:TSUHomecoming93023^84 - Flickr - 2C2KPhotography.jpg",
+    "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/TSUHomecoming93023%5E84_-_Flickr_-_2C2KPhotography.jpg/1280px-TSUHomecoming93023%5E84_-_Flickr_-_2C2KPhotography.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page_url": "https://commons.wikimedia.org/wiki/File:TSUHomecoming93023%5E84_-_Flickr_-_2C2KPhotography.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27903549@N02\">2C2K Photography</a> from Houston, TX, USA",
+    "license": "CC BY 2.0",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/2cheap2keep/53234143582/\">TSUHomecoming93023#84</a>",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+   }
+  ]
+ },
+ "imdb": {
+  "tt33081352": [
+   {
+    "id": "tt33081352",
+    "label": "A Different World",
+    "kind": "TV series",
+    "year": 2026,
+    "image": "https://m.media-amazon.com/images/M/MV5BNGIwZDc3OWYtZTZkOS00NmRjLTk3NTAtNjQzODI3ZTI4MWU4XkEyXkFqcGc@._V1_.jpg"
+   }
+  ],
+  "tt0092339": [
+   {
+    "id": "tt0092339",
+    "label": "A Different World",
+    "kind": "TV series",
+    "year": 1987,
+    "image": "https://m.media-amazon.com/images/M/MV5BYTMwMzRlNzctMTVkNy00MzdhLWEzYzktNmViYjJlZDViMTBjXkEyXkFqcGc@._V1_.jpg"
+   }
+  ],
+  "Maleah Joi Moon": [
+   {
+    "id": "nm14291945",
+    "label": "Maleah Joi Moon",
+    "kind": null,
+    "year": null,
+    "image": "https://m.media-amazon.com/images/M/MV5BOTk1YjUwODctMTQ1Mi00OThhLWExNDEtMDQ4NzcwNWZhZWE3XkEyXkFqcGc@._V1_.jpg"
+   }
+  ],
+  "Jasmine Guy": [
+   {
+    "id": "nm0004982",
+    "label": "Jasmine Guy",
+    "kind": null,
+    "year": null,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1OTgwNDc3NV5BMl5BanBnXkFtZTYwNDM3MTg3._V1_.jpg"
+   },
+   {
+    "id": "nm14787595",
+    "label": "Jasmine Guy",
+    "kind": null,
+    "year": null,
+    "image": "https://m.media-amazon.com/images/M/MV5BZTlhMmUzOTUtNGE2NS00NDFkLWE3NTMtZDdhODUwZDdjM2Q1XkEyXkFqcGc@._V1_.jpg"
+   },
+   {
+    "id": "nm16809999",
+    "label": "Jasmine Guy",
+    "kind": null,
+    "year": null,
+    "image": null
+   },
+   {
+    "id": "nm16838972",
+    "label": "Jasmine Guy",
+    "kind": null,
+    "year": null,
+    "image": null
+   }
+  ],
+  "Kadeem Hardison": [
+   {
+    "id": "nm0362429",
+    "label": "Kadeem Hardison",
+    "kind": null,
+    "year": null,
+    "image": "https://m.media-amazon.com/images/M/MV5BZTM5ZGQ2YzYtZGFjMy00ODM3LWFhNmItMWQzZDhkMzFjYmRlXkEyXkFqcGc@._V1_.jpg"
+   },
+   {
+    "id": "nm18941681",
+    "label": "Kareem Hardiman",
+    "kind": null,
+    "year": null,
+    "image": null
+   },
+   {
+    "id": "nm14079348",
+    "label": "Hakeem Harrison",
+    "kind": null,
+    "year": null,
+    "image": null
+   },
+   {
+    "id": "nm18291747",
+    "label": "Hakeem Harrison",
+    "kind": null,
+    "year": null,
+    "image": null
+   }
+  ],
+  "Cree Summer": [
+   {
+    "id": "nm0838588",
+    "label": "Cree Summer",
+    "kind": null,
+    "year": null,
+    "image": "https://m.media-amazon.com/images/M/MV5BMmZmNjczNjYtMzBkMi00ZWRmLTliMTctY2U3OGQ0Nzg5MDQ1XkEyXkFqcGc@._V1_.jpg"
+   },
+   {
+    "id": "nm18943279",
+    "label": "Cree Summer",
+    "kind": null,
+    "year": null,
+    "image": null
+   },
+   {
+    "id": "nm13279225",
+    "label": "Cree-Summer Haughton",
+    "kind": null,
+    "year": null,
+    "image": null
+   },
+   {
+    "id": "tt38017065",
+    "label": "Craig of the Creek Live Action Last Summer",
+    "kind": "feature",
+    "year": 2026,
+    "image": "https://m.media-amazon.com/images/M/MV5BMDhlOTM3MTgtNjNiOC00NDJmLTliYzUtODA4ZGRjN2UzZGRmXkEyXkFqcGc@._V1_.jpg"
+   }
+  ],
+  "Glynn Turman": [
+   {
+    "id": "nm0877270",
+    "label": "Glynn Turman",
+    "kind": null,
+    "year": null,
+    "image": "https://m.media-amazon.com/images/M/MV5BNTg3NjYwNDkzM15BMl5BanBnXkFtZTgwMDkyOTE5MzE@._V1_.jpg"
+   },
+   {
+    "id": "tt14793198",
+    "label": "The Legend of Glynn Turman",
+    "kind": "feature",
+    "year": 2022,
+    "image": "https://m.media-amazon.com/images/M/MV5BM2I0MjgzMzUtYjFhOS00Nzg5LTk3OTItNDYwN2ZkZDMxZDczXkEyXkFqcGc@._V1_.jpg"
+   },
+   {
+    "id": "tt29005139",
+    "label": "Inner City Cultural Center II Presents an Intimate Evening with Glynn Turman",
+    "kind": "feature",
+    "year": null,
+    "image": null
+   },
+   {
+    "id": "tt7395782",
+    "label": "Oracles: Reginald T. Dorsey, Glynn Turman, & Leonard Thomas Share Insights!",
+    "kind": "TV special",
+    "year": 2016,
+    "image": "https://m.media-amazon.com/images/M/MV5BMmIzNWZjMjItOTFjYS00ODEwLTljZTQtMzJlNTExZTE1OWQ5XkEyXkFqcGc@._V1_.jpg"
+   }
+  ],
+  "Jada Pinkett Smith": [
+   {
+    "id": "nm0000586",
+    "label": "Jada Pinkett Smith",
+    "kind": null,
+    "year": null,
+    "image": "https://m.media-amazon.com/images/M/MV5BMTYzOTE1MjQ0OF5BMl5BanBnXkFtZTgwMzczNTkwNjE@._V1_.jpg"
+   },
+   {
+    "id": "tt8300578",
+    "label": "Will Smith Feat. Jada Pinkett Smith: 1000 Kisses",
+    "kind": "musicVideo",
+    "year": 2002,
+    "image": "https://m.media-amazon.com/images/M/MV5BZTU2YTQ2YzUtMGQyYi00ZDFhLThlZjEtY2U4ZmZlYWY5MWU4XkEyXkFqcGc@._V1_.jpg"
+   },
+   {
+    "id": "tt15305648",
+    "label": "African Queens: Njinga",
+    "kind": "TV mini-series",
+    "year": 2023,
+    "image": "https://m.media-amazon.com/images/M/MV5BZDYyZGY0YmUtMjczMS00ZWFhLThjZmQtM2Q3MDMzMTkwOWQ3XkEyXkFqcGc@._V1_.jpg"
+   },
+   {
+    "id": "nm18283070",
+    "label": "Jada Pinkett Smith",
+    "kind": null,
+    "year": null,
+    "image": null
+   }
+  ]
+ },
+ "checked": "2026-10-04"
+}

@@ -191,7 +191,7 @@ def head(title: str, desc: str, depth: int = 0) -> str:
       <a href="index.html#who">Who's who</a>
       <a href="index.html#starter">Start the original</a>
       <a href="index.html#timeline">Timeline</a>
-      <a href="index.html#method">Method</a>
+      <a href="v2/index.html">▶ Netflix view (V2)</a>
     </nav>
     <div class="tools">
       <button class="toggle" data-action="toggle-spoilers" aria-pressed="false">Original series spoilers: hidden</button>

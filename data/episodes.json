@@ -1,0 +1,187 @@
+{
+ "season": 1,
+ "released_all_at_once": "2026-09-24",
+ "runtime": "30\u201336 min",
+ "network": "Netflix",
+ "source": "https://en.wikipedia.org/wiki/A_Different_World_(2026_TV_series)",
+ "verified_on": "2026-10-04",
+ "episodes": [
+  {
+   "number": 1,
+   "slug": "ep01",
+   "page": "ep01.html",
+   "title": "Irreconcilable Differences",
+   "released": "2026-09-24",
+   "director": "Debbie Allen",
+   "writer": "Felicia Pride",
+   "hook": "Deborah Wayne starts her freshman year at her parents' college \u2014 39 years to the day after her parents' show premiered.",
+   "beat": "Deborah Wayne, the youngest daughter of Dwayne Wayne and Whitley Gilbert-Wayne, begins her freshman year at Hillman College, following in her parents' footsteps. She moves in with her new roommate and begins meeting the students who will become her core group of friends. Her attempt at starting fresh is complicated when she discovers that Shaquille, an old boyfriend, is also at Hillman.",
+   "callbacks": [
+    "ep01-title-echo",
+    "ep01-parents-return",
+    "ep01-freddie-returns",
+    "ep01-hillman-college",
+    "ep01-gilbert-hall",
+    "ep01-cosby-origin",
+    "ep01-ron-returns",
+    "ep01-39-years",
+    "ep01-debbie-allen-chair"
+   ]
+  },
+  {
+   "number": 2,
+   "slug": "ep02",
+   "page": "ep02.html",
+   "title": "O Captain! My Captain!",
+   "released": "2026-09-24",
+   "director": "Tiffany Johnson",
+   "writer": "Des Moran",
+   "hook": "Deborah speaks her mind in public and gets called out for it. In 1989 the same fight happened over a campus radio show.",
+   "beat": "Deborah gets herself into trouble after openly expressing her opinion and finds herself being called out publicly on campus. Rashida, struggling financially, looks for ways to make extra money while keeping up with college. Meanwhile, Shaquille prepares for his first Hillman football game, but the game doesn't go the way he expected.",
+   "callbacks": [
+    "ep02-title-captain",
+    "ep02-student-voice",
+    "ep02-taylor-returns",
+    "ep02-money-pressure"
+   ]
+  },
+  {
+   "number": 3,
+   "slug": "ep03",
+   "page": "ep03.html",
+   "title": "Center de Stage",
+   "released": "2026-09-24",
+   "director": "Angela Barnes",
+   "writer": "Lisa McQuillan",
+   "hook": "Homecoming brings the alumni back \u2014 and the original cast back to campus, with Dwayne and Whitley's marriage visibly cracking.",
+   "beat": "It's Homecoming weekend, bringing a number of Hillman alumni back to campus. Deborah becomes caught up in trying to secure a headlining performer for the Homecoming festivities. Dwayne and Whitley return to Hillman, but it becomes increasingly obvious that there are serious tensions in their marriage. Their problems begin affecting Deborah at the same time she's trying to manage her own increasing pressures.",
+   "callbacks": [
+    "ep03-homecoming-step",
+    "ep03-dwayne-whitley-marriage",
+    "ep03-aunties",
+    "ep03-headliner-tradition"
+   ]
+  },
+  {
+   "number": 4,
+   "slug": "ep04",
+   "page": "ep04.html",
+   "title": "Those Who Can...Cuff",
+   "released": "2026-09-24",
+   "director": "Angela Barnes",
+   "writer": "Howard Jordan Jr.",
+   "hook": "The title is a one-word edit of a 1987 episode. The dating rules underneath it changed completely.",
+   "beat": "\"Cuffing season\" arrives at Hillman and the students' romantic relationships start becoming considerably messier. Dates and hookups intersect with academic pressure and financial problems. Deborah's romantic situation becomes increasingly complicated, while the relationships among the rest of the friend group begin shifting as well.",
+   "callbacks": [
+    "ep04-title-echo",
+    "ep04-cuffing-season",
+    "ep04-exams-and-money"
+   ]
+  },
+  {
+   "number": 5,
+   "slug": "ep05",
+   "page": "ep05.html",
+   "title": "Final Words",
+   "released": "2026-09-24",
+   "director": "Tiffany Johnson",
+   "writer": "Rashida Olayiwola",
+   "hook": "Finals panic, then a crisis that reframes everything \u2014 the slot the original show reserved for the episode that mattered most.",
+   "beat": "Final exams begin and Deborah and the entire group are overwhelmed by academic pressure. Different members of the group struggle with the expectations being placed on them and the possibility that they won't perform as well as they hoped. A more serious crisis then interrupts the finals panic and forces everyone to reconsider what they're worrying about and what actually matters.",
+   "callbacks": [
+    "ep05-quiet-crisis-slot",
+    "ep05-finals-pressure",
+    "ep05-enoughness"
+   ]
+  },
+  {
+   "number": 6,
+   "slug": "ep06",
+   "page": "ep06.html",
+   "title": "Insomnia and the Daydreamer",
+   "released": "2026-09-24",
+   "director": "Tiffany Johnson",
+   "writer": "Des Moran & Ashley Laverne Jackson",
+   "hook": "\"The aunties\" walk into the club \u2014 five of them played the same roles forty years ago.",
+   "beat": "Deborah starts questioning whether the man she's been imagining as her ideal partner is actually right for her. Her unresolved feelings and romantic options become increasingly difficult to ignore. Meanwhile, the students go out for a night at a club, only for the evening to become chaotic when the aunties unexpectedly arrive. The resulting night mixes the younger characters' romantic drama with the older generation's unfinished business.",
+   "callbacks": [
+    "ep06-the-aunties",
+    "ep06-jaleesa-returns",
+    "ep06-kimberly-returns",
+    "ep06-davenport-returns",
+    "ep06-ideal-partner"
+   ]
+  },
+  {
+   "number": 7,
+   "slug": "ep07",
+   "page": "ep07.html",
+   "title": "Sometimes You Get the Culture...Sometimes the Culture Gets You",
+   "released": "2026-09-24",
+   "director": "Nefertite Nguvu",
+   "writer": "Howard Jordan Jr., Tasha Armstead, Joel Armstead",
+   "hook": "The episode with the heaviest load: the title quotes 1987, Hazel runs for Miss Gilbert Hall like Whitley did in 1988, and the show says something about who Black students are in 2026.",
+   "beat": "Hillman holds its end-of-year talent show, where Deborah and Kojo set out to prove people who doubted them wrong. Kojo also finds himself caught up in arguments surrounding African/diaspora identity and culture. Hazel competes for Miss Gilbert Hall, giving her a chance to establish herself on campus. At the same time, the students deal with issues surrounding sexual health and relationships.",
+   "callbacks": [
+    "ep07-title-echo",
+    "ep07-miss-gilbert-hall",
+    "ep07-diaspora-identity",
+    "ep07-sexual-health",
+    "ep07-talent-show",
+    "ep07-darlene-duvall"
+   ]
+  },
+  {
+   "number": 8,
+   "slug": "ep08",
+   "page": "ep08.html",
+   "title": "I Choose Chaos",
+   "released": "2026-09-24",
+   "director": "Nefertite Nguvu",
+   "writer": "Felicia Pride & Des Moran",
+   "hook": "A tornado warning locks everyone in one building \u2014 the oldest trick the original used to force the conversation.",
+   "beat": "A tornado warning traps the students inside, meaning several people who have been avoiding difficult conversations can no longer get away from each other. Hazel and Amir are forced to confront their ongoing conflict. Deborah and Shaquille finally discuss their original breakup, revealing more about what went wrong between them before Hillman. Their conversation also makes it increasingly difficult for others to keep avoiding each other.",
+   "callbacks": [
+    "ep08-trapped-together",
+    "ep08-shaquille-breakup",
+    "ep08-if-chosen"
+   ]
+  },
+  {
+   "number": 9,
+   "slug": "ep09",
+   "page": "ep09.html",
+   "title": "Romancing the Unknown",
+   "released": "2026-09-24",
+   "director": "Bille Woodruff",
+   "writer": "Lisa McQuillan",
+   "hook": "Hillman's money runs out; the students organize. In 1989 they took the same fight to the campus radio station.",
+   "beat": "The situation at Hillman becomes much more serious when the college's budget crisis erupts. Deborah and her friends decide they aren't simply going to sit back and watch what happens and begin taking action themselves. At the same time, the long-running problems between Dwayne and Whitley come to a head, putting Deborah in the middle of a major family conflict while she's also becoming involved in the crisis at the college.",
+   "callbacks": [
+    "ep09-title-echo",
+    "ep09-budget-crisis",
+    "ep09-student-organizing",
+    "ep09-rodney-king-precedent",
+    "ep09-lena-james",
+    "ep09-dwayne-whitley-head"
+   ]
+  },
+  {
+   "number": 10,
+   "slug": "ep10",
+   "page": "ep10.html",
+   "title": "A Gift & The Curse",
+   "released": "2026-09-24",
+   "director": "Bille Woodruff",
+   "writer": "Felicia Pride",
+   "hook": "The season closes on the question the original spent six years on: what is a college worth if the institution itself is the thing that's struggling?",
+   "beat": "The end-of-year gala brings the various storylines together as Hillman's financial problems, the students' relationships and Deborah's family situation reach their respective breaking points. The students' response to the Hillman crisis puts Deborah in an increasingly active role in campus affairs, while major decisions are made about the college's future. Relationships that have developed through the season reach their turning points.",
+   "callbacks": [
+    "ep10-title-echo",
+    "ep10-hillman-future",
+    "ep10-brandy-theme",
+    "ep10-season-close"
+   ]
+  }
+ ]
+}

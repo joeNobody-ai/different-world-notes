@@ -1,0 +1,22 @@
+{
+  "name": "different-world-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static fan site: every callback in the 2026 Netflix revival of A Different World, with the 1987-1993 origin of each.",
+  "scripts": {
+    "build": "python3 scripts/build_pages.py",
+    "verify": "node scripts/verify_pages.mjs",
+    "verify:all": "python3 scripts/verify_pages.py && node scripts/verify_pages.mjs",
+    "scenes": "python3 scripts/find_scenes.py --all --out data/candidates"
+  },
+  "devDependencies": {
+    "jsdom": "^28.1.0"
+  },
+  "comment": "jsdom is optional at the root: scripts/verify_pages.mjs falls back to the copy inside vendor/netflix_subtitles_translator/node_modules. Install here with: npm install --include=dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeNobody-ai/different-world-notes.git"
+  }
+}

@@ -1,0 +1,16 @@
+# Netflix subtitle text is copyrighted. Transcripts imported for personal/commentary use live
+# here and are NOT published. The pages render short, attributed excerpts instead.
+data/scripts/
+data/candidates/
+
+# vendored upstream tool (clone it: see README)
+vendor/
+
+# node
+node_modules/
+
+# build scratch
+__pycache__/
+*.pyc
+.venv/
+research/scratch/

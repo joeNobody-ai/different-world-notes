@@ -1,0 +1,1241 @@
+{
+ "tiers": {
+  "title-echo": "The 2026 episode's title is drawn from an original episode's title. Mechanical, checkable, no interpretation.",
+  "cast": "An actor or character from the original series appears in 2026.",
+  "lore": "Campus institutions, places and rituals (Hillman, Gilbert Hall, the Pit, the pageant, stepping) that the original established.",
+  "theme": "An idea or storyline the original ran that the 2026 episode returns to.",
+  "reading": "Our interpretation. Not asserted as fact \u2014 the writers have not said this; we think the text supports it."
+ },
+ "confidence_levels": {
+  "verified": "Traceable to the source(s) listed. You can check it yourself.",
+  "likely": "Strong pattern across several original episodes, but not a single documented origin.",
+  "interpretation": "Our reading of two texts side by side. Argue with it."
+ },
+ "sources": {
+  "series-2026": "https://en.wikipedia.org/wiki/A_Different_World_(2026_TV_series)",
+  "episodes-original": "https://en.wikipedia.org/wiki/List_of_A_Different_World_episodes",
+  "imdb-2026": "https://www.imdb.com/title/tt33081352/",
+  "imdb-original": "https://www.imdb.com/title/tt0092339/"
+ },
+ "verified_on": "2026-10-04",
+ "method_note": "Every 'what you saw in 2026' line below is taken from Netflix/Wikipedia's official episode summary and cast list \u2014 the writer of this page has not watched the episodes, so nothing here claims a line of dialogue or a specific shot. 'Origin' facts come from the original series' episode list (episode number, title, air date and a quoted-free paraphrase of its summary). Where we go beyond that, the badge says so.",
+ "callbacks": [
+  {
+   "id": "ep01-title-echo",
+   "episode": 1,
+   "tier": "title-echo",
+   "confidence": "verified",
+   "scene_2026": "The pilot's title: \"Irreconcilable Differences\".",
+   "origin": {
+    "season": 1,
+    "episode": 1,
+    "title": "Reconcilable Differences",
+    "air_date": "1987-09-24",
+    "what_happened": "The original's first episode. Denise Huxtable starts her sophomore year at Hillman College, moves into Gilbert Hall, argues with her new roommate Jaleesa Vinson, and ends up moving in with wealthy Whitley Gilbert \u2014 \"for whose family the dormitory is named\". Whitley drives her up the wall within a day.",
+    "why_it_matters_now": "The revival adds one letter (Ir- to Reconcilable) and premieres on the same calendar day, 39 years later. It is a title card that tells you the whole project: the same argument, a new room to have it in."
+   },
+   "scene_search": [
+    "Irreconcilable",
+    "Gilbert Hall",
+    "roommate",
+    "freshman"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep01-39-years",
+   "episode": 1,
+   "tier": "lore",
+   "confidence": "verified",
+   "scene_2026": "The whole pilot: a first-year at Hillman, one generation on.",
+   "origin": {
+    "season": 1,
+    "episode": 1,
+    "title": "Reconcilable Differences",
+    "air_date": "1987-09-24",
+    "what_happened": "The original premiered 24 September 1987. The revival premiered 24 September 2026 \u2014 exactly 39 years to the day.",
+    "why_it_matters_now": "A revival usually wants to feel inevitable. This one scheduled itself against its own birthday, so that the first episode of the new show and the first episode of the old one are the same date on a calendar, 39 years apart. Everything else on this page hangs off that."
+   },
+   "scene_search": [
+    "Hillman",
+    "1987",
+    "premiere"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep01-hillman-college",
+   "episode": 1,
+   "tier": "lore",
+   "confidence": "verified",
+   "scene_2026": "Hillman College is the campus. Deborah enrols there, as her parents did.",
+   "origin": {
+    "season": 1,
+    "episode": 1,
+    "title": "Reconcilable Differences",
+    "air_date": "1987-09-24",
+    "what_happened": "Hillman College is a fictional historically Black college in Virginia, inspired by student life at real HBCUs. It was introduced on The Cosby Show \u2014 whose third-season finale, \"Hillman\", was effectively a pilot \u2014 and then became the setting of its spin-off A Different World in 1987, where it stayed for six seasons and 144 episodes. The original centred on Denise Huxtable (Lisa Bonet); after her departure in the first season the show re-centred on Whitley Gilbert and Dwayne Wayne.",
+    "why_it_matters_now": "Hillman was never just a backdrop: from 1987 the show treated a Black college campus as a place with its own politics, money problems, class friction and intellectual life. Putting Deborah back on the same campus in 2026 means the revival inherits all of that furniture \u2014 and all of that debt."
+   },
+   "scene_search": [
+    "Hillman College",
+    "HBCU",
+    "campus"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "context/original-series",
+    "episodes-original",
+    "imdb-original"
+   ]
+  },
+  {
+   "id": "ep01-gilbert-hall",
+   "episode": 1,
+   "tier": "lore",
+   "confidence": "verified",
+   "scene_2026": "Deborah moves into her dorm and meets the people who become her circle.",
+   "origin": {
+    "season": 1,
+    "episode": 1,
+    "title": "Reconcilable Differences",
+    "air_date": "1987-09-24",
+    "what_happened": "Gilbert Hall \u2014 named for Whitley Gilbert's family \u2014 is the dormitory the original's whole first season is set in. Denise arrives, gets assigned to Jaleesa, then to Whitley.",
+    "why_it_matters_now": "The dorm was the original's engine: a room too small for the people in it. Nineteen eighty-seven got six seasons out of who sleeps where. Watch how much of the 2026 pilot is still just: a room, a roommate, a first week."
+   },
+   "scene_search": [
+    "Gilbert Hall",
+    "dorm",
+    "roommate",
+    "resident"
+   ],
+   "spoiler": false,
+   "sources": [
+    "episodes-original",
+    "series-2026"
+   ]
+  },
+  {
+   "id": "ep01-cosby-origin",
+   "episode": 1,
+   "tier": "lore",
+   "confidence": "verified",
+   "scene_2026": "The premise: Deborah Wayne \u2014 the youngest child of two characters from another show entirely \u2014 enrols at Hillman.",
+   "origin": {
+    "season": 1,
+    "episode": 1,
+    "title": "Reconcilable Differences",
+    "air_date": "1987-09-24",
+    "what_happened": "A Different World was itself a spin-off: Hillman College was introduced on The Cosby Show, whose third-season finale (\"Hillman\") worked as a backdoor pilot, and the new series launched on 24 September 1987 with Denise Huxtable as its lead. The Cosby Show ran 1984\u20131992 on NBC; its run is what made a Black-cast sitcom a ratings machine and opened the door for what followed.",
+    "why_it_matters_now": "So the revival is a spin-off of a spin-off: Deborah is a third-generation television character, descended from a family that existed on a different show in the 1980s. When the season asks whether she can escape her parents' shadow, the joke has one more layer than it first appears \u2014 she cannot escape it, because she is made of it."
+   },
+   "scene_search": [
+    "Huxtable",
+    "Cosby",
+    "legacy",
+    "parents"
+   ],
+   "spoiler": false,
+   "sources": [
+    "context/original-series",
+    "context/cosby-show",
+    "series-2026"
+   ]
+  },
+  {
+   "id": "ep01-parents-return",
+   "episode": 1,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Jasmine Guy and Kadeem Hardison are billed as \"special guest stars\" \u2014 Whitley Gilbert-Wayne and Dwayne Wayne, Deborah's parents.",
+   "origin": {
+    "season": 2,
+    "episode": 26,
+    "title": "Dream Lover",
+    "air_date": "1988-11-03",
+    "what_happened": "Dwayne and Whitley were the original's long argument: a midterms party where he notices her, a dance she runs out of (season 2's \"Dream Lover\"), and then five more seasons of getting it wrong and right. When Lisa Bonet left after season one, the show re-centred on these two \u2014 which is why they, and not Denise, are the couple the revival inherits.",
+    "why_it_matters_now": "The revival gives its two leads to the original's most-fought-over couple and then makes their marriage the thing that is failing. That is a deliberate choice: the people who spent five seasons trying to build this are the ones whose daughter now has to live inside it."
+   },
+   "scene_search": [
+    "Whitley",
+    "Dwayne",
+    "Mom",
+    "Dad",
+    "mother",
+    "father"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep01-freddie-returns",
+   "episode": 1,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Cree Summer is billed as a special guest star \u2014 Freddie Brooks.",
+   "origin": {
+    "season": 2,
+    "episode": 23,
+    "title": "Dr. War Is Hell",
+    "air_date": "1988-10-06",
+    "what_happened": "Season two's opening (\"Dr. War Is Hell\") reset the dorm: Whitley meets her headstrong pre-med roommate Kim Reese, and Jaleesa's cheerful freshman roommate Freddie Brooks arrives with a massive crush on Dwayne. The episode's own production notes mark it as the first appearance of Charnele Brown and Cree Summer. Freddie \u2014 free-spirited, rhythmless, politically loud \u2014 is the original's activist.",
+    "why_it_matters_now": "Freddie was the original's activist, the one who pushed campus politics into the room and then got mocked for it. Her presence in the revival is the clearest signal from the cast list that the show means to keep the activist lane open."
+   },
+   "scene_search": [
+    "Freddie",
+    "Brooks"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep01-ron-returns",
+   "episode": 1,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Darryl M. Bell is billed as a special guest star \u2014 Ron Johnson, Dwayne's best friend.",
+   "origin": {
+    "season": 2,
+    "episode": 24,
+    "title": "Two Gentlemen of Hillman",
+    "air_date": "1988-10-13",
+    "what_happened": "Ron is Dwayne's unreliable, funny, permanently-in-trouble friend \u2014 the one who pairs with him on papers, smuggles the bootleg tape into the radio station, and pledges a fraternity alongside him.",
+    "why_it_matters_now": "Every campus story needs the friend who lowers the tone. Ron's return is the revival saying it knows which of the original's relationships were load-bearing."
+   },
+   "scene_search": [
+    "Ron Johnson",
+    "Ron"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep01-debbie-allen-chair",
+   "episode": 1,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Episode 1 is directed by Debbie Allen; she is also an executive producer of the series.",
+   "origin": {
+    "season": 1,
+    "episode": 1,
+    "title": "Reconcilable Differences",
+    "air_date": "1987-09-24",
+    "what_happened": "Debbie Allen was part of the original series' creative core from the start and later became its producer/director, and she publicly called for a reboot as far back as 2012.",
+    "why_it_matters_now": "The person directing the revival's first episode is a person who worked on the original and spent a decade wanting this made. That continuity is why the callbacks land as memory rather than marketing."
+   },
+   "scene_search": [
+    "Debbie Allen"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026"
+   ]
+  },
+  {
+   "id": "ep02-title-captain",
+   "episode": 2,
+   "tier": "reading",
+   "confidence": "interpretation",
+   "scene_2026": "The episode is titled \"O Captain! My Captain!\" \u2014 with Col. Taylor (Glynn Turman) recurring in the season as a military-titled professor.",
+   "origin": {
+    "season": 2,
+    "episode": 23,
+    "title": "Dr. War Is Hell",
+    "air_date": "1988-10-06",
+    "what_happened": "Col. Bradford Taylor arrives as the professor students call \"Dr. War\" \u2014 the calculus teacher Dwayne tries to avoid and then credits with saving him.",
+    "why_it_matters_now": "\"O Captain! My Captain!\" is Whitman on the death of Lincoln; it is also the line students shout for the teacher who changes them. Nobody has said the episode is about Col. Taylor \u2014 but the original's most feared professor is a captain, and he is in this season, and the title is about a captain being acknowledged. Treat this one as our bet, not a fact."
+   },
+   "scene_search": [
+    "Captain",
+    "Whitman",
+    "Colonel"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep02-student-voice",
+   "episode": 2,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "Deborah \"gets herself into trouble after openly expressing her opinion and finds herself being called out publicly on campus\".",
+   "origin": {
+    "season": 2,
+    "episode": 32,
+    "title": "Radio Free Hillman",
+    "air_date": "1989-01-05",
+    "what_happened": "Dwayne plays a bootleg rap record on his campus radio show; the dean pulls the show over the record's explicit content; Dwayne and the other students hold a sit-in at the administration building to protest censorship of student media. The dean does not punish the protesters. She suspends Dwayne from the station.",
+    "why_it_matters_now": "Thirty-seven years earlier the same confrontation \u2014 a student speaks, an institution answers, the student body organises \u2014 was the original's plot, and the original let the college be partly right. That is the harder, more interesting shape, and it is the shape the revival keeps reaching for."
+   },
+   "scene_search": [
+    "opinion",
+    "protest",
+    "dean",
+    "censorship",
+    "called out"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep02-taylor-returns",
+   "episode": 2,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Glynn Turman recurs as Col. Bradford Taylor.",
+   "origin": {
+    "season": 2,
+    "episode": 23,
+    "title": "Dr. War Is Hell",
+    "air_date": "1988-10-06",
+    "what_happened": "Col. Taylor is introduced as the professor whose standards terrify the students; he later marries Jaleesa Vinson \u2014 which is why the original ends with a Jaleesa Vinson-Taylor, and why \"the aunties\" in the revival are a married couple's worth of history.",
+    "why_it_matters_now": "The revival's older generation is not a cameo bench: these are people who, on screen, married each other, raised each other and buried each other's arguments. Their presence gives the kids something to be measured against."
+   },
+   "scene_search": [
+    "Bradford Taylor",
+    "Colonel",
+    "Taylor"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep02-money-pressure",
+   "episode": 2,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "Rashida, \"struggling financially, looks for ways to make extra money while keeping up with college\".",
+   "origin": {
+    "season": 2,
+    "episode": 41,
+    "title": "Take This Job and Love It",
+    "air_date": "1989-03-16",
+    "what_happened": "Whitley damages Mr. Gaines' car, cannot bring herself to ask her father for the money, and takes a job at the Pit to pay for it \u2014 where she turns out to be good at the work.",
+    "why_it_matters_now": "The original understood that the money story on a Black campus is not a side plot; it decides who can afford to be a student. The revival's second episode puts a lead character's finances in the same slot."
+   },
+   "scene_search": [
+    "money",
+    "job",
+    "afford",
+    "tuition",
+    "work"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep03-homecoming-step",
+   "episode": 3,
+   "tier": "lore",
+   "confidence": "verified",
+   "scene_2026": "Homecoming weekend brings alumni back to campus \u2014 the episode's whole engine.",
+   "origin": {
+    "season": 2,
+    "episode": 29,
+    "title": "A Stepping Stone",
+    "air_date": "1988-12-01",
+    "what_happened": "Whitley choreographs Gilbert Hall's step routine for a homecoming competition, gets thrown off the squad by captain Jaleesa for insulting \"the rhythmless Freddie\", and is put right by a meeting with her 92-year-old childhood idol.",
+    "why_it_matters_now": "Stepping, a homecoming competition and a dorm squad are HBCU ritual, not set dressing \u2014 the original treated them as the place where status gets negotiated. In the revival, homecoming is the excuse for the alumni (and the marriage trouble) to come back."
+   },
+   "scene_search": [
+    "homecoming",
+    "step",
+    "alumni",
+    "routine"
+   ],
+   "spoiler": false,
+   "sources": [
+    "episodes-original",
+    "series-2026"
+   ]
+  },
+  {
+   "id": "ep03-dwayne-whitley-marriage",
+   "episode": 3,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "Dwayne and Whitley return to Hillman, and \"it becomes increasingly obvious that there are serious tensions in their marriage\".",
+   "origin": {
+    "season": 3,
+    "episode": 49,
+    "title": "Forever Hold Your Peace",
+    "air_date": "1989-11-02",
+    "what_happened": "Dwayne drives Whitley to New York for her father's wedding and gets a flat tyre in a blizzard with her. It is the original's pattern for them: two people with incompatible plans, forced into the same small space until something true gets said.",
+    "why_it_matters_now": "The original spent years making Dwayne and Whitley work for it. The revival opens their marriage under strain \u2014 which only means anything if you know the distance they already covered. That's the point of this page: the 2026 argument is the payoff of a fight you have to see to feel."
+   },
+   "scene_search": [
+    "Whitley",
+    "Dwayne",
+    "marriage",
+    "fight"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep03-aunties",
+   "episode": 3,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "The alumni crowd: Gina Deveaux (Ajai Sanders), Charmaine Brown (Karen Malina White), Dr. Kimberly Reese Boyer (Charnele Brown), Professor Davenport (Jenifer Lewis), Jaleesa Vinson-Taylor (Dawnn Lewis), Col. Bradford Taylor (Glynn Turman), Congresswoman Lena James (Jada Pinkett Smith) and Darlene Duvall (Tichina Arnold) all recur.",
+   "origin": {
+    "season": 2,
+    "episode": 23,
+    "title": "Dr. War Is Hell",
+    "air_date": "1988-10-06",
+    "what_happened": "Almost all of these people enter the original in the same moves: season two adds Kim Reese and Freddie Brooks to Whitley's dorm; later seasons add Lena James (a student in the early nineties) and the rest of the Gilbert Hall/student cohort.",
+    "why_it_matters_now": "Count the callbacks in that cast list and you can see the revival's real thesis: the generation that ran the original's arguments is still on campus, and one of them is now a congresswoman. The kids are not inheriting a legend, they are inheriting a network."
+   },
+   "scene_search": [
+    "alumni",
+    "Jaleesa",
+    "Kimberly",
+    "Davenport",
+    "Lena"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep03-headliner-tradition",
+   "episode": 3,
+   "tier": "lore",
+   "confidence": "likely",
+   "scene_2026": "Deborah gets \"caught up in trying to secure a headlining performer\" for Homecoming.",
+   "origin": {
+    "season": 2,
+    "episode": 27,
+    "title": "Three Girls Three",
+    "air_date": "1988-11-17",
+    "what_happened": "Whitley and Jaleesa audition to sing backup for a Gladys Knight concert on campus; the original repeatedly hung episodes on a performer coming to Hillman.",
+    "why_it_matters_now": "A marquee name on an underfunded campus is a story about budget, prestige and who gets access to Black cultural capital \u2014 which is exactly the crisis the season ends on. The booker is never just a booker."
+   },
+   "scene_search": [
+    "performer",
+    "headliner",
+    "concert",
+    "show"
+   ],
+   "spoiler": false,
+   "sources": [
+    "episodes-original",
+    "series-2026"
+   ]
+  },
+  {
+   "id": "ep04-title-echo",
+   "episode": 4,
+   "tier": "title-echo",
+   "confidence": "verified",
+   "scene_2026": "The episode is titled \"Those Who Can...Cuff\".",
+   "origin": {
+    "season": 1,
+    "episode": 4,
+    "title": "Those Who Can't...Tutor",
+    "air_date": "1987-10-22",
+    "what_happened": "Dwayne tutors Denise in calculus, gets locked in the dorm after curfew, climbs out of Whitley's window and takes the blame for it to protect Denise \u2014 costing Whitley her reputation for an episode.",
+    "why_it_matters_now": "One word swapped, thirty-nine years apart: 'those who can't teach, tutor' becomes 'those who can't commit, cuff.' The revival's titles are aimed at people who kept a worn-out VHS of the original \u2014 they are jokes about the joke."
+   },
+   "scene_search": [
+    "Cuff",
+    "Those Who Can"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep04-cuffing-season",
+   "episode": 4,
+   "tier": "theme",
+   "confidence": "interpretation",
+   "scene_2026": "\"Cuffing season\" arrives and the friend group's relationships get \"considerably messier\", with hooks-ups colliding with academia and money.",
+   "origin": {
+    "season": 2,
+    "episode": 26,
+    "title": "Dream Lover",
+    "air_date": "1988-11-03",
+    "what_happened": "The original's courtship was painfully slow and public: Dwayne notices Whitley at a party, she runs out of the dance, she dreams about him, she kisses him and then denies it, and Kim is delighted about all of it.",
+    "why_it_matters_now": "In 1988 the romance was a whole season of misread signals; in 2026 it is a phrase from an app. Same mess, different clock speed \u2014 and the revival is honest that its students date in a world with vocabulary the original's characters would have found alien."
+   },
+   "scene_search": [
+    "cuffing",
+    "hookup",
+    "dating",
+    "relationship"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep04-exams-and-money",
+   "episode": 4,
+   "tier": "theme",
+   "confidence": "likely",
+   "scene_2026": "Dates and hook-ups \"intersect with academic pressure and financial problems\".",
+   "origin": {
+    "season": 4,
+    "episode": 73,
+    "title": "Whitley's Last Supper",
+    "air_date": "1990-10-11",
+    "what_happened": "Whitley's father arrives and cuts up her credit cards, forcing her onto a budget; meanwhile Freddie and Matthew conspire to make Kim take a break from MCAT studying.",
+    "why_it_matters_now": "The original kept insisting that pre-med study and money are the same plot \u2014 you cannot be a student if you cannot pay, and you cannot rest if you are behind. The revival's fourth episode stacks the same three pressures in one week."
+   },
+   "scene_search": [
+    "exam",
+    "money",
+    "pressure",
+    "finals"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep05-quiet-crisis-slot",
+   "episode": 5,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "\"A more serious crisis then interrupts the finals panic and forces everyone to reconsider what they're worrying about and what actually matters.\"",
+   "origin": {
+    "season": 4,
+    "episode": 92,
+    "title": "If I Should Die Before I Wake",
+    "air_date": "1991-04-11",
+    "what_happened": "A speech-class assignment leads Josie to disclose that she is HIV-positive, and her classmates have to re-examine everything they thought they knew about AIDS. The episode is guest-starred by Tisha Campbell and Whoopi Goldberg.",
+    "why_it_matters_now": "This is the original's most important hour and the reason this page exists: in 1991 a Black sitcom put a Black woman's HIV diagnosis on prime-time television, in front of a community that was being told the virus was somebody else's. The revival's fifth episode builds the same slot \u2014 a crisis that lands in the middle of ordinary student panic \u2014 and the whole point of the 1987 series is that the slot must be filled by something that actually matters. We are not claiming the crisis is the same one. We are saying you cannot read the 2026 season seriously without knowing what this slot was used for in 1991."
+   },
+   "scene_search": [
+    "crisis",
+    "hospital",
+    "emergency",
+    "finals",
+    "HIV",
+    "AIDS",
+    "diagnosis"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep05-finals-pressure",
+   "episode": 5,
+   "tier": "lore",
+   "confidence": "likely",
+   "scene_2026": "Finals overwhelm the whole group; each of them fears they will not \"perform as well as they hoped\".",
+   "origin": {
+    "season": 1,
+    "episode": 12,
+    "title": "Advise and Descent",
+    "air_date": "1988-01-14",
+    "what_happened": "During finals week, Denise volunteers for the peer-counselling line, turns out to be good at it, and uses it to avoid a history paper.",
+    "why_it_matters_now": "Finals week at Gilbert Hall was always a character test rather than a plot: who takes care of whom, and who hides. The revival's fifth episode runs six characters through the same machine at once."
+   },
+   "scene_search": [
+    "finals",
+    "exam",
+    "study",
+    "grades"
+   ],
+   "spoiler": false,
+   "sources": [
+    "episodes-original",
+    "series-2026"
+   ]
+  },
+  {
+   "id": "ep05-enoughness",
+   "episode": 5,
+   "tier": "theme",
+   "confidence": "interpretation",
+   "scene_2026": "The group struggles with \"the expectations being placed on them\".",
+   "origin": {
+    "season": 1,
+    "episode": 7,
+    "title": "Sometimes You Get the Bear...Sometimes the Bear Gets You",
+    "air_date": "1987-11-19",
+    "what_happened": "Denise dreads a visit from her grandfather because she fears she cannot live up to him; it turns out he tried to steal a rival mascot's bear head in 1935 and is still bitter about losing.",
+    "why_it_matters_now": "The original's very first season already had the joke the revival is built on: the older generation's legend is mostly unforced errors, and the pressure the kids feel is partly inherited fiction. Watch for it in every 'my parents did this' beat."
+   },
+   "scene_search": [
+    "expectations",
+    "pressure",
+    "parents",
+    "disappoint"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep06-the-aunties",
+   "episode": 6,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "A student night out \"becomes chaotic when the aunties unexpectedly arrive\", mixing the younger characters' romantic drama with the older generation's unfinished business.",
+   "origin": {
+    "season": 5,
+    "episode": 106,
+    "title": "Twelve Steps of Christmas",
+    "air_date": "1991-12-19",
+    "what_happened": "By the original's fifth season its core women were married and negotiating holidays as families \u2014 the Taylors blending traditions, Dwayne and Whitley circling each other.",
+    "why_it_matters_now": "'The aunties' is the joke with a knife in it: the original's students are now the women who show up at the club. The 2026 show uses them as a generation the kids cannot dismiss \u2014 because they were the ones on the dancefloor first."
+   },
+   "scene_search": [
+    "aunties",
+    "club",
+    "dancing"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep06-jaleesa-returns",
+   "episode": 6,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Dawnn Lewis recurs as Jaleesa Vinson-Taylor.",
+   "origin": {
+    "season": 1,
+    "episode": 1,
+    "title": "Reconcilable Differences",
+    "air_date": "1987-09-24",
+    "what_happened": "Jaleesa Vinson is Denise's first roommate: a 26-year-old divorc\u00e9e finishing her degree, treated as a scandal by rumour, and eventually the person who captains Gilbert Hall's step team and marries Col. Taylor.",
+    "why_it_matters_now": "Jaleesa's whole story was about being older, poorer and more serious than the rest of the room. The revival's students are financially squeezed; the auntie with the least patience for their excuses is the one who did it while broke."
+   },
+   "scene_search": [
+    "Jaleesa",
+    "Vinson"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep06-kimberly-returns",
+   "episode": 6,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Charnele Brown recurs as Dr. Kimberly Reese Boyer \u2014 and Raven Goodwin recurs as Dr. Brooklyn Boyer.",
+   "origin": {
+    "season": 2,
+    "episode": 23,
+    "title": "Dr. War Is Hell",
+    "air_date": "1988-10-06",
+    "what_happened": "Kim Reese arrives as Whitley's headstrong pre-med roommate. Across the series she is the one who studies through everything, works at the Pit, and is provoked hardest about balance and rest.",
+    "why_it_matters_now": "The revival's cast list answers the original's oldest thread: the girl who was going to be a doctor is Dr. Kimberly Reese Boyer, and there is a second Dr. Boyer. Some of the original's bets got paid."
+   },
+   "scene_search": [
+    "Kim",
+    "Kimberly",
+    "Reese",
+    "doctor"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep06-davenport-returns",
+   "episode": 6,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Jenifer Lewis recurs as Professor Davenport.",
+   "origin": {
+    "season": 6,
+    "episode": 120,
+    "title": "Honeymoon in L.A. (part 1)",
+    "air_date": "1992-09-24",
+    "what_happened": "Jenifer Lewis first appears in the original's sixth-season opener as Dean Davenport, listed in the episode's production notes among the new recurring cast. She is the institution's authority figure: faculty above the students and not paid to be liked.",
+    "why_it_matters_now": "The revival bills her as Professor Davenport, which is a promotion and a statement: the woman who once administered the college is now in the classroom. A Black woman professor who outranks everyone is the original's model of Hillman as a real intellectual institution rather than a backdrop."
+   },
+   "scene_search": [
+    "Davenport",
+    "professor",
+    "faculty"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep06-ideal-partner",
+   "episode": 6,
+   "tier": "theme",
+   "confidence": "interpretation",
+   "scene_2026": "Deborah questions \"whether the man she's been imagining as her ideal partner is actually right for her\".",
+   "origin": {
+    "season": 1,
+    "episode": 9,
+    "title": "Romancing Mr. Stone",
+    "air_date": "1987-12-10",
+    "what_happened": "The Gilbert Hall women fall for their charismatic geology professor, and Denise \u2014 who mocks them for it \u2014 misreads his attention as romantic.",
+    "why_it_matters_now": "The original's joke was about projection: what you want, you see. Deborah's 'ideal partner' problem is the same bug with an app-shaped interface, and the revival knows it."
+   },
+   "scene_search": [
+    "ideal",
+    "dream",
+    "partner",
+    "perfect"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep07-title-echo",
+   "episode": 7,
+   "tier": "title-echo",
+   "confidence": "verified",
+   "scene_2026": "The episode is titled \"Sometimes You Get the Culture...Sometimes the Culture Gets You\".",
+   "origin": {
+    "season": 1,
+    "episode": 7,
+    "title": "Sometimes You Get the Bear...Sometimes the Bear Gets You",
+    "air_date": "1987-11-19",
+    "what_happened": "The homecoming bear-mascot prank episode \u2014 three women trying to steal a rival's mascot head, which in 1987 the original framed as \"the first women in Hillman history\" to try it.",
+    "why_it_matters_now": "Same grammar, swapped noun: the 1987 line is about a mascot; the 2026 line is about diaspora identity and cultural belonging. It is the single best example on this page of the revival re-using the original's sentence structure to talk about something the original did not have words for yet."
+   },
+   "scene_search": [
+    "culture",
+    "Sometimes You Get"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep07-miss-gilbert-hall",
+   "episode": 7,
+   "tier": "lore",
+   "confidence": "verified",
+   "scene_2026": "Hazel competes for Miss Gilbert Hall, \"giving her a chance to establish herself on campus\".",
+   "origin": {
+    "season": 1,
+    "episode": 17,
+    "title": "Mr. Hillman",
+    "air_date": "1988-02-25",
+    "what_happened": "Whitley enters the Miss Hillman pageant to win her mother's approval; Denise fights the pageant's elitism by getting Dwayne to enter as well; the fraternity mocking Dwayne turns out to be the episode's real villain.",
+    "why_it_matters_now": "In 1988 the pageant was both the original's sharpest satire of class and colour politics inside Black student life, and Whitley's origin story \u2014 the girl who wants to be judged beautiful by people who built the standard. Hazel running for Miss Gilbert Hall in 2026 walks straight into that. Whose approval is a crown, and from which generation?"
+   },
+   "scene_search": [
+    "Miss Gilbert Hall",
+    "pageant",
+    "Hazel",
+    "crown"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep07-diaspora-identity",
+   "episode": 7,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "Kojo \"finds himself caught up in arguments surrounding African/diaspora identity and culture\".",
+   "origin": {
+    "season": 3,
+    "episode": 60,
+    "title": "A World Alike",
+    "air_date": "1990-02-15",
+    "what_happened": "An exchange student, Julian, is part of Hillman's anti-apartheid group; Kim wins a scholarship funded by a company with investments in South Africa; Julian proposes a boycott and then recommends Hillman cut all financial ties with the funder \u2014 which would cost Kim her scholarship. Freddie discovers the corporate connection.",
+    "why_it_matters_now": "This is the original's answer to the 2026 argument, and it is much better than a moral: in 1990 the show refused to let a student keep a clean position. Anti-apartheid principle versus one Black student's funding is a genuine dilemma, and the show made Whitley choose the friend. When Kojo's 2026 arguments about who belongs to the diaspora start, this is the episode the show is standing on."
+   },
+   "scene_search": [
+    "diaspora",
+    "Africa",
+    "African",
+    "identity",
+    "culture"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep07-sexual-health",
+   "episode": 7,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "The students \"deal with issues surrounding sexual health and relationships\".",
+   "origin": {
+    "season": 4,
+    "episode": 92,
+    "title": "If I Should Die Before I Wake",
+    "air_date": "1991-04-11",
+    "what_happened": "Josie discloses that she is HIV-positive; the class \u2014 and the audience \u2014 has to re-examine what it believed about AIDS.",
+    "why_it_matters_now": "Sexual health on this show has never been a hygiene bulletin. The original used it to break the silence that was killing Black people in 1991. In 2026 the silence has different shape and the same cost, which is why this callback is the heaviest on the page \u2014 and why it belongs in the politics section too."
+   },
+   "scene_search": [
+    "sex",
+    "sexual",
+    "health",
+    "condom",
+    "testing",
+    "HIV",
+    "AIDS",
+    "PrEP",
+    "undetectable"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep07-talent-show",
+   "episode": 7,
+   "tier": "lore",
+   "confidence": "likely",
+   "scene_2026": "The end-of-year talent show is the episode's stage, with Deborah and Kojo out to prove doubters wrong.",
+   "origin": {
+    "season": 1,
+    "episode": 16,
+    "title": "The Show Must Go On",
+    "air_date": "1988-02-18",
+    "what_happened": "Denise and Whitley take the leads in a student production and compete over the leading man while the show is a shambles.",
+    "why_it_matters_now": "The campus show is the original's favourite device for putting every character's private problem on a public stage, literally. It's telling that the 2026 season's most idea-dense episode is the one set at a talent show."
+   },
+   "scene_search": [
+    "talent show",
+    "stage",
+    "performance",
+    "show"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep07-darlene-duvall",
+   "episode": 7,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Tichina Arnold recurs as Darlene Duvall \u2014 and Alijah Kai's lead character is Rashida Duvall.",
+   "origin": {
+    "season": 6,
+    "episode": 120,
+    "title": "Honeymoon in L.A. (part 1)",
+    "air_date": "1992-09-24",
+    "what_happened": "The original's sixth season opened on 24 September 1992 \u2014 the same calendar date the revival would premiere on 34 years later \u2014 and formally handed the show to a new cohort: Jada Pinkett (Lena), Ajai Sanders (Gina) and Karen Malina White (Charmaine) became regulars in that episode.",
+    "why_it_matters_now": "Checked claim: we could find no trace of Tichina Arnold in the original series' cast, so this is not a returning original \u2014 it is the revival casting a 1990s-defining comic actress as the mother of its new female lead. The shared surname Duvall is the tell that these two are meant to be read as a family line. Two cohorts of Black TV, one surname."
+   },
+   "scene_search": [
+    "Darlene",
+    "Duvall",
+    "Rashida",
+    "mother"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep08-trapped-together",
+   "episode": 8,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "A tornado warning traps the students inside, so \"several people who have been avoiding difficult conversations can no longer get away from each other\".",
+   "origin": {
+    "season": 5,
+    "episode": 99,
+    "title": "In the Eye of the Storm",
+    "air_date": "1991-10-17",
+    "what_happened": "A hurricane heads for Hillman; Freddie and Ron, busy arguing, are left behind at the radio station \u2014 \"so they only have each other to comfort\".",
+    "why_it_matters_now": "The weather-as-pressure-cooker is a device the original invented for itself three decades earlier, and the revival's eighth episode is the same machine with a bigger cast: a storm, a locked building, and nothing to do but say the thing you've been avoiding."
+   },
+   "scene_search": [
+    "tornado",
+    "storm",
+    "warning",
+    "trapped",
+    "stuck"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep08-shaquille-breakup",
+   "episode": 8,
+   "tier": "theme",
+   "confidence": "interpretation",
+   "scene_2026": "Deborah and Shaquille \"finally discuss their original breakup, revealing more about what went wrong between them before Hillman\".",
+   "origin": {
+    "season": 2,
+    "episode": 26,
+    "title": "Dream Lover",
+    "air_date": "1988-11-03",
+    "what_happened": "The original's defining romance spent whole episodes on failure to communicate: a party, a dance, a kiss that gets denied, and a poem-book misunderstanding with Freddie in the middle of it.",
+    "why_it_matters_now": "Deborah and Shaquille's post-mortem is structurally the same scene the original kept writing for Dwayne and Whitley \u2014 the conversation both people could have had years earlier. It's the show teaching its audience how much of a romance is just latency."
+   },
+   "scene_search": [
+    "Shaquille",
+    "breakup",
+    "broke up",
+    "before Hillman"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep08-if-chosen",
+   "episode": 8,
+   "tier": "reading",
+   "confidence": "interpretation",
+   "scene_2026": "The episode is titled \"I Choose Chaos\".",
+   "origin": {
+    "season": 1,
+    "episode": 8,
+    "title": "If Chosen I May Not Run",
+    "air_date": "1987-12-03",
+    "what_happened": "An original first-season episode whose title is about being drafted into something you would not choose.",
+    "why_it_matters_now": "Weak echo, and we're flagging it as weak: both titles are about the difference between choosing a mess and having one chosen for you. We list it because being wrong about these is fine \u2014 being untraceable about them is not."
+   },
+   "scene_search": [
+    "chaos",
+    "choose",
+    "chosen"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep09-title-echo",
+   "episode": 9,
+   "tier": "title-echo",
+   "confidence": "verified",
+   "scene_2026": "The episode is titled \"Romancing the Unknown\".",
+   "origin": {
+    "season": 1,
+    "episode": 9,
+    "title": "Romancing Mr. Stone",
+    "air_date": "1987-12-10",
+    "what_happened": "The professor-crush episode: the women of Gilbert Hall invent a person out of a lecturer and Denise gets caught doing the same thing she mocked.",
+    "why_it_matters_now": "The original's ninth episode was about the gap between the person and the projection. The revival's ninth \u2014 where the college itself becomes the uncertain object, and the students decide to fight for it \u2014 keeps the word 'romancing' and moves it from a man to an institution. That's a good joke about student debt."
+   },
+   "scene_search": [
+    "Romancing",
+    "unknown"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep09-budget-crisis",
+   "episode": 9,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "\"Hillman's budget crisis erupts\" and major decisions about the college's future follow.",
+   "origin": {
+    "season": 1,
+    "episode": 2,
+    "title": "Pilot",
+    "air_date": "1987-10-01",
+    "what_happened": "Money runs underneath the original from episode two: Denise discovers her dorm-fee cheque has bounced, and the students are constantly working (the Pit, jobs, scholarships) to stay enrolled.",
+    "why_it_matters_now": "The original's Hillman was never financially safe; it was one bounced cheque from the start. That is why the revival's budget crisis is continuity rather than a new stunt \u2014 and why the fight over a college's survival is the most 1987 thing in the 2026 season."
+   },
+   "scene_search": [
+    "budget",
+    "money",
+    "closing",
+    "funding",
+    "crisis"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep09-student-organizing",
+   "episode": 9,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "Deborah and her friends \"decide they aren't simply going to sit back and watch\" and begin taking action themselves.",
+   "origin": {
+    "season": 2,
+    "episode": 32,
+    "title": "Radio Free Hillman",
+    "air_date": "1989-01-05",
+    "what_happened": "Students hold a sit-in at the administration building to protest the censorship of student media. The dean does not punish the protesters.",
+    "why_it_matters_now": "Student organising is the original's established method for dealing with institutional power, and the show was careful to make it costly and specific rather than heroic. Watch whether 2026 lets the administration be reasonable \u2014 the 1989 episode did, and it's a braver choice."
+   },
+   "scene_search": [
+    "organize",
+    "protest",
+    "sit-in",
+    "administration",
+    "action"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep09-rodney-king-precedent",
+   "episode": 9,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "Students organise themselves against an institutional crisis and refuse to \"simply sit back and watch\".",
+   "origin": {
+    "season": 6,
+    "episode": 120,
+    "title": "Honeymoon in L.A. (part 1)",
+    "air_date": "1992-09-24",
+    "what_happened": "The original opened its final season with the Rodney King police-brutality trial: a discussion of the verdict sends Dwayne and Whitley back to their honeymoon in Los Angeles during the riots that followed it, with the story continuing into the next episode as the city burns and the two are separated. Guest cast included Sister Souljah.",
+    "why_it_matters_now": "A Black sitcom in 1992 put a police-brutality trial and the LA uprising at the centre of its season premiere, in a family-comedy slot, and trusted its audience with it. Whatever the revival says about policing, funding and protest in 2026 gets read against that floor. This is the show's political inheritance in one episode."
+   },
+   "scene_search": [
+    "Rodney King",
+    "riots",
+    "police",
+    "verdict"
+   ],
+   "spoiler": true,
+   "sources": [
+    "episodes-original",
+    "context/original-series"
+   ]
+  },
+  {
+   "id": "ep09-lena-james",
+   "episode": 9,
+   "tier": "cast",
+   "confidence": "verified",
+   "scene_2026": "Jada Pinkett Smith recurs as Congresswoman Lena James.",
+   "origin": {
+    "season": 5,
+    "episode": 95,
+    "title": "We've Only Just Begun",
+    "air_date": "1991-09-19",
+    "what_happened": "Jada Pinkett first appears as Lena in the season-five opener (a note in the episode list marks it as her first appearance); she becomes a regular cast member when season six opens with \"Honeymoon in L.A.\" \u2014 an episode where a conversation about the Rodney King police-brutality trial leads Dwayne and Whitley to recount their honeymoon during the Los Angeles riots, and whose guest cast includes Sister Souljah.",
+    "why_it_matters_now": "This is the answer to the question the original never got to ask: what happens to the student who is political at nineteen? Lena went to Congress. And she comes from the cohort the original introduced while putting the Rodney King verdict and the LA riots into a sitcom \u2014 which is the lineage the revival's campus activism is standing in."
+   },
+   "scene_search": [
+    "congresswoman",
+    "Lena",
+    "James"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep09-dwayne-whitley-head",
+   "episode": 9,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "The \"long-running problems between Dwayne and Whitley come to a head\", leaving Deborah in the middle.",
+   "origin": {
+    "season": 4,
+    "episode": 94,
+    "title": "To Be Continued",
+    "air_date": "1991-05-02",
+    "what_happened": "The original repeatedly had Dwayne and Whitley evaluate the relationship itself \u2014 a summer apart, different cities, different ambitions \u2014 and made them state the terms out loud.",
+    "why_it_matters_now": "The original's gift was making the relationship an ongoing negotiation about futures rather than a will-they-won't-they. The revival puts their daughter inside that negotiation, which is the most honest place for a child of a famous couple to stand."
+   },
+   "scene_search": [
+    "Dwayne",
+    "Whitley",
+    "marriage",
+    "divorce",
+    "separation"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep10-title-echo",
+   "episode": 10,
+   "tier": "title-echo",
+   "confidence": "verified",
+   "scene_2026": "The season finale is titled \"A Gift & The Curse\".",
+   "origin": {
+    "season": 1,
+    "episode": 10,
+    "title": "Gift of the Magi",
+    "air_date": "1987-12-17",
+    "what_happened": "Whitley learns her parents are divorcing and that her father has a younger girlfriend who is joining their holiday; she copes with Denise's help. Meanwhile the dorm's secret-Santa swap goes wrong because the gifts came from each other.",
+    "why_it_matters_now": "The original's tenth episode already knew that a gift from your family can arrive as damage \u2014 Whitley's holiday, her parents' marriage, her place in it. The revival's finale reaches back to that title for a season about a college whose survival, a marriage's survival and a student's future all arrive tied together."
+   },
+   "scene_search": [
+    "gift",
+    "curse",
+    "gala"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep10-hillman-future",
+   "episode": 10,
+   "tier": "theme",
+   "confidence": "verified",
+   "scene_2026": "The gala resolves Hillman's financial crisis and \"major decisions are made about the college's future\".",
+   "origin": {
+    "season": 6,
+    "episode": 122,
+    "title": "Interior Desecration",
+    "air_date": "1992-10-08",
+    "what_happened": "By its sixth season the original had moved its characters into adult Hillman \u2014 Whitley and Dwayne sharing an apartment, Ron mediating, underclassmen stepping for unity \u2014 while the show itself was being wound down in 1993.",
+    "why_it_matters_now": "The original never got to tell us what Hillman looks like at fifty. The revival's tenth episode makes the institution itself the subject, which is the one thing a 2026 HBCU story cannot avoid: whether these places, and the students who need them, get funded."
+   },
+   "scene_search": [
+    "future",
+    "decision",
+    "Hillman",
+    "closing",
+    "board"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  },
+  {
+   "id": "ep10-brandy-theme",
+   "episode": 10,
+   "tier": "lore",
+   "confidence": "verified",
+   "scene_2026": "Brandy performs the revival's theme song.",
+   "origin": {
+    "season": 2,
+    "episode": 23,
+    "title": "Dr. War Is Hell (theme era begins)",
+    "air_date": "1988-10-06",
+    "what_happened": "The original's theme song was co-written by Stu Gardner, Bill Cosby and Dawnn Lewis \u2014 who also played Jaleesa. Aretha Franklin sang the theme from seasons 2 to 5. Separately, and gloriously: Glynn Turman, who played Col. Bradford Taylor, was married to Aretha Franklin from 1978 to 1984.",
+    "why_it_matters_now": "A theme song is the cheapest, most effective generational handoff a revival has: it tells you whose record collection this show was raised on. The original's theme was written by a cast member and sung by Aretha Franklin; the revival's is sung by Brandy. That is the same move, thirty-nine years apart."
+   },
+   "scene_search": [
+    "theme",
+    "Brandy",
+    "song"
+   ],
+   "spoiler": false,
+   "sources": [
+    "series-2026",
+    "context/original-series"
+   ]
+  },
+  {
+   "id": "ep10-season-close",
+   "episode": 10,
+   "tier": "theme",
+   "confidence": "interpretation",
+   "scene_2026": "The finale \"brings the various storylines together\" and ends a season Netflix renewed within eight days of release.",
+   "origin": {
+    "season": 6,
+    "episode": 141,
+    "title": "A Rock, a River, a Lena",
+    "air_date": "1993-07-02",
+    "what_happened": "The original's final season is a handover season: the older cast graduating into adulthood, new underclassmen arriving, the show visibly changing shape in its last year before it ended in 1993.",
+    "why_it_matters_now": "Ending the first season with the college's future unresolved is exactly how the original behaved in its final year \u2014 it left the institution mid-sentence and trusted the audience to care. The revival has now been given a second season to say what happens next, which is a luxury the original's last year never had."
+   },
+   "scene_search": [
+    "finale",
+    "next year",
+    "future"
+   ],
+   "spoiler": true,
+   "sources": [
+    "series-2026",
+    "episodes-original"
+   ]
+  }
+ ]
+}

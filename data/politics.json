@@ -1,0 +1,143 @@
+{
+ "about": "What each 2026 episode is saying politically and socially, what the original said in the same lane, and what is actually happening in Black American life now. Every 'now' item carries a source. Every interpretive line is labelled. Nothing here is a claim about a line of dialogue we have not heard.",
+ "rules": [
+  "statement = what the episode is about, taken from the official episode summary. Not a quote.",
+  "precedent = the original-series episode that occupies the same lane, with its air date.",
+  "now = a sourced fact about 2026 (or the run-up to it). If we could not source it, we say so instead of asserting.",
+  "reading = our interpretation. Argue with it."
+ ],
+ "context": [
+  {"id": "hbcu", "note": "HBCUs are institutions founded before the Civil Rights Act of 1964 to serve African American students, most of them in the South and mostly founded during Reconstruction (1865–1877). Hillman is fictional, but its architecture — underfunded, tuition-dependent, load-bearing for Black mobility — is drawn from these institutions.",
+   "source": "https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities", "retrieved": "2026-10-04"},
+  {"id": "sffa", "note": "Students for Fair Admissions v. Harvard (2023) held that race-based affirmative action in most college admissions violates the Equal Protection Clause, effectively overruling Grutter (2003). Every Black student entering college in 2026 has done so in that regime.",
+   "source": "https://en.wikipedia.org/wiki/Students_for_Fair_Admissions_v._Harvard", "retrieved": "2026-10-04"},
+  {"id": "dei", "note": "In January 2025 the US president issued executive orders terminating federal DEIA programs and rescinding Executive Order 11246, applying similar requirements to federal contractors; a Fourth Circuit panel later paused a nationwide injunction and allowed enforcement pending appeal. In 2024–2025 several large American companies scaled back or ended DEI programs.",
+   "source": "https://en.wikipedia.org/wiki/Diversity,_equity,_and_inclusion", "retrieved": "2026-10-04"},
+  {"id": "hiv", "note": "African Americans remain the group most disproportionately affected by HIV in the US — in 2021 about 60% of new HIV diagnoses among women were Black women; of people on PrEP, 63% were White and 8% Black. In 2025 federal funding for HIV initiatives was cut by roughly 25% (about $2 billion) as part of a wider HHS reorganisation.",
+   "source": "https://en.wikipedia.org/wiki/HIV/AIDS_in_the_United_States", "retrieved": "2026-10-04"},
+  {"id": "maternal", "note": "CDC data for 2023 put the maternal mortality rate at 50.3 per 100,000 live births for Black women against 14.5 for White women and 12.4 for Hispanic women; the Black–White gap worsened across 2021–2023 while other groups improved.",
+   "source": "https://en.wikipedia.org/wiki/Maternal_mortality_in_the_United_States", "retrieved": "2026-10-04"},
+  {"id": "police", "note": "Killings by police remain a high-profile, contested issue: Mapping Police Violence documented 1,213 killings by police for 2023, and multiple studies find anti-Black disparities in stops and lethal force, while data reliability itself is disputed.",
+   "source": "https://en.wikipedia.org/wiki/Police_use_of_deadly_force_in_the_United_States", "retrieved": "2026-10-04"},
+  {"id": "economic-blackout", "note": "The Economic Blackout was a series of 24-hour consumer-spending boycotts starting 28 February 2025, organised by The People's Union USA, aimed at corporate and billionaire influence on working-class Americans — an example of how Black-led economic protest is being organised in this decade.",
+   "source": "https://en.wikipedia.org/wiki/Economic_Blackout", "retrieved": "2026-10-04"},
+  {"id": "racial-inequality", "note": "Racial inequality in the US — income, wealth, housing, health — is documented as the cumulative product of historic oppression, inheritance and de jure/de facto segregation, and a large majority of professional economists surveyed in 2021 agreed that discrimination has lasting effects on Black economic outcomes.",
+   "source": "https://en.wikipedia.org/wiki/Racial_inequality_in_the_United_States", "retrieved": "2026-10-04"}
+ ],
+ "episodes": [
+  {
+   "episode": 1,
+   "statement": "A legacy admission in the most literal sense: Deborah is the child of two Hillman alumni and famous ones; the episode is about starting at an institution that already has an opinion about her.",
+   "precedent": {"episode": 1, "season": 1, "title": "Reconcilable Differences", "air_date": "1987-09-24",
+     "what": "The original's first move was also class: Denise arrives at Gilbert Hall, is assigned to a 26-year-old divorcée by rumour, and then gets moved in with a girl whose family the building is named after."},
+   "now": [
+    {"note": "The 2026 freshman cohort started college after the 2023 Harvard ruling ended race-conscious admissions at most institutions — the access question the original could argue about is now settled law.", "context": "sffa"},
+    {"note": "HBCU enrolments have been the object of federal funding fights and policy reversals across 2024–2026; the institutions Hillman stands in for are, as ever, tuition- and policy-dependent.", "context": "hbcu"}
+   ],
+   "reading": "The pilot is not really about a legacy student; it is about what an institution does when the famous people it produced send their child back. Hillman's value in 1987 was that it existed for students the rest of the system would not admit. Sixty years on, the same campus sells itself on legacy. That tension is the season's whole reason to exist, and it is a Black-college argument, not a generic one."
+  },
+  {
+   "episode": 2,
+   "statement": "A student expresses an opinion publicly, is publicly punished for it, and the student body's relationship to authority becomes the episode.",
+   "precedent": {"episode": 32, "season": 2, "title": "Radio Free Hillman", "air_date": "1989-01-05",
+     "what": "Dwayne plays a bootleg record on the campus station; the dean pulls his show for explicit content; students hold a sit-in at the administration building to protest censorship of student media. The dean does not punish the protesters — she suspends Dwayne."},
+   "now": [
+    {"note": "Campus speech and DEI have been the sharpest institutional battleground of 2025–2026, with federal pressure on programs and curricula and courts still sorting out what stands.", "context": "dei"},
+    {"note": "Financial precarity shapes who can afford to take a public position: Rashida's money problem in the same episode as Deborah's public trouble is not a coincidence.", "context": "racial-inequality"}
+   ],
+   "reading": "Nineteen eighty-nine gave this show its template and its discipline: the authority figure is not a cartoon, the punishment is real, and the campus keeps functioning afterwards. If the revival's second episode lets Deborah be simply right, it will have taken the easier and much less interesting road than the original took in 1989."
+  },
+  {
+   "episode": 3,
+   "statement": "Homecoming: alumni return, the institution performs its own continuity, and the marriage of the people at the centre of that history is visibly failing.",
+   "precedent": {"episode": 106, "season": 5, "title": "Twelve Steps of Christmas", "air_date": "1991-12-19",
+     "what": "By season five the original's core characters were married and negotiating holidays as families — the newly married Taylors blending traditions, Dwayne and Whitley circling — with class friction still intact."},
+   "now": [
+    {"note": "Black alumni networks and HBCU homecomings are one of the few large-scale intergenerational Black institutions in American life; the wealth they concentrate and distribute is the subject of the racial-inequality literature.", "context": "racial-inequality"},
+    {"note": "Marriage and family formation among Black Americans happen in an economy with a persistent racial wealth gap — the difference between the original's 1990s couple and the 2026 couple is mostly the cost of the wedding and the mortgage.", "context": "racial-inequality"}
+   ],
+   "reading": "Homecoming is where a Black institution displays its own continuity, which is exactly why the revival puts a failing marriage in the middle of it. The episode's politics are about what 'we made it' is supposed to buy — and how much of that promise is held together by one couple's willingness to keep performing it."
+  },
+  {
+   "episode": 4,
+   "statement": "Romance under financial and academic pressure; the college's social clock collides with who can afford to participate in it.",
+   "precedent": {"episode": 41, "season": 2, "title": "Take This Job and Love It", "air_date": "1989-03-16",
+     "what": "Whitley damages a car, cannot face asking her father for the money, and takes a job at the Pit — where she turns out to be good at it. Also in the same era: her father cutting up her credit cards and forcing her onto a budget."},
+   "now": [
+    {"note": "Student debt and cost-of-living pressures fall hardest on Black students, whose families hold a fraction of the wealth available to White classmates; the 'who can afford a social life' question is a money question wearing a dating costume.", "context": "racial-inequality"},
+    {"note": "Consumer-facing Black economic protest in this decade has often taken the form of spending power — boycotts and blackouts aimed at corporations rather than institutions.", "context": "economic-blackout"}
+   ],
+   "reading": "The original's dating episodes were always also class episodes: Whitley's problem was never the boy, it was the bill. The revival's 'cuffing season' episode is doing the same thing with a vocabulary borrowed from apps, and the money pressure in it is the load-bearing wall."
+  },
+  {
+   "episode": 5,
+   "statement": "Finals, then a crisis that outranks them: the show deliberately puts an ordinary academic panic next to something that actually matters.",
+   "precedent": {"episode": 92, "season": 4, "title": "If I Should Die Before I Wake", "air_date": "1991-04-11",
+     "what": "A speech-class assignment leads Josie to disclose that she is HIV-positive; the students must re-examine everything they believed about AIDS. Guest-starred by Tisha Campbell and Whoopi Goldberg."},
+   "now": [
+    {"note": "In 2025 federal HIV funding was cut by about a quarter — roughly $2 billion — as part of a wider reorganisation of health agencies, in a country where Black Americans remain the group most disproportionately affected by HIV.", "context": "hiv"},
+    {"note": "About 60% of new HIV diagnoses among women in 2021 were Black women, and Black patients are far less likely to be on PrEP or to reach viral suppression — the silence the 1991 episode attacked has an updated body count.", "context": "hiv"},
+    {"note": "Black women die in pregnancy at 3.5 times the rate of White women; the 1991 episode's lesson — that being listened to is a health outcome — remains a live claim about American medicine.", "context": "maternal"}
+   ],
+   "reading": "In 1991 a Black sitcom told a Black audience the truth about a virus that respectable opinion preferred to attach to somebody else, and paid for it with a prime-time slot. The revival's fifth episode rebuilds the same structure — a crisis interrupting ordinary student panic — and this page's position is simple: that slot is a responsibility, not a genre convention. Whatever the 2026 crisis turns out to be, it is being placed where 1991 put HIV."
+  },
+  {
+   "episode": 6,
+   "statement": "The older generation shows up uninvited and refuses to be a cameo: the episode is about what the alumnae carry and what they demand.",
+   "precedent": {"episode": 95, "season": 5, "title": "We've Only Just Begun", "air_date": "1991-09-19",
+     "what": "Jaleesa and Col. Taylor reveal they eloped over the summer; Dwayne asks Ron to collect Whitley's engagement ring and he brings back the wrong one. The original's relationships kept resolving off-screen and inconveniently."},
+   "now": [
+    {"note": "Intergenerational wealth transfer is the mechanism that makes racial wealth gaps persist or close; mentorship and family networks are the non-financial half of that transfer.", "context": "racial-inequality"},
+    {"note": "Black women in the US reach midlife with a fraction of the retirement wealth of White peers — the 'aunties' at the club are also the generation carrying the family's finances.", "context": "racial-inequality"}
+   ],
+   "reading": "Comedies love to bring the old cast back for a laugh. This show's version of that is sharper: the women who were the students are now the standard the students are judged against, and they have unfinished business of their own. The political content is inheritance — what one generation of Black women owes, and refuses to hand over to, the next."
+  },
+  {
+   "episode": 7,
+   "statement": "The season's heaviest episode: a campus pageant, a talent show, an argument about African and diaspora identity, and students negotiating sexual health — all at once.",
+   "precedent": {"episode": 60, "season": 3, "title": "A World Alike", "air_date": "1990-02-15",
+     "what": "An exchange student is part of Hillman's anti-apartheid group; Kim wins a scholarship funded by a company with investments in South Africa; the group proposes cutting all ties with the funder — which would cost Kim the scholarship. Anti-apartheid principle against a Black student's funding, with no clean answer."},
+   "now": [
+    {"note": "Federal DEI programs were terminated by executive order in January 2025 and federal contractors were pushed to drop race-conscious practices; many companies followed in 2024–2025, so 'culture' arguments now happen in institutions that have formally stopped tracking them.", "context": "dei"},
+    {"note": "Sexual health on campus is being funded in a year when HIV prevention and treatment money was cut by roughly a quarter — the information gap the original attacked is widening again.", "context": "hiv"},
+    {"note": "The pageant and the talent show are the same device: a Black campus deciding publicly who it recognises, and on whose scale of beauty, class and speech.", "context": "racial-inequality"}
+   ],
+   "reading": "This is the episode where the revival's politics get real, and the 1990 episode it stands on shows why: the original refused to let a student keep a clean position. 'A World Alike' put a Black student's scholarship against Black internationalist principle and made the audience sit in it. If the 2026 version lets Kojo be right without cost, or lets the pageant be merely fun, it will have chosen comfort over the show's inheritance."
+  },
+  {
+   "episode": 8,
+   "statement": "A weather emergency locks everyone in one building and forces the conversations they have all been avoiding.",
+   "precedent": {"episode": 99, "season": 5, "title": "In the Eye of the Storm", "air_date": "1991-10-17",
+     "what": "A hurricane heads for Hillman; Freddie and Ron are left behind at the radio station mid-argument and end up with only each other for company."},
+   "now": [
+    {"note": "This one is mostly character work. We did not find a sourced 2026 political claim to hang on it, and we would rather say so than invent one.", "context": null},
+    {"note": "The nearest live issue is emergency access on under-resourced campuses — who gets told, who gets out, and who is left in the building — but we have not sourced that claim, so it stays a note, not a bullet.", "context": null}
+   ],
+   "reading": "Not every episode carries a political thesis, and pretending otherwise is how fan writing becomes propaganda for a show the writers never made. The storm is a dramaturgical device the original established in 1991. Its politics are downstream of whatever the trapped characters finally say to each other."
+  },
+  {
+   "episode": 9,
+   "statement": "The college runs out of money, the students organise, and a family conflict runs underneath the institutional one.",
+   "precedent": {"episode": 120, "season": 6, "title": "Honeymoon in L.A. (part 1)", "air_date": "1992-09-24",
+     "what": "The original's final-season premiere put the Rodney King police-brutality trial at the centre of a sitcom: a discussion of the verdict sends Dwayne and Whitley back to their honeymoon in Los Angeles during the riots that followed it, with the story continuing as the city burns and the couple is separated. Guest cast included Sister Souljah."},
+   "now": [
+    {"note": "HBCUs are structurally exposed to federal funding and policy swings, and the 2026 enrolment environment sits after the 2023 end of race-conscious admissions — the money and the mandate both moved.", "context": "hbcu"},
+    {"note": "The divestment argument the original staged in 1990 is now a mainstream campus form: students demanding institutions cut financial ties, with the same problem of whose funding pays for it.", "context": "economic-blackout"},
+    {"note": "Police killings and the disputes over the data remain where the original put them in 1992 — at the top of the Black political agenda, argued over in court and on campus.", "context": "police"}
+   ],
+   "reading": "Two things make this episode the political centre of the season. First, the budget: the original's Hillman was one bounced cheque from disaster in its second episode, so a 2026 cash crisis is continuity, not a plot device. Second, the precedent — this show put the LA uprising in a family sitcom and trusted its audience. A revival whose season turns on students fighting for their college is standing exactly where its parent show stood in 1992."
+  },
+  {
+   "episode": 10,
+   "statement": "The gala: the college's survival, the family's break, and the students' futures arrive together, with decisions made above the students' heads.",
+   "precedent": {"episode": 93, "season": 4, "title": "Never Can Say Goodbye", "air_date": "1991-04-25",
+     "what": "Dwayne and Whitley prepare to graduate and Ron discovers he cannot join them unless he passes a European history final — the original's consistent insistence that the degree, not the romance, is the thing at stake."},
+   "now": [
+    {"note": "The institutions the fictional Hillman stands for are the subject of continuing federal funding and oversight fights, and they remain the most reliable ladder into the Black middle class.", "context": "hbcu"},
+    {"note": "Access to that ladder narrowed for the 2026 cohort after the 2023 Harvard decision, making the question of whether these colleges survive a question about who has anywhere else to go.", "context": "sffa"},
+    {"note": "Black maternal and infant health outcomes will be the lived experience behind the family decisions the finale sets in motion.", "context": "maternal"}
+   ],
+   "reading": "A season that ends with an institution's future undecided is doing what a Black-college story has to do: refusing to pretend the ending is about individuals. The original spent six seasons treating Hillman as a real place with real bills, and got cancelled in 1993 with the question open. Season two of the revival now inherits that question, and this page's bet is that it will keep asking it."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "about": "Search vocabulary for scripts/find_scenes.py. Terms are matched case-insensitively against an imported transcript; multi-word phrases score higher. Add a term here (not in the code) to teach the scanner a new subject.",
+ "queries": [
+  {
+   "id": "characters",
+   "label": "Characters and returning cast",
+   "terms": {
+    "Deborah": 3, "Rashida": 3, "Shaquille": 3, "Amir": 3, "Hazel": 3, "Kojo": 3,
+    "Whitley": 3, "Dwayne": 3, "Ron": 2, "Freddie": 3, "Jaleesa": 3, "Kimberly": 3,
+    "Kim": 2, "Davenport": 2, "Bradford Taylor": 3, "Colonel": 2, "Taylor": 1,
+    "Lena": 2, "Gina": 1, "Charmaine": 2, "Darlene": 2, "Duvall": 2, "Miss Gilbert Hall": 4,
+    "Mr. Gaines": 4, "Gaines": 2
+   }
+  },
+  {
+   "id": "lore",
+   "label": "Hillman lore and campus ritual",
+   "terms": {
+    "Hillman": 2, "Gilbert Hall": 3, "the Pit": 4, "dorm": 2, "resident advisor": 3, "RA": 2,
+    "homecoming": 4, "step show": 4, "stepping": 4, "pageant": 4, "crown": 2, "alumni": 3,
+    "dean": 2, "provost": 2, "board of trustees": 3, "tenure": 2, "freshman": 2, "sophomore": 2,
+    "sorority": 3, "fraternity": 3, "pledge": 3, "rush": 2, "legacy": 3, "transcript": 2,
+    "GPA": 2, "finals": 2, "scholarship": 3, "financial aid": 3
+   }
+  },
+  {
+   "id": "politics",
+   "label": "Political and institutional statements",
+   "terms": {
+    "budget": 3, "funding": 3, "cuts": 3, "tuition": 4, "endowment": 3, "closure": 4,
+    "protest": 4, "walkout": 4, "sit-in": 5, "petition": 3, "organize": 3, "organizing": 3,
+    "strike": 4, "union": 3, "divest": 5, "divestment": 5, "apartheid": 5, "South Africa": 4,
+    "racism": 3, "racist": 3, "Jim Crow": 4, "segregation": 3, "reparations": 4,
+    "police": 4, "cop": 3, "stop and frisk": 5, "brutality": 5, "riots": 4, "curfew": 3,
+    "affirmative action": 5, "DEI": 5, "diversity statement": 4, "civil rights": 4,
+    "blackout": 4, "boycott": 4, "ICE": 4, "deport": 4, "immigration": 3, "voting": 3,
+    "gerrymandering": 4, "census": 2, "redlining": 5, "gentrification": 5, "eviction": 4
+   }
+  },
+  {
+   "id": "social",
+   "label": "Social statements (health, identity, family)",
+   "terms": {
+    "HIV": 5, "AIDS": 5, "PrEP": 5, "testing": 3, "positive": 3, "undetectable": 5,
+    "condom": 4, "sexual health": 5, "consent": 4, "pregnancy": 3, "pregnant": 3, "abortion": 4,
+    "therapy": 3, "counselor": 3, "anxiety": 3, "depression": 3, "burnout": 3,
+    "suicide": 4, "eating disorder": 4, "insurance": 2, "clinic": 3, "Meds": 2,
+    "coming out": 4, "queer": 3, "trans": 3, "misogynoir": 5, "colorism": 5, "texturism": 5
+   }
+  },
+  {
+   "id": "diaspora",
+   "label": "African and diaspora identity",
+   "terms": {
+    "Africa": 3, "African": 3, "Nigeria": 4, "Ghana": 4, "Kenya": 4, "Ethiopia": 4,
+    "Caribbean": 4, "Jamaica": 4, "Haiti": 4, "diaspora": 5, "ADOS": 5, "continent": 2,
+    "immigrant": 3, "foreign": 2, "accent": 3, "tribal": 4, "language": 2, "how do you say": 4
+   }
+  },
+  {
+   "id": "generational",
+   "label": "Generational callback language",
+   "terms": {
+    "back in my day": 5, "when I was your age": 5, "the old days": 4, "my generation": 4,
+    "your generation": 4, "auntie": 4, "uncle": 2, "nineteen": 2, "1987": 5, "1990": 4,
+    "nineties": 4, "old school": 4, "classic": 2, "history": 2, "legacy students": 4,
+    "your father": 3, "your mother": 3, "my mother": 3, "my father": 3
+   }
+  },
+  {
+   "id": "money",
+   "label": "Class and money",
+   "terms": {
+    "money": 2, "rent": 3, "broke": 4, "afford": 4, "loan": 3, "debt": 3, "job": 2,
+    "work study": 4, "work-study": 4, "check": 2, "bill": 2, "shift": 2, "hustle": 3,
+    "trust fund": 5, "rich kids": 4, "poor": 3, "paycheck": 3, "credit card": 4, "credit": 2
+   }
+  }
+ ]
+}

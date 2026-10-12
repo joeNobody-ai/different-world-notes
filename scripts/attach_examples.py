@@ -24,11 +24,23 @@ SENSES = ROOT / "data/lingo_senses.json"
 # terms whose evidence key differs from the entry term
 KEY_ALIASES = {"cuff / cuffing season": "cuffing season"}
 
+# Course-facing page, so the credit line has to be clean. Any channel or title containing crude or
+# abusive language is dropped rather than displayed next to a student's homework. Filtering happens here,
+# at merge time, so the evidence file itself stays a neutral record of what was found.
+CRUDE = ("masturbat", "shit", "sh*t", "fuck", "f*ck", "porn", "bitch", "dick ", "pussy", "hoe ",
+         "nigga", "n-word", "retard", "whore", "slut", "cunt")
+
+
+def is_clean(v: dict) -> bool:
+    blob = f"{v.get('title','')} {v.get('channel','')}".lower()
+    return not any(bad in blob for bad in CRUDE)
+
 
 def main() -> int:
     lingo = json.loads(LINGO.read_text())
     evid = json.loads(EVID.read_text())["terms"]
     senses = json.loads(SENSES.read_text())["senses"]
+    dropped = [v["title"] for vids in evid.values() for v in vids if not is_clean(v)]
 
     attached = 0
     terms_seen: set[str] = set()
@@ -37,7 +49,7 @@ def main() -> int:
             term = x["term"]
             terms_seen.add(term)
             key = KEY_ALIASES.get(term, term)
-            vids = evid.get(key) or evid.get(term)
+            vids = [v for v in (evid.get(key) or evid.get(term) or []) if is_clean(v)]
             if vids:
                 x["examples"] = [{
                     "kind": "video-context",
@@ -65,6 +77,10 @@ def main() -> int:
     n_senses = sum(1 for s in lingo["sections"] for x in s["entries"] if x.get("senses"))
     print(f"attached evidence to {attached} terms ({n_ex} verified video links) "
           f"and senses to {n_senses} terms")
+    if dropped:
+        print(f"  filtered {len(dropped)} clip(s) whose channel or title is not fit for a course page:")
+        for d in dropped:
+            print(f"    - {d[:70]}")
     print(f"wrote {LINGO}")
     return 0
 

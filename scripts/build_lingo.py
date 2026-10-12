@@ -91,6 +91,22 @@ def entries_html(entries: list[dict]) -> str:
         tag = (f'<span class="lg-tag {STATUS_CLASS.get(st, "")}">{e(STATUS_SHORT.get(st, st))}</span>')
         bits = [f'<dt id="lg-{e(x["term"].lower().replace(" ", "-").replace("/", "").replace("'", ""))[:60]}">'
                 f'{e(x["term"])} {tag}</dt>', f'<dd>{e(x["gloss"])}']
+        # multiple senses, where a term genuinely carries more than one meaning
+        if x.get("senses"):
+            items = "".join(f'<li><b>{e(s["label"])}</b> — {e(s["gloss"])}</li>' for s in x["senses"])
+            bits.append(f'<ol class="lg-senses">{items}</ol>')
+        # verified video evidence: the context shown is the uploader's own title, never our paraphrase
+        if x.get("examples"):
+            lis = []
+            for ex in x["examples"]:
+                badge = ("official" if ex.get("official") else "third-party clip")
+                lis.append(
+                    f'<li><a class="lg-watch" href="{e(ex["link"])}" target="_blank" rel="noopener">'
+                    f'▶ {e(ex["context"])}</a> '
+                    f'<span class="lg-chan">{e(ex["channel"])} · {badge}</span></li>')
+            bits.append('<ul class="lg-examples">'
+                        '<span class="lg-ex-head">Watch it — the link is the evidence, and the title is the '
+                        'uploader\'s own:</span>' + "".join(lis) + "</ul>")
         if x.get("caution"):
             bits.append(f'<p class="lg-caution">{e(x["caution"])}</p>')
         if x.get("evidence"):

@@ -252,3 +252,18 @@ dl.lingo dd{margin:.3rem 0 0;color:var(--ink-soft,#4a463f);max-width:78ch}
 .lg-caution{margin:.45rem 0 0;padding:.45rem .65rem;border-left:3px solid #8c2f1c;
   background:#fbeee9;font-size:.9rem}
 @media print{.lg-tag{border-color:#999;color:#333}.lg-caution{background:#f4f4f4}}
+
+/* ---------------------------------------- Lingo reference: senses, video evidence, watch links */
+.lg-senses{margin:.55rem 0 0;padding-left:1.15rem}
+.lg-senses li{margin:.3rem 0;color:var(--ink-soft,#4a463f)}
+.lg-senses b{color:var(--ink,#1b1a18)}
+ul.lg-examples{list-style:none;margin:.6rem 0 0;padding:0}
+.lg-ex-head{display:block;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--ink-mute,#6f6a60);margin-bottom:.3rem}
+ul.lg-examples li{margin:.28rem 0;font-size:.92rem}
+a.lg-watch{display:inline-block;text-decoration:none;border:1px solid var(--line,#ded8cd);
+  border-radius:999px;padding:.18rem .6rem;background:var(--paper-2,#f5f2ea);color:var(--ink,#1b1a18)}
+a.lg-watch:hover{border-color:#8c2f1c;color:#8c2f1c}
+a.lg-watch::before{content:"▶ ";font-size:.72em;color:#8c2f1c}
+.lg-chan{color:var(--ink-mute,#6f6a60);font-size:.82rem;margin-left:.35rem}
+@media print{a.lg-watch{border:none;padding:0;text-decoration:underline}}

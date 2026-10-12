@@ -17,3 +17,9 @@ research/scratch/
 
 # Karens-Class is its own repository
 karens-class/
+
+# transcripts and caption dumps stay out of the repo
+subtitles/
+caps/
+*.vtt
+*.srt

@@ -1,0 +1,88 @@
+{
+ "_note": "Curated sense lists for terms that carry more than one meaning. Keys must match a term in data/lingo.json exactly. Senses are drawn from the sources the entry already cites (Green's, the OED, the LSA material, the Wikipedia articles, Smitherman/Major/Rickford) — this file adds structure, not new claims. scripts/attach_examples.py merges these into the reference.",
+ "senses": {
+  "cuff / cuffing season": [
+   {"label": "the season", "gloss": "The cold months, when pairing up is treated as a timed collective project."},
+   {"label": "the act", "gloss": "To cuff someone: to secure a partner before the window closes. Implies acquisition, with a hint of reluctance."},
+   {"label": "the joke the title makes", "gloss": "The 2026 episode title rewrites the original's 'those who can't teach, tutor' as 'those who can't commit, cuff' — the same sentence shape, a different failure."}
+  ],
+  "throwing shade": [
+   {"label": "literal", "gloss": "Shadow — the OED sense, still the primary one outside the idiom."},
+   {"label": "the idiom", "gloss": "Indirect disparagement: the target must work out that they were insulted. Distinguished from a direct insult precisely by the deniability."},
+   {"label": "as a verb", "gloss": "'To shade someone' — to deliver it. Grammatically transitive, which is what makes it a practice rather than just a noun."}
+  ],
+  "reading (someone)": [
+   {"label": "the insult sense", "gloss": "To name a person's faults in public, with accuracy as the criterion — a bad read fails and is forgotten."},
+   {"label": "the skill sense", "gloss": "'She can read' — an acknowledged competence, judged by wit and precision, not by kindness."},
+   {"label": "the ordinary sense", "gloss": "Reading text. The course lives on this ambiguity: a text that 'reads' its characters is doing the first thing, on purpose."}
+  ],
+  "signifying / signifyin'": [
+   {"label": "the speech practice", "gloss": "Indirect, artful verbal critique — boasting, insult, commentary and warning carried by implication."},
+   {"label": "the literary theory sense", "gloss": "Signifyin(g) as a theory of Black literary practice: repetition with a difference, revision as creation. The spelling with the bracketed (g) marks this second life."}
+  ],
+  "bougie / bourgie": [
+   {"label": "adjective", "gloss": "Aspirational, status-conscious, inclined to class policing — 'that's so bougie'."},
+   {"label": "noun", "gloss": "A person who behaves that way. Used inside the group, and always an argument about class as much as about taste."},
+   {"label": "as a class critique", "gloss": "In the show's world it marks the gap between students who work and students whose families own the dormitory."}
+  ],
+  "the dozens": [
+   {"label": "the game", "gloss": "Competitive insult exchange, traditionally trading on family, judged by wit and audience reaction."},
+   {"label": "the variant", "gloss": "The 'dirty dozens' — the escalated form, which is why the tradition is often described with a warning attached."},
+   {"label": "the origin story", "gloss": "The 1991 episode explicitly takes up where the practice comes from, which is our only documented case of the show framing a verbal tradition as history."}
+  ],
+  "line": [
+   {"label": "Greek life", "gloss": "A pledge class, or the group that crosses together — 'her line'."},
+   {"label": "performance", "gloss": "The formation in stepping: the line is both the group and its shape."},
+   {"label": "romance", "gloss": "'A line' as the opening move — the pick-up line, which is the individual-scale version of the same competitive wit."}
+  ],
+  "hook up": [
+   {"label": "connection", "gloss": "To meet or be introduced — 'we hooked up through a friend'."},
+   {"label": "intimacy", "gloss": "A casual sexual or romantic encounter; the 1980s-90s usage the original's summary records."},
+   {"label": "technical", "gloss": "To connect equipment. Included because the collision of senses is why the term is so often deliberately vague."}
+  ],
+  "the Pit": [
+   {"label": "the place", "gloss": "Hillman's campus food spot and hangout, run by Mr. Gaines — where students work and where the money plots live."},
+   {"label": "the pun", "gloss": "A pit is also a hole and an orchestra pit. The name of the least glamorous place on a status-obsessed campus is doing quiet work."}
+  ],
+  "probate": [
+   {"label": "Greek life", "gloss": "A chapter's public presentation of its new members — performance as announcement."},
+   {"label": "the legal sense", "gloss": "The court process for settling an estate. The collision is instructive: both senses are about transferring standing in public."}
+  ],
+  "stepping": [
+   {"label": "the movement", "gloss": "An ordinary step. The point is that the dance takes its name from the plainest possible verb."},
+   {"label": "the tradition", "gloss": "Stepping: rhythmic, percussive group dance in formation, with Greek-letter, dorm and team variants."},
+   {"label": "the event", "gloss": "A step show — competitive, judged, and often the centre of a homecoming weekend."}
+  ],
+  "tea": [
+   {"label": "the drink", "gloss": "Tea. In the original's world it also names a formal social event — the annual freshman tea a dean hosts."},
+   {"label": "the gossip", "gloss": "'The tea' as the news worth having, and 'spill the tea' as the request to hand it over."}
+  ],
+  "periodt": [
+   {"label": "the punctuation", "gloss": "A full stop — the ordinary mark that ends a sentence."},
+   {"label": "the verdict", "gloss": "In AAVE-derived usage, 'period' ends the discussion; 'periodt' intensifies it. The claim is closed and further argument is refused."}
+  ],
+  "sus": [
+   {"label": "the clipping", "gloss": "Suspicious, or a suspicious person — modern clipping of 'suspect'."},
+   {"label": "the older verb", "gloss": "To suss (something) out: to work it out by investigation. Recorded in British and American usage long before the clipping."}
+  ],
+  "mess": [
+   {"label": "disorder", "gloss": "A literal mess."},
+   {"label": "affectionate accusation", "gloss": "'You are a mess' — chaotic, and loved for it. The term of endearment that runs through the original's domestic register."},
+   {"label": "the situation", "gloss": "'Same mess, different clock speed' — the way this project describes a social problem recurring across 39 years."}
+  ],
+  "drag": [
+   {"label": "tedium", "gloss": "A tedious imposition — 'what a drag'."},
+   {"label": "performance", "gloss": "Drag: the performance tradition of exaggerated gendered presentation, and the culture from which the vocabulary of reading and shade was popularised well beyond it."}
+  ],
+  "call and response": [
+   {"label": "the institution", "gloss": "Church — in Black American life a central institution of community, politics and music, and the origin of much of the register both series rely on."},
+   {"label": "the affirmation", "gloss": "'Church!' as agreement: the congregation's role crossing from the sanctuary into general speech."},
+   {"label": "the classroom", "gloss": "A student completing the professor's line, or a room answering a performer. It is the same move in every setting, and it is why a Black classroom can sound like a call and a response at once."}
+  ],
+  "homecoming": [
+   {"label": "the weekend", "gloss": "The annual return of alumni: game, band, step show, reunions, and a campus that briefly belongs to its former students."},
+   {"label": "the ritual function", "gloss": "What Durkheim would call a collective effervescence event: the group generates the feeling, then treats it as proof of the group's reality."},
+   {"label": "the money", "gloss": "Homecoming is also a fundraising apparatus — a fact the 2026 season's budget plot makes impossible to ignore."}
+  ]
+ }
+}

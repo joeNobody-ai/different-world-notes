@@ -1,0 +1,585 @@
+{
+ "_note": "Video-level evidence for lingo terms. Every entry was verified through YouTube's oEmbed endpoint, which returns the uploader's own title and channel \u2014 so the 'context' recorded here is the uploader's framing, not our reading of dialogue. Captions are blocked from the machine that built this, so no entry claims a quoted line; see scripts/fetch_youtube.py for the transcript route and how quotes get promoted into the reference.",
+ "verified_on": "2026-10-04",
+ "method": "YouTube search -> oEmbed verification -> kind=official|third-party clip",
+ "terms": {
+  "cuffing season": [
+   {
+    "id": "Lt2NA0_f0kY",
+    "title": "The Cast of A Different World Helps You Survive Cuffing Season | A Different World | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/Lt2NA0_f0kY",
+    "kind": "official"
+   },
+   {
+    "id": "W8jMEXwErvk",
+    "title": "A Different World | Official Trailer | Netflix",
+    "channel": "Netflix",
+    "channel_url": "https://www.youtube.com/@Netflix",
+    "link": "https://youtu.be/W8jMEXwErvk",
+    "kind": "official"
+   },
+   {
+    "id": "HlfIOSWw6ss",
+    "title": "35 Years Later: A Different World Cast Reunites at Red Table Talk (Exclusive)",
+    "channel": "Red Table Talk ",
+    "channel_url": "https://www.youtube.com/@RedTableTalk_Official",
+    "link": "https://youtu.be/HlfIOSWw6ss",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "HXpIj_bxSnw",
+    "title": "A Different World | Inside the Sets of Hillman College | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/HXpIj_bxSnw",
+    "kind": "official"
+   }
+  ],
+  "stepping": [
+   {
+    "id": "7a5A9h5MZlM",
+    "title": "Step Show - A Different World",
+    "channel": "GingerSpice444",
+    "channel_url": "https://www.youtube.com/@GingerSpice4444",
+    "link": "https://youtu.be/7a5A9h5MZlM",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "MNwnmIWcTfw",
+    "title": "The Gilbert Hall Steppers | A Different World",
+    "channel": "TV One TV",
+    "channel_url": "https://www.youtube.com/@TVOneOnline",
+    "link": "https://youtu.be/MNwnmIWcTfw",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "g0Nt0ccc4GQ",
+    "title": "A different world | 1992 | 4k Lena shows off her dance moves",
+    "channel": "Zaymoviescenes ",
+    "channel_url": "https://www.youtube.com/@Zaymoviescenes",
+    "link": "https://youtu.be/g0Nt0ccc4GQ",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "CZZRX9AVKrY",
+    "title": "A different world- 911",
+    "channel": "Peyton Jackson",
+    "channel_url": "https://www.youtube.com/@pepeyonjackson",
+    "link": "https://youtu.be/CZZRX9AVKrY",
+    "kind": "third-party clip"
+   }
+  ],
+  "signifying / signifyin'": [
+   {
+    "id": "Gpvw3C8eEsk",
+    "title": "YouTube - A Different World - Shakespeare Translation.flv",
+    "channel": "nodramamamma",
+    "channel_url": "https://www.youtube.com/@nodramamamma",
+    "link": "https://youtu.be/Gpvw3C8eEsk",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "HlfIOSWw6ss",
+    "title": "35 Years Later: A Different World Cast Reunites at Red Table Talk (Exclusive)",
+    "channel": "Red Table Talk ",
+    "channel_url": "https://www.youtube.com/@RedTableTalk_Official",
+    "link": "https://youtu.be/HlfIOSWw6ss",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "HXpIj_bxSnw",
+    "title": "A Different World | Inside the Sets of Hillman College | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/HXpIj_bxSnw",
+    "kind": "official"
+   },
+   {
+    "id": "JGiXt4yy7sQ",
+    "title": "Truth or Dare with the Cast of A Different World | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/JGiXt4yy7sQ",
+    "kind": "official"
+   }
+  ],
+  "the dozens": [
+   {
+    "id": "HlfIOSWw6ss",
+    "title": "35 Years Later: A Different World Cast Reunites at Red Table Talk (Exclusive)",
+    "channel": "Red Table Talk ",
+    "channel_url": "https://www.youtube.com/@RedTableTalk_Official",
+    "link": "https://youtu.be/HlfIOSWw6ss",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "3TpQu-4VQKo",
+    "title": "A Different World: Dwayne stops Whitley\u2019s wedding",
+    "channel": "Deborah C. Eke.",
+    "channel_url": "https://www.youtube.com/@lovedeborah",
+    "link": "https://youtu.be/3TpQu-4VQKo",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "HXpIj_bxSnw",
+    "title": "A Different World | Inside the Sets of Hillman College | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/HXpIj_bxSnw",
+    "kind": "official"
+   },
+   {
+    "id": "W8jMEXwErvk",
+    "title": "A Different World | Official Trailer | Netflix",
+    "channel": "Netflix",
+    "channel_url": "https://www.youtube.com/@Netflix",
+    "link": "https://youtu.be/W8jMEXwErvk",
+    "kind": "official"
+   }
+  ],
+  "reading (someone)": [
+   {
+    "id": "FIhAZgXGlxg",
+    "title": "Dwayne putting Whitley in Check | A Different World",
+    "channel": "itsjuschayy",
+    "channel_url": "https://www.youtube.com/@Chaylynnie",
+    "link": "https://youtu.be/FIhAZgXGlxg",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "IKASDOL-RbQ",
+    "title": "Dwayne & Whitley || S05 EP8 A Different World",
+    "channel": "L",
+    "channel_url": "https://www.youtube.com/@DerpieNation",
+    "link": "https://youtu.be/IKASDOL-RbQ",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "3TpQu-4VQKo",
+    "title": "A Different World: Dwayne stops Whitley\u2019s wedding",
+    "channel": "Deborah C. Eke.",
+    "channel_url": "https://www.youtube.com/@lovedeborah",
+    "link": "https://youtu.be/3TpQu-4VQKo",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "sh24PA0YDmY",
+    "title": "Dwayne Suprises Whitley",
+    "channel": "Christine Forbes",
+    "channel_url": "https://www.youtube.com/@christineforbes8921",
+    "link": "https://youtu.be/sh24PA0YDmY",
+    "kind": "third-party clip"
+   }
+  ],
+  "throwing shade": [
+   {
+    "id": "HXpIj_bxSnw",
+    "title": "A Different World | Inside the Sets of Hillman College | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/HXpIj_bxSnw",
+    "kind": "official"
+   },
+   {
+    "id": "2yt-yoJVAVE",
+    "title": "I Finally Started *A Different World*\u2026 and I Get the Hype Now",
+    "channel": "SLK",
+    "channel_url": "https://www.youtube.com/@sl_1k",
+    "link": "https://youtu.be/2yt-yoJVAVE",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "X7e-FS4u5aU",
+    "title": "A Different World: You're Judging It All Wrong",
+    "channel": "The Write Shade",
+    "channel_url": "https://www.youtube.com/@thewriteshade",
+    "link": "https://youtu.be/X7e-FS4u5aU",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "nHGPdQlERo0",
+    "title": "Under the Cover with the Cast of A Different World",
+    "channel": "Television Academy",
+    "channel_url": "https://www.youtube.com/@televisionacad",
+    "link": "https://youtu.be/nHGPdQlERo0",
+    "kind": "third-party clip"
+   }
+  ],
+  "bougie / bourgie": [
+   {
+    "id": "R8qeGeFQloI",
+    "title": "The Fabulous Whitley Gilbert",
+    "channel": "Stoopid Sh*t",
+    "channel_url": "https://www.youtube.com/@StoopidSht",
+    "link": "https://youtu.be/R8qeGeFQloI",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "ltIHjiztGZo",
+    "title": "Jasmine Guy Responds to Aging Criticism After 'A Different World' Reboot Premiere",
+    "channel": "Entertainment Tonight",
+    "channel_url": "https://www.youtube.com/@EntertainmentTonight",
+    "link": "https://youtu.be/ltIHjiztGZo",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "6UhyXhY496Q",
+    "title": "Whitley Gilbert on A Different World confronts her ties to ancestors who owned enslaved people",
+    "channel": "Sharony Green",
+    "channel_url": "https://www.youtube.com/@SharonyGreen",
+    "link": "https://youtu.be/6UhyXhY496Q",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "nqb19ueD4Ic",
+    "title": "Whitley Gilbert's Signature Accent | Where Are They Now | Oprah Winfrey Network",
+    "channel": "OWN",
+    "channel_url": "https://www.youtube.com/@OWN",
+    "link": "https://youtu.be/nqb19ueD4Ic",
+    "kind": "third-party clip"
+   }
+  ],
+  "pageant (Miss Hillman, Mr. Hillman, Miss Gilbert Hall)": [
+   {
+    "id": "HXpIj_bxSnw",
+    "title": "A Different World | Inside the Sets of Hillman College | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/HXpIj_bxSnw",
+    "kind": "official"
+   },
+   {
+    "id": "-Mx3GnjzalM",
+    "title": "A Different World - Season 1 Episode 17 - Mr. Hillman",
+    "channel": "A D. World",
+    "channel_url": "https://www.youtube.com/@ADWorld-lv9sb",
+    "link": "https://youtu.be/-Mx3GnjzalM",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "m4-ZZ3JofPo",
+    "title": "A Different World Hillman Reunion:  What's Denise doing now?",
+    "channel": "JhomasE",
+    "channel_url": "https://www.youtube.com/@JhomasE",
+    "link": "https://youtu.be/m4-ZZ3JofPo",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "W8jMEXwErvk",
+    "title": "A Different World | Official Trailer | Netflix",
+    "channel": "Netflix",
+    "channel_url": "https://www.youtube.com/@Netflix",
+    "link": "https://youtu.be/W8jMEXwErvk",
+    "kind": "official"
+   }
+  ],
+  "pledge / pledging": [
+   {
+    "id": "N5_y_exhKKU",
+    "title": "A Different World - It\u2019s Greek to Me - Part 6\\6",
+    "channel": "Camping Girl",
+    "channel_url": "https://www.youtube.com/@CampingGirlTV",
+    "link": "https://youtu.be/N5_y_exhKKU",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "TDQNxDk1-Ak",
+    "title": "Dwayne and Ron Pledge the Mighty Kappa Lambda Nu | A Different World",
+    "channel": "TV One TV",
+    "channel_url": "https://www.youtube.com/@TVOneOnline",
+    "link": "https://youtu.be/TDQNxDk1-Ak",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "W6fPKeOuzqQ",
+    "title": "A Different World: It's Greek to Me",
+    "channel": "minniecia minnie winston",
+    "channel_url": "https://www.youtube.com/@minnieciaminniewinston8658",
+    "link": "https://youtu.be/W6fPKeOuzqQ",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "is3a10ICygA",
+    "title": "A Different World: Its Greek to Me",
+    "channel": "vblanson",
+    "channel_url": "https://www.youtube.com/@vblanson",
+    "link": "https://youtu.be/is3a10ICygA",
+    "kind": "third-party clip"
+   }
+  ],
+  "hazing": [
+   {
+    "id": "TDQNxDk1-Ak",
+    "title": "Dwayne and Ron Pledge the Mighty Kappa Lambda Nu | A Different World",
+    "channel": "TV One TV",
+    "channel_url": "https://www.youtube.com/@TVOneOnline",
+    "link": "https://youtu.be/TDQNxDk1-Ak",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "HlfIOSWw6ss",
+    "title": "35 Years Later: A Different World Cast Reunites at Red Table Talk (Exclusive)",
+    "channel": "Red Table Talk ",
+    "channel_url": "https://www.youtube.com/@RedTableTalk_Official",
+    "link": "https://youtu.be/HlfIOSWw6ss",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "7a5A9h5MZlM",
+    "title": "Step Show - A Different World",
+    "channel": "GingerSpice444",
+    "channel_url": "https://www.youtube.com/@GingerSpice4444",
+    "link": "https://youtu.be/7a5A9h5MZlM",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "7Ccd-ToS2ic",
+    "title": "A Different World - Rodney King",
+    "channel": "afro-spice",
+    "channel_url": "https://www.youtube.com/@afro-spice4817",
+    "link": "https://youtu.be/7Ccd-ToS2ic",
+    "kind": "third-party clip"
+   }
+  ],
+  "the Pit": [
+   {
+    "id": "HXpIj_bxSnw",
+    "title": "A Different World | Inside the Sets of Hillman College | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/HXpIj_bxSnw",
+    "kind": "official"
+   },
+   {
+    "id": "Rf7UAyg2lEY",
+    "title": "A Different World: Cabin in the Sky",
+    "channel": "minniecia minnie winston",
+    "channel_url": "https://www.youtube.com/@minnieciaminniewinston8658",
+    "link": "https://youtu.be/Rf7UAyg2lEY",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "ATAlkwlykzQ",
+    "title": "A Different World - Mean Children Blues",
+    "channel": "Jair, TheLiteraryMasturbator",
+    "channel_url": "https://www.youtube.com/@JairTheLiteraryMasturbator",
+    "link": "https://youtu.be/ATAlkwlykzQ",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "FIhAZgXGlxg",
+    "title": "Dwayne putting Whitley in Check | A Different World",
+    "channel": "itsjuschayy",
+    "channel_url": "https://www.youtube.com/@Chaylynnie",
+    "link": "https://youtu.be/FIhAZgXGlxg",
+    "kind": "third-party clip"
+   }
+  ],
+  "homecoming": [
+   {
+    "id": "CIoXzsmSZV8",
+    "title": "\u2018A Different World\u2019 Is BACK! Jasmine Guy & Cree Summer on Returning to Hillman",
+    "channel": "Jennifer Hudson Show",
+    "channel_url": "https://www.youtube.com/@JenniferHudsonShow",
+    "link": "https://youtu.be/CIoXzsmSZV8",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "1a7uZFD_ZNE",
+    "title": "A Different World  (2026): Virtual Homecoming",
+    "channel": "Slice of Horror",
+    "channel_url": "https://www.youtube.com/@Slice_of_Horror",
+    "link": "https://youtu.be/1a7uZFD_ZNE",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "ltIHjiztGZo",
+    "title": "Jasmine Guy Responds to Aging Criticism After 'A Different World' Reboot Premiere",
+    "channel": "Entertainment Tonight",
+    "channel_url": "https://www.youtube.com/@EntertainmentTonight",
+    "link": "https://youtu.be/ltIHjiztGZo",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "Ya3Lsq6KsRs",
+    "title": "New \u2018A Different World\u2019 Cast Talks Rebooting the Iconic Series",
+    "channel": "TODAY with Jenna & Sheinelle",
+    "channel_url": "https://www.youtube.com/@jennasheinelle",
+    "link": "https://youtu.be/Ya3Lsq6KsRs",
+    "kind": "third-party clip"
+   }
+  ],
+  "hook up": [
+   {
+    "id": "15Ic15-nEb8",
+    "title": "Whitley and Dwayne - Cute Moments from Spring Break",
+    "channel": "EbonyBGDD",
+    "channel_url": "https://www.youtube.com/@ladycashUT",
+    "link": "https://youtu.be/15Ic15-nEb8",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "Fhv6YNlC1qY",
+    "title": "Cute and funny moments from Dwayne and Whitley",
+    "channel": "Deborah C. Eke.",
+    "channel_url": "https://www.youtube.com/@lovedeborah",
+    "link": "https://youtu.be/Fhv6YNlC1qY",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "6lSlu4FplwA",
+    "title": "Dwayne Watches Whitley Fall for Byron | A Different World",
+    "channel": "TV One TV",
+    "channel_url": "https://www.youtube.com/@TVOneOnline",
+    "link": "https://youtu.be/6lSlu4FplwA",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "4xbNtHMEyYI",
+    "title": "Evolution of Whitley and Dwayne",
+    "channel": "LIFE ON MAURS PRODUCTIONS",
+    "channel_url": "https://www.youtube.com/@LIFEONMAURSPRODUCTIONS",
+    "link": "https://youtu.be/4xbNtHMEyYI",
+    "kind": "third-party clip"
+   }
+  ],
+  "code-switching": [
+   {
+    "id": "BInZNCKfHnI",
+    "title": "Dwayne Begs to Hear Whitley's Voice | A Different World",
+    "channel": "TV One TV",
+    "channel_url": "https://www.youtube.com/@TVOneOnline",
+    "link": "https://youtu.be/BInZNCKfHnI",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "nqb19ueD4Ic",
+    "title": "Whitley Gilbert's Signature Accent | Where Are They Now | Oprah Winfrey Network",
+    "channel": "OWN",
+    "channel_url": "https://www.youtube.com/@OWN",
+    "link": "https://youtu.be/nqb19ueD4Ic",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "I76feX1ltfU",
+    "title": "A Different World - Whitley Don't Play Dat",
+    "channel": "SDApples1",
+    "channel_url": "https://www.youtube.com/@SDApples1",
+    "link": "https://youtu.be/I76feX1ltfU",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "FIhAZgXGlxg",
+    "title": "Dwayne putting Whitley in Check | A Different World",
+    "channel": "itsjuschayy",
+    "channel_url": "https://www.youtube.com/@Chaylynnie",
+    "link": "https://youtu.be/FIhAZgXGlxg",
+    "kind": "third-party clip"
+   }
+  ],
+  "HBCU": [
+   {
+    "id": "Flc01-Aa94g",
+    "title": "\u201cA Different World\u201d returns with new class and Atlanta HBCU ties",
+    "channel": "CBS Atlanta",
+    "channel_url": "https://www.youtube.com/@cbsnewsatlanta",
+    "link": "https://youtu.be/Flc01-Aa94g",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "aO-GjE3YnVY",
+    "title": "How Well Does the 'A Different World' Cast Actually Know HBCUs?",
+    "channel": "Cocoa Butter",
+    "channel_url": "https://www.youtube.com/@CocoaButter",
+    "link": "https://youtu.be/aO-GjE3YnVY",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "6FHekVtfUWE",
+    "title": "A Different World: HBCU vs PWI Episode",
+    "channel": "CultureContent",
+    "channel_url": "https://www.youtube.com/@culturecontent0",
+    "link": "https://youtu.be/6FHekVtfUWE",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "cph4kybXlro",
+    "title": "Living Out My HBCU Dreams... (A Different World)",
+    "channel": "netflix party",
+    "channel_url": "https://www.youtube.com/@netflixpartyy",
+    "link": "https://youtu.be/cph4kybXlro",
+    "kind": "official"
+   }
+  ],
+  "Mammy": [
+   {
+    "id": "AJ-5apz-OZc",
+    "title": "A Different World (s5 e11, Nov 1991) - Mammy Dearest",
+    "channel": "Lana Jax",
+    "channel_url": "https://www.youtube.com/@ierrcorrect",
+    "link": "https://youtu.be/AJ-5apz-OZc",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "uFC7OoY_PIU",
+    "title": "Mammie Dearest A Different World",
+    "channel": "EKess",
+    "channel_url": "https://www.youtube.com/@Kessforsuccess",
+    "link": "https://youtu.be/uFC7OoY_PIU",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "JffaVfdn5Z8",
+    "title": "A Different World - Mammy Dearest - Part 2 /6",
+    "channel": "Camping Girl",
+    "channel_url": "https://www.youtube.com/@CampingGirlTV",
+    "link": "https://youtu.be/JffaVfdn5Z8",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "huSZhGU5hXo",
+    "title": "Different World,  \"Mammy Dearest\" (1991) Season 5,  Episode 11",
+    "channel": "Verla ",
+    "channel_url": "https://www.youtube.com/@Verla-z7x",
+    "link": "https://youtu.be/huSZhGU5hXo",
+    "kind": "third-party clip"
+   }
+  ],
+  "cuff / cuffing season": [
+   {
+    "id": "Lt2NA0_f0kY",
+    "title": "The Cast of A Different World Helps You Survive Cuffing Season | A Different World | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/Lt2NA0_f0kY",
+    "kind": "official"
+   },
+   {
+    "id": "HlfIOSWw6ss",
+    "title": "35 Years Later: A Different World Cast Reunites at Red Table Talk (Exclusive)",
+    "channel": "Red Table Talk ",
+    "channel_url": "https://www.youtube.com/@RedTableTalk_Official",
+    "link": "https://youtu.be/HlfIOSWw6ss",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "aO-GjE3YnVY",
+    "title": "How Well Does the 'A Different World' Cast Actually Know HBCUs?",
+    "channel": "Cocoa Butter",
+    "channel_url": "https://www.youtube.com/@CocoaButter",
+    "link": "https://youtu.be/aO-GjE3YnVY",
+    "kind": "third-party clip"
+   },
+   {
+    "id": "JGiXt4yy7sQ",
+    "title": "Truth or Dare with the Cast of A Different World | Netflix",
+    "channel": "Still Watching Netflix",
+    "channel_url": "https://www.youtube.com/@stillwatchingnetflix",
+    "link": "https://youtu.be/JGiXt4yy7sQ",
+    "kind": "official"
+   }
+  ]
+ }
+}

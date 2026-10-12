@@ -72,6 +72,39 @@ def main() -> int:                                          # noqa: C901
         for k in x.get("sources", []):
             ok(k in SOURCES, f"{t}: unknown source key {k}")
 
+    print("2b. senses and video evidence")
+    EVID = json.loads((ROOT / "data/youtube_evidence.json").read_text())["terms"]
+    verified_links = {v["link"] for vids in EVID.values() for v in vids}
+    n_senses = n_examples = 0
+    for sid, x in entries:
+        if x.get("senses"):
+            n_senses += 1
+            ok(len(x["senses"]) >= 2, f"{x['term']}: a senses list should carry at least two senses")
+            labels = [s.get("label", "") for s in x["senses"]]
+            ok(len(set(labels)) == len(labels), f"{x['term']}: duplicate sense labels")
+            for s in x["senses"]:
+                ok(bool(s.get("label") and s.get("gloss")), f"{x['term']}: sense missing label/gloss")
+        if x.get("examples"):
+            n_examples += 1
+            ok(len(x["examples"]) >= 1, f"{x['term']}: empty examples list")
+            for ex in x["examples"]:
+                ok(ex.get("kind") == "video-context",
+                   f"{x['term']}: example kind {ex.get('kind')!r} is not allowed without a transcript")
+                ok(bool(re.fullmatch(r"https://youtu\.be/[\w-]{11}", ex.get("link", ""))),
+                   f"{x['term']}: example link malformed ({ex.get('link')!r})")
+                ok(ex.get("link") in verified_links,
+                   f"{x['term']}: example link is not in the oEmbed-verified evidence set")
+                ok(bool(ex.get("context")) and bool(ex.get("channel")),
+                   f"{x['term']}: example missing the uploader's title or channel")
+                ok(isinstance(ex.get("official"), bool), f"{x['term']}: example missing official flag")
+        # the fabrication guard: a quoted line may only exist with a recorded transcript source
+        for ex in x.get("examples", []):
+            if ex.get("kind") == "quote":
+                ok(bool(x.get("transcript_source")),
+                   f"{x['term']}: quoted example without a recorded transcript source")
+    ok(n_senses >= 14, f"multi-sense coverage (got {n_senses} terms, expected 14+)")
+    ok(n_examples >= 15, f"video-evidence coverage (got {n_examples} terms, expected 15+)")
+
     print("3. citation integrity — every cited episode must exist, and dates must match")
     for sid, x in entries:
         ev = x.get("evidence", "") or ""
@@ -114,6 +147,21 @@ def main() -> int:                                          # noqa: C901
         ok('href="index.html#glossary"' in v1 or 'href="index.html"' in v1,
            "V1 lingo page links back to the site")
         ok("lg-care" in v2 and "lg-care" in v1, "handle-with-care entries are visually flagged")
+        # the multi-sense and watch-link layers must actually be on the page
+        live_senses = sum(1 for _, x in entries if x.get("senses"))
+        live_examples = sum(1 for _, x in entries if x.get("examples"))
+        live_links = sum(len(x.get("examples", [])) for _, x in entries)
+        for name, html in (("lingo.html", v1), ("v2/lingo.html", v2)):
+            ok(html.count('class="lg-senses"') == live_senses,
+               f"{name}: renders {live_senses} sense lists")
+            ok(html.count('class="lg-watch"') == live_links,
+               f"{name}: renders all {live_links} watch links")
+            ok(html.count("third-party clip") + html.count("official") >= live_links,
+               f"{name}: labels each clip official/third-party")
+            ok(live_examples >= 15, f"{name}: {live_examples} terms carry video evidence")
+            for _, x in entries:
+                for ex in x.get("examples", []):
+                    ok(ex["link"] in html, f"{name}: missing watch link for {x['term']}")
 
     print("4b. every lingo source key is actually cited somewhere")
     LINGO_KEYS = {k for k in SOURCES if k.startswith(("wiki-", "lsa-", "book-"))

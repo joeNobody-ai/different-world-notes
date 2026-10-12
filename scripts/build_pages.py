@@ -34,6 +34,33 @@ SOURCES = {
     "context/cosby-show": "https://en.wikipedia.org/wiki/The_Cosby_Show",
     "imdb-2026": "https://www.imdb.com/title/tt33081352/",
     "imdb-original": "https://www.imdb.com/title/tt0092339/",
+    # --- lingo & slang reference (all HTTP-checked; see scripts/verify_lingo.py) ---
+    "wiki-aave": "https://en.wikipedia.org/wiki/African-American_Vernacular_English",
+    "wiki-dozens": "https://en.wikipedia.org/wiki/The_dozens",
+    "wiki-signifyin": "https://en.wikipedia.org/wiki/Signifyin%27",
+    "wiki-shade": "https://en.wikipedia.org/wiki/Throw_shade",
+    "wiki-stepping": "https://en.wikipedia.org/wiki/Stepping_(African-American)",
+    "wiki-nphc": "https://en.wikipedia.org/wiki/National_Pan-Hellenic_Council",
+    "wiki-greek-life": "https://en.wikipedia.org/wiki/Fraternities_and_sororities_in_North_America",
+    "wiki-hazing": "https://en.wikipedia.org/wiki/Hazing",
+    "wiki-jive": "https://en.wikipedia.org/wiki/Jive_talk",
+    "wiki-rizz": "https://en.wikipedia.org/wiki/Rizz_(slang)",
+    "wiki-cuffing": "https://en.wikipedia.org/wiki/Cuffing_season",
+    "wiki-bougie": "https://en.wikipedia.org/wiki/Bougie",
+    "wiki-hbcu": "https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities",
+    "wiki-marching-band": "https://en.wikipedia.org/wiki/Marching_band#HBCU",
+    "wiki-ebonics-word": "https://en.wikipedia.org/wiki/Ebonics_(word)",
+    "lsa-aae": "https://www.linguisticsociety.org/resource/african-american-english",
+    "lsa-ebonics": "https://www.linguisticsociety.org/content/resolution-ebonics",
+    "greens": "https://greensdictofslang.com/",
+    "oed": "https://www.oed.com/",
+    "dialects": "https://www.dialectsarchive.com/",
+    # Label-only entries: cited but not linkable from a headless check, or books. src_links() prints the
+    # label without a link when the value is empty, which is deliberate rather than an oversight.
+    "book-smitherman": "",
+    "book-major": "",
+    "book-rickford": "",
+    "mw": "",
 }
 SOURCE_LABELS = {
     "series-2026": "Wikipedia — A Different World (2026 TV series): cast, episode table, reception",
@@ -42,6 +69,30 @@ SOURCE_LABELS = {
     "context/cosby-show": "Wikipedia — The Cosby Show",
     "imdb-2026": "IMDb — tt33081352",
     "imdb-original": "IMDb — tt0092339",
+    "wiki-aave": "Wikipedia — African-American Vernacular English",
+    "wiki-dozens": "Wikipedia — The dozens",
+    "wiki-signifyin": "Wikipedia — Signifyin'",
+    "wiki-shade": "Wikipedia — Throw shade",
+    "wiki-stepping": "Wikipedia — Stepping (African-American)",
+    "wiki-nphc": "Wikipedia — National Pan-Hellenic Council",
+    "wiki-greek-life": "Wikipedia — Fraternities and sororities in North America",
+    "wiki-hazing": "Wikipedia — Hazing",
+    "wiki-jive": "Wikipedia — Jive talk",
+    "wiki-rizz": "Wikipedia — Rizz (slang)",
+    "wiki-cuffing": "Wikipedia — Cuffing season",
+    "wiki-bougie": "Wikipedia — Bougie",
+    "wiki-hbcu": "Wikipedia — Historically black colleges and universities",
+    "wiki-marching-band": "Wikipedia — Marching band (HBCU traditions)",
+    "wiki-ebonics-word": "Wikipedia — Ebonics (word)",
+    "lsa-aae": "Linguistic Society of America — African American English",
+    "lsa-ebonics": "Linguistic Society of America — resolution on Ebonics (1997)",
+    "greens": "Green's Dictionary of Slang",
+    "oed": "Oxford English Dictionary",
+    "dialects": "International Dialects of English Archive",
+    "book-smitherman": "Geneva Smitherman, Black Talk: Words and Phrases from the Hood to the Amen Corner (1994)",
+    "book-major": "Clarence Major, Juba to Jive: A Dictionary of African-American Slang (1994)",
+    "book-rickford": "John Russell Rickford and Russell John Rickford, Spoken Soul: The Story of Black English (2000)",
+    "mw": "Merriam-Webster — slang entries (cuffing season, rizz, situationship, bougie, shade, the dozens). Their site refuses automated requests, so verify in a browser",
 }
 
 
@@ -191,6 +242,7 @@ def head(title: str, desc: str, depth: int = 0) -> str:
       <a href="index.html#who">Who's who</a>
       <a href="index.html#starter">Start the original</a>
       <a href="index.html#timeline">Timeline</a>
+      <a href="lingo.html">Lingo &amp; slang</a>
       <a href="v2/index.html">▶ Netflix view (V2)</a>
     </nav>
     <div class="tools">
@@ -551,6 +603,10 @@ def render_index(episodes, callbacks, politics, characters, timeline, glossary, 
   <div class="wrap narrow">
     <h2 class="section-title">Glossary</h2>
     <dl class="glossary">{gl_items}</dl>
+  <p class="fine">Looking for the slang? <a href="lingo.html">Lingo &amp; slang</a> — the tiered, sourced
+  reference to the vocabulary both series run on: Black college and Greek-life terms, the verbal
+  traditions (signifying, the dozens), the 1987–93 register, the 2026 register, the words to handle with
+  care, and this project's own jargon.</p>
   </div>
 </section>
 

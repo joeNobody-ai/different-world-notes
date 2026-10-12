@@ -76,6 +76,7 @@ def nav(back: str = "index.html") -> str:
     <a href="index.html#politics">Politics</a>
     <a href="index.html#bridge">The bridge</a>
     <a href="index.html#campuses">Campuses</a>
+    <a href="lingo.html">Lingo</a>
   </nav>
   <div class="right">
     <button class="pill" data-action="toggle-spoilers" aria-pressed="false">Reveal spoilers</button>
@@ -336,6 +337,11 @@ def render_v2_index(episodes, callbacks, politics, characters, timeline, glossar
   <h3>Confidence</h3><ul>{confs}</ul>
   <h3>1984 → 2026</h3><ul style="list-style:none;padding:0">{tl}</ul>
   <h3>Glossary</h3><dl>{render_glossary(glossary)}</dl>
+  <h3>Lingo &amp; slang</h3>
+  <p>The vocabulary both series run on — campus and Greek-life terms, verbal traditions, the 1987–93 and
+  2026 registers, the words to handle with care, and this project's own jargon. Every entry carries a
+  status: documented, era lexicon, or handle-with-care.
+  <a class="pill" href="lingo.html" style="margin-left:.4rem">Open the lingo reference</a></p>
   <h3>Rebuild it</h3>
   <ul>
     <li><code>python3 scripts/make_art.py</code> — redraw all the artwork</li>

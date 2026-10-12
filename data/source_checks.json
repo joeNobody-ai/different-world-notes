@@ -1,6 +1,6 @@
 {
- "checked": 42,
- "date": "2026-10-04",
+ "checked": 61,
+ "date": "2026-10-12",
  "urls": {
   "https://www.asanet.org/": {
    "status": 200,
@@ -63,8 +63,8 @@
    "group": "data-and-statistics"
   },
   "https://www.epi.org/": {
-   "status": 200,
-   "note": "",
+   "status": 403,
+   "note": "blocked-or-unreachable",
    "group": "data-and-statistics"
   },
   "https://nces.ed.gov/": {
@@ -211,6 +211,101 @@
    "status": 200,
    "note": "",
    "group": "civil-rights-and-policy-context"
+  },
+  "https://en.wikipedia.org/wiki/African-American_Vernacular_English": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Signifyin%27": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/The_dozens": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Throw_shade": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Jive_talk": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Rizz_(slang)": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Cuffing_season": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Bougie": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Ebonics_(word)": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Stepping_(African-American)": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/National_Pan-Hellenic_Council": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Fraternities_and_sororities_in_North_America": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Hazing": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://en.wikipedia.org/wiki/Marching_band#HBCU": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://www.linguisticsociety.org/resource/african-american-english": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://www.linguisticsociety.org/content/resolution-ebonics": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://greensdictofslang.com/": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
+  },
+  "https://www.oed.com/": {
+   "status": 403,
+   "note": "blocked-or-unreachable",
+   "group": "language-and-vocabulary"
+  },
+  "https://www.dialectsarchive.com/": {
+   "status": 200,
+   "note": "",
+   "group": "language-and-vocabulary"
   }
  }
 }

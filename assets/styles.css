@@ -233,3 +233,22 @@ footer.site .fine { margin-top: 1.4rem; font-size: .8rem; }
   details.panel { break-inside: avoid; }
   details.panel > .panel-body { display: block !important; }
 }
+
+/* ------------------------------------------------------------------ Lingo & slang reference (V1) */
+.lg-legend{list-style:none;padding:0;margin:1rem 0;display:grid;gap:.4rem}
+.lg-legend li{font-size:.93rem;color:var(--ink-soft,#4a463f)}
+.lg-tag{display:inline-block;font-size:.67rem;letter-spacing:.06em;text-transform:uppercase;
+  padding:.14rem .45rem;border-radius:999px;border:1px solid var(--line,#ded8cd);
+  color:var(--ink-soft,#4a463f);background:var(--paper-2,#f5f2ea);white-space:nowrap}
+.lg-tag.lg-doc{border-color:#2c6046;color:#2c6046}
+.lg-tag.lg-era{border-color:#9a7526;color:#7a5c19}
+.lg-tag.lg-care{border-color:#8c2f1c;color:#8c2f1c}
+.lg-tag.lg-jar{border-color:#42506b;color:#42506b}
+dl.lingo{margin:1.1rem 0 0}
+dl.lingo dt{font-weight:600;margin-top:1.15rem;display:flex;gap:.5rem;align-items:baseline;flex-wrap:wrap}
+dl.lingo dd{margin:.3rem 0 0;color:var(--ink-soft,#4a463f);max-width:78ch}
+.lg-ev,.lg-src{font-size:.86rem;margin:.4rem 0 0;color:var(--ink-soft,#4a463f)}
+.lg-src{color:var(--ink-mute,#6f6a60)}
+.lg-caution{margin:.45rem 0 0;padding:.45rem .65rem;border-left:3px solid #8c2f1c;
+  background:#fbeee9;font-size:.9rem}
+@media print{.lg-tag{border-color:#999;color:#333}.lg-caution{background:#f4f4f4}}

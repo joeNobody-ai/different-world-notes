@@ -1,0 +1,172 @@
+{
+ "_note": "Lingo & slang reference. Same evidence discipline as the rest of this project: every entry carries a status. 'documented' means the term appears in the material this project already verifies (an episode's published summary, or a 2026 episode title/summary) and the citation is given. 'era-lexicon' means the term is real vocabulary of that period, sourced to dictionaries and scholarship, but has NOT been verified as used on screen. 'handle-with-care' means racialised or derogatory vocabulary that belongs in analysis, never in speech. 'project-jargon' means a term this site itself uses. Nothing here claims a line of dialogue.",
+ "updated": "2026-10-04",
+ "legend": {
+  "documented": "Appears in the documented evidence base (episode summary or 2026 title) — citation given",
+  "era-lexicon": "Real vocabulary of the era, from dictionaries and scholarship — not verified as said on screen",
+  "handle-with-care": "Racialised or derogatory term: analysed, never spoken — see the warning on each",
+  "project-jargon": "A term this project uses for its own method"
+ },
+ "how_to_use": [
+  "Slang is evidence, not decoration. What a text calls a thing tells you what the culture around it assumes about that thing.",
+  "Do not separate the eras by taste. 'Cuffing season' and 'going together' are two answers to the same structural question: how a relationship is named, by whom, and for how long.",
+  "The deepest layer is the oldest: signifying and the dozens are verbal traditions the 1987-1993 series actually put on screen, and the 2026 season inherits both.",
+  "Never use the handle-with-care vocabulary in your own voice, and never ask anyone to explain or perform it. It is the object of study, not the instrument."
+ ],
+ "sections": [
+  {
+   "id": "campus",
+   "title": "Black college and Greek-life vocabulary",
+   "blurb": "The institutional language of an HBCU campus. This is the layer the project's culture glossary only partly covers, and the season runs on it.",
+   "entries": [
+    {"term": "HBCU", "gloss": "Historically Black college or university - founded to serve Black students when most institutions excluded them. The institution the whole franchise is set in.", "status": "documented", "evidence": "Defined in this project's own culture glossary (index.html#glossary); the 2026 lead arrives at one in Ep 1 (2026-09-24) and the revival's season runs on its finances", "sources": ["wiki-hbcu", "series-2026"]},
+    {"term": "the Yard", "gloss": "The central campus grounds; 'on the Yard' means campus social and political life.", "status": "era-lexicon", "sources": ["wiki-hbcu"]},
+    {"term": "the Pit", "gloss": "Hillman's campus food spot and hangout, run by Mr. Gaines; the show's money plot lives here — Whitley hit his car and worked there to pay for it.", "status": "documented", "evidence": "S2E41 Take This Job and Love It (1989-03-16); Mr. Gaines recurs across the series", "sources": ["episodes-original"]},
+    {"term": "Gilbert Hall", "gloss": "The dormitory the original's first season is set in, named for Whitley's family — status as architecture.", "status": "documented", "evidence": "S1E1 Reconcilable Differences (1987-09-24)", "sources": ["episodes-original"]},
+    {"term": "resident director / resident assistant (RA)", "gloss": "Dorm staff with authority over residents; the original rotated several and treated the job as a real institution.", "status": "documented", "evidence": "S1E1 Reconcilable Differences (1987-09-24) — Stevie Rallen is the resident director; S1E13 The Prime of Miss Lettie Bostic (1988-01-21) — Lettie takes the post; S3E45 Strangers on a Plane (1989-09-28) — Walter as resident director, Jaleesa as resident assistant", "sources": ["episodes-original"]},
+    {"term": "pledge / pledging", "gloss": "The membership process to enter a fraternity or sorority.", "status": "documented", "evidence": "S2E38 It's Greek to Me (1989-02-23) — Ron and Dwayne pledge a fraternity; the 'brothers' push Dwayne around", "sources": ["episodes-original", "wiki-nphc"]},
+    {"term": "sorority pledge", "gloss": "A woman in the membership process of a sorority; the show put the hierarchy inside the process on screen.", "status": "documented", "evidence": "S4E90 Sister to Sister, Sister (1991-03-28) — Kim pledges under Whitley's command while Ron teaches a pledge humility", "sources": ["episodes-original", "wiki-nphc"]},
+    {"term": "line (and crossing the line)", "gloss": "A pledge class; 'crossing' is completing the process and becoming a full member.", "status": "era-lexicon", "sources": ["wiki-nphc", "wiki-hazing"]},
+    {"term": "neophyte (aka 'neo')", "gloss": "A newly initiated member of a Greek-letter organisation.", "status": "era-lexicon", "sources": ["wiki-nphc"]},
+    {"term": "probate", "gloss": "A chapter's public presentation of its newest members — a performance, and a claim about who belongs.", "status": "era-lexicon", "sources": ["wiki-nphc"]},
+    {"term": "line name / ship name", "gloss": "The name a pledge class takes, used as shorthand for a cohort's identity.", "status": "era-lexicon", "sources": ["wiki-nphc"]},
+    {"term": "rush / interest meeting / intake", "gloss": "Recruitment terminology; 'intake' is the NPHC term for the membership process.", "status": "era-lexicon", "sources": ["wiki-nphc", "wiki-hazing"]},
+    {"term": "the Greeks", "gloss": "Fraternities and sororities collectively, as a campus institution.", "status": "era-lexicon", "sources": ["wiki-greek-life"]},
+    {"term": "NPHC / 'the Divine Nine'", "gloss": "The National Pan-Hellenic Council and the nine historically Black Greek-letter organisations it coordinates.", "status": "era-lexicon", "sources": ["wiki-nphc"]},
+    {"term": "hazing", "gloss": "Abusive or humiliating initiation practices — the sociological subject standing behind the show's pledge episodes, and a live policy issue on real campuses.", "status": "documented", "evidence": "S2E38 It's Greek to Me (1989-02-23) — Ron and Dwayne pledge a fraternity and the 'brothers' push Dwayne around; S4E90 Sister to Sister, Sister (1991-03-28) — a fraternity pledge must learn humility and brotherhood toward his fellow pledges", "sources": ["wiki-hazing", "episodes-original"]},
+    {"term": "stepping", "gloss": "Rhythmic, percussive group dance in formation — a Black fraternal, sororal and campus performance tradition.", "status": "documented", "evidence": "S2E29 A Stepping Stone (1988-12-01) as a homecoming competition; S6E122 Interior Desecration (1992-10-08) with underclassmen stepping 'hoping to promote unity'", "sources": ["wiki-stepping", "episodes-original"]},
+    {"term": "step show", "gloss": "A competitive stepping exhibition, usually between chapters or dorms.", "status": "era-lexicon", "sources": ["wiki-stepping"]},
+    {"term": "stroll", "gloss": "A synchronised, line-based dance performed by Greeks at parties and events.", "status": "era-lexicon", "sources": ["wiki-nphc"]},
+    {"term": "yard show", "gloss": "Greeks performing on the Yard for the campus.", "status": "era-lexicon", "sources": ["wiki-nphc"]},
+    {"term": "fifth quarter", "gloss": "The post-game HBCU marching-band performance — at many classics the main event, not the footnote.", "status": "era-lexicon", "sources": ["wiki-marching-band"]},
+    {"term": "classic (as in Bayou Classic, Florida Classic)", "gloss": "An annual HBCU football showcase that is really a band battle, a tailgate and a reunion with a game attached.", "status": "era-lexicon", "sources": ["wiki-marching-band", "wiki-hbcu"]},
+    {"term": "pageant (Miss Hillman, Mr. Hillman, Miss Gilbert Hall)", "gloss": "Campus royalty contests: gendered display, status and institutional memory in one event.", "status": "documented", "evidence": "S1E17 Mr. Hillman (1988-02-25) — a fraternity sponsors Whitley and pranks Dwayne; Hazel competes for Miss Gilbert Hall in 2026 Ep 7", "sources": ["episodes-original", "series-2026"]},
+    {"term": "'Miss Ugly America'", "gloss": "The dorm-lounge parody pageant the women stage to answer the men's comments about their appearance — a joke that is also an argument.", "status": "documented", "evidence": "S1E12 Advise and Descent (1988-01-14)", "sources": ["episodes-original"]},
+    {"term": "Phi Beta Kappa", "gloss": "An academic honour society — not a social fraternity. The distinction matters because the two are constantly conflated, on campus and on screen.", "status": "documented", "evidence": "S3E69 Perhaps Love (1990-05-03) — Dwayne is selected, and his mother comes for the induction", "sources": ["episodes-original"]}
+   ]
+  },
+  {
+   "id": "verbal",
+   "title": "Verbal traditions",
+   "blurb": "The oldest layer, and the one worth teaching hardest: insult, praise and social control carried in the same mode. One of these was an episode's explicit subject.",
+   "entries": [
+    {"term": "signifying / signifyin'", "gloss": "Indirect, artful verbal critique — insults, boasts and commentary delivered through implication, so the target must decode them.", "status": "era-lexicon", "sources": ["wiki-signifyin", "wiki-aave"]},
+    {"term": "the dozens", "gloss": "Ritual competitive insult exchange, traditionally trading on family — a game with rules, skill and an audience.", "status": "documented", "evidence": "S5E105 Mammy Dearest (1991-12-05) — 'The episode also addresses the origins of \"the dozens\".'", "sources": ["wiki-dozens", "episodes-original", "mw"]},
+    {"term": "reading (someone)", "gloss": "Naming a person's faults publicly and precisely. The criterion is accuracy: a bad read fails, a good one is quoted for years.", "status": "era-lexicon", "sources": ["wiki-signifyin"]},
+    {"term": "throwing shade", "gloss": "Indirect disparagement, often by implication rather than statement. A ball-culture term that went mainstream after the 1990s.", "status": "era-lexicon", "sources": ["wiki-shade", "mw"]},
+    {"term": "snapping / 'oh no you didn't'", "gloss": "Sharp, performative rebuttal — the moment a room decides the exchange has been won.", "status": "era-lexicon", "sources": ["wiki-signifyin"]},
+    {"term": "call and response", "gloss": "Audience completion of a speaker's line, shared by Black church practice, bands, comedy and classrooms.", "status": "era-lexicon", "sources": ["wiki-aave"]},
+    {"term": "code-switching", "gloss": "Moving between language varieties by context — the show's own world runs on it, from the dorm to the dean's office.", "status": "era-lexicon", "sources": ["wiki-aave", "lsa-aae"]},
+    {"term": "'acting white'", "gloss": "A charge levelled at Black students for achievement-coded behaviour; a real and contested research literature, not a joke.", "status": "era-lexicon", "sources": ["book-rickford"]},
+    {"term": "African American Vernacular English (AAVE)", "gloss": "A rule-governed variety of English with its own systematic grammar — the register the shows' dialogue lives in.", "status": "era-lexicon", "sources": ["wiki-aave", "lsa-aae", "lsa-ebonics", "wiki-ebonics-word", "dialects"]}
+   ]
+  },
+  {
+   "id": "era1987",
+   "title": "1987–1993 register (the original's era)",
+   "blurb": "Vocabulary of the original series' period. Sourced to dictionaries and scholarship — this project has not verified any of it as dialogue, because it has not watched the episodes.",
+   "entries": [
+    {"term": "fly (adj)", "gloss": "Stylish, attractive, well-put-together — a judgement about presentation.", "status": "era-lexicon", "sources": ["greens", "book-major", "oed"]},
+    {"term": "fresh", "gloss": "New, sharp, impressive — usually about clothes or ideas.", "status": "era-lexicon", "sources": ["greens", "book-major"]},
+    {"term": "dope", "gloss": "Excellent. (Also, separately, drugs — context decides.)", "status": "era-lexicon", "sources": ["greens", "oed"]},
+    {"term": "diss (n./v.)", "gloss": "An insult, or the act of insulting — direct, as opposed to signifying's indirection.", "status": "era-lexicon", "sources": ["greens", "wiki-signifyin"]},
+    {"term": "jive / jive turkey", "gloss": "Talk that is empty or deceptive; a person full of it. Dated by the 1980s, and its presence marks a generational gap on screen.", "status": "era-lexicon", "sources": ["wiki-jive", "greens"]},
+    {"term": "trippin'", "gloss": "Overreacting, or behaving absurdly.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "buggin'", "gloss": "Losing perspective, acting strangely — stronger than trippin'.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "homeboy / homegirl", "gloss": "A friend from the neighbourhood or a trusted peer — a claim about origin, not just affection.", "status": "era-lexicon", "sources": ["greens", "book-major"]},
+    {"term": "cuz", "gloss": "Address term among peers, kin-coded — the vocabulary of fictive kinship as much as of family.", "status": "era-lexicon", "sources": ["book-major"]},
+    {"term": "dawg / dog", "gloss": "Term of address between close male peers.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "brother / sister (vocative)", "gloss": "Address terms carrying political kinship as well as family meaning — 'brothers' is how the pledges' sponsors are described.", "status": "documented", "evidence": "S2E38 It's Greek to Me (1989-02-23) — the 'brothers' push Dwayne around", "sources": ["episodes-original"]},
+    {"term": "'girl' / 'child' / 'chile' (vocative)", "gloss": "Address terms that open or punctuate an exchange; gendered and generational, and central to the show's domestic register.", "status": "era-lexicon", "sources": ["book-smitherman"]},
+    {"term": "'please!' (as dismissal)", "gloss": "A one-word verdict on someone's claim — the shortest available read.", "status": "era-lexicon", "sources": ["book-smitherman"]},
+    {"term": "step off", "gloss": "Back down, withdraw — boundary-setting in two words.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "kick it", "gloss": "Spend time together casually — the era's word for low-stakes intimacy.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "chill / chill out", "gloss": "Relax; also a way of telling someone their response is disproportionate.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "peace / peace out", "gloss": "Departure formula.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "word / word up", "gloss": "Agreement, or a request for confirmation — 'word' can mean 'I agree' or 'for real?' depending on tone.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "true dat", "gloss": "Emphatic agreement.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "grub", "gloss": "Food, or to eat.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "'the bomb'", "gloss": "The best — superlative praise.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "'you are a mess'", "gloss": "Affectionate accusation: chaotic, and loved for it.", "status": "era-lexicon", "sources": ["book-smitherman"]},
+    {"term": "a drag", "gloss": "A tedious imposition.", "status": "era-lexicon", "sources": ["greens"]},
+    {"term": "bougie / bourgie", "gloss": "From 'bourgeois': aspirational, status-conscious, class-policing. Whitley's whole characterisation — and the reason the show's class politics are legible at a glance.", "status": "era-lexicon", "sources": ["wiki-bougie", "book-major", "mw"]},
+    {"term": "hook up", "gloss": "To become involved, often casually — the period's term for a range of relationships the next generation would rename.", "status": "documented", "evidence": "S1E15 Dr. Cupid (1988-02-11) — 'Ron and Millie hook up while serving as go-betweens'", "sources": ["episodes-original"]},
+    {"term": "exclusive", "gloss": "Agreed sexual and romantic exclusivity — a status people negotiated explicitly.", "status": "documented", "evidence": "S3E57 The Power of the Pen (1990-01-18) — 'Although neither relationship is exclusive, she feels guilty until she sees Livingston with another girl'", "sources": ["episodes-original"]},
+    {"term": "'The Meat Locker'", "gloss": "A jock nickname for the football team's star lineman — sports-culture naming, and the show's own invention for a character.", "status": "documented", "evidence": "S2E29 A Stepping Stone (1988-12-01)", "sources": ["episodes-original"]}
+   ]
+  },
+  {
+   "id": "era2026",
+   "title": "2026 register (contemporary)",
+   "blurb": "Current vocabulary. Only 'cuffing season' is documented in this project's evidence base — and it is documented well, because the season titles an episode after it. Everything else is real contemporary language that has NOT been verified as used on screen.",
+   "entries": [
+    {"term": "cuff / cuffing season", "gloss": "The cold-months scramble to pair up, named as a season with a start and an end. The 2026 season builds Episode 4 around it — and the title rewrites the original's 'those who can't teach, tutor' as 'those who can't commit, cuff'.", "status": "documented", "evidence": "2026 Ep 4 'Those Who Can...Cuff' (2026-09-24); official summary: 'cuffing season arrives and the friend group's relationships get considerably messier'; original counterpart S1E4 'Those Who Can't...Tutor' (1987-10-22)", "sources": ["series-2026", "episodes-original", "wiki-cuffing", "mw"]},
+    {"term": "talking stage", "gloss": "The pre-relationship phase before anyone commits to a name for it.", "status": "era-lexicon", "sources": ["wiki-cuffing"]},
+    {"term": "situationship", "gloss": "An ongoing intimacy with deliberately undefined status.", "status": "era-lexicon", "sources": ["wiki-cuffing"]},
+    {"term": "soft launch / hard launch", "gloss": "Introducing a partner gradually, or all at once — the relationship made visible as a curated act.", "status": "era-lexicon", "sources": ["wiki-cuffing"]},
+    {"term": "sneaky link", "gloss": "A private sexual connection kept off the public record.", "status": "era-lexicon", "sources": ["wiki-cuffing"]},
+    {"term": "rizz", "gloss": "Charm, specifically the ability to attract — a 2020s coinage from 'charisma'.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "delulu", "gloss": "Self-aware delusion, usually about a relationship or an ambition.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "no cap / cap", "gloss": "No lie / a lie.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "lowkey / highkey", "gloss": "Quietly / openly — a way of calibrating how much a claim commits you.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "sus", "gloss": "Suspicious.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "gaslighting", "gloss": "Undermining someone's grip on their own experience; a clinical term that became everyday vocabulary for a manipulation pattern.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "it's giving…", "gloss": "This conveys… — an evaluative frame that names the vibe rather than the fact.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "periodt", "gloss": "Emphatic full stop — the claim is closed.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "slay", "gloss": "Excel, especially in presentation.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "ate (as in 'she ate')", "gloss": "Performed flawlessly.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "finna", "gloss": "Going to — a grammatical marker more than a word, and good evidence that the register is doing grammar, not decoration.", "status": "era-lexicon", "sources": ["wiki-aave"]},
+    {"term": "on god", "gloss": "I swear — a truth-claim formula.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "bussin", "gloss": "Excellent, usually of food.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "mid", "gloss": "Mediocre — the era's most efficient dismissal.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "the vibes / vibe check", "gloss": "The felt quality of a situation, treated as information worth acting on.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "iykyk", "gloss": "'If you know, you know' — an in-group claim that also marks who is outside it.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "main character energy", "gloss": "Treating oneself as the protagonist of a scene — narration as social practice.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "crash out", "gloss": "To lose control of oneself under pressure — a 2020s term with heavy weighting.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "pressed / salty", "gloss": "Agitated, or resentful — judgements about someone's emotional management.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "spill the tea / the tea", "gloss": "Gossip, or the disclosing of it.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "receipts", "gloss": "Evidence; the proof of a claim about behaviour.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "ghosting", "gloss": "Ending contact without a statement of ending — withdrawal as the message.", "status": "era-lexicon", "sources": ["wiki-cuffing"]},
+    {"term": "the ick", "gloss": "Sudden aversion that ends interest; feeling as verdict.", "status": "era-lexicon", "sources": ["wiki-cuffing"]},
+    {"term": "'understood the assignment' / 'rent free' / 'touch grass'", "gloss": "Three internet-era judgements in one row: performed correctly, occupying someone's mind uninvited, and needs to log off.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "caught in 4K", "gloss": "Caught with undeniable evidence — the surveillance joke as moral verdict.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "glazing", "gloss": "Excessive, sycophantic praise.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "bffr", "gloss": "'Be f***ing for real' — a demand that someone stop pretending.", "status": "era-lexicon", "sources": ["wiki-rizz"]},
+    {"term": "doing too much", "gloss": "Overreacting, by consensus of the room.", "status": "era-lexicon", "sources": ["wiki-rizz"]}
+   ]
+  },
+  {
+   "id": "care",
+   "title": "Handle with care — racialised and derogatory vocabulary",
+   "blurb": "These are terms found in the era's media, in Black media criticism, and in the scholarly literature about how Black people have been described. They belong in analysis with their history attached, never in the instructor's mouth, and no student should be asked to explain or perform them. One of them was the explicit subject of a 1991 episode.",
+   "entries": [
+    {"term": "Mammy", "gloss": "The racialised stereotype of the devoted Black domestic servant — the imagery a 1991 episode put at the centre of a campus exhibit, precisely to argue about it.", "status": "handle-with-care", "evidence": "S5E105 Mammy Dearest (1991-12-05) — Whitley stages an exhibit on images of Black women; a fellow student objects to the Mammy artefacts", "sources": ["episodes-original", "book-smitherman"]},
+    {"term": "heifer", "gloss": "A gendered insult for a woman, comparing her to livestock; dated, and heavy even in its own period.", "status": "handle-with-care", "sources": ["book-smitherman", "greens"]},
+    {"term": "hoochie / hood rat", "gloss": "Class-and-gender slurs aimed at Black women, coded by class and neighbourhood. Their use tells you who the speaker thinks they are.", "status": "handle-with-care", "sources": ["book-smitherman"]},
+    {"term": "welfare queen", "gloss": "A racialised political figure invented to make poverty a character flaw and state support a scandal — one of the era's most effective pieces of political language.", "status": "handle-with-care", "sources": ["book-smitherman", "book-major"]},
+    {"term": "absent Black father", "gloss": "A framing phrase that turns a documented set of economic conditions into a claim about character; the subject of the 1965 report the course studies.", "status": "handle-with-care", "sources": ["book-smitherman"]},
+    {"term": "the N-word and its variants", "gloss": "A racial slur with an in-group reclamation whose rules are strict, contested and not the instructor's to test.", "status": "handle-with-care", "sources": ["wiki-aave", "book-smitherman"]},
+    {"term": "'ghetto' (as adjective)", "gloss": "A term of class contempt that does geographic and racial work — 'that's ghetto' is always an argument about who is properly middle class.", "status": "handle-with-care", "sources": ["book-smitherman"]},
+    {"term": "'angry Black woman'", "gloss": "A controlling image that converts a legitimate grievance into a character defect, and disciplines the person voicing it.", "status": "handle-with-care", "sources": ["book-smitherman", "book-rickford"]}
+   ]
+  },
+  {
+   "id": "jargon",
+   "title": "This project's own jargon",
+   "blurb": "Terms the sites and the course use for their own method. A reader meeting them for the first time should not have to infer them.",
+   "entries": [
+    {"term": "callback", "gloss": "A 2026 element that returns to something in the 1987–1993 series — a title, a character, an institution, a storyline.", "status": "project-jargon"},
+    {"term": "title echo", "gloss": "A callback carried in the episode's name, where the rewrite is the joke: 'Reconcilable Differences' becomes 'Irreconcilable Differences'.", "status": "project-jargon"},
+    {"term": "tier", "gloss": "The kind of callback: lore (an institution or place), theme (an idea or storyline), cast (a returning actor or character), or title echo.", "status": "project-jargon"},
+    {"term": "confidence (verified / likely / interpretation)", "gloss": "How well evidenced a claim is. 'Verified' means traceable to a published record; 'interpretation' means it is a reading that could be argued with.", "status": "project-jargon"},
+    {"term": "the three tiers of evidence", "gloss": "Documented (a checkable fact), interpretation (a reading of what a text argues) and hypothesis (a claim put up for testing). The course grades on keeping them apart.", "status": "project-jargon"},
+    {"term": "the crisis slot", "gloss": "The franchise's habit of putting a serious social crisis in the fifth or seventh slot of a season — HIV in 1991, an unnamed crisis in 2026.", "status": "project-jargon"},
+    {"term": "the aunties", "gloss": "This site's shorthand for the returning women of the original cast, who arrive in 2026 as a generation with authority.", "status": "project-jargon"},
+    {"term": "third-generation cast", "gloss": "The revival's structure: the leads are the children of the original's leads, so the show is about inheritance before it is about anything else.", "status": "project-jargon"},
+    {"term": "'39 years to the day'", "gloss": "Both premieres aired on 24 September — 1987 and 2026.", "status": "project-jargon"},
+    {"term": "card", "gloss": "A single documented callback entry on this site, with its scene, its origin and its sources.", "status": "project-jargon"},
+    {"term": "scene search", "gloss": "The query terms this project pre-registers for finding a moment in a transcript, since it has not watched the episodes itself.", "status": "project-jargon"}
+   ]
+  }
+ ]
+}
